@@ -8,9 +8,18 @@
     "start": "npx nodemon --inspect=0.0.0.0:9228 --watch src src/ "
   },
   "dependencies": {
+    "@michaelkramer/npmhtml-to-draftjs": "^1.4.1",
     "cheerio": "^1.0.0-rc.2",
+    "draft-js": "^0.10.5",
+    "elevate-editor": "^0.3.7",
+    "immutable": "^4.0.0-rc.12",
+    "jsdom": "^13.2.0",
+    "juice": "^5.1.0",
     "lodash": "^4.17.11",
     "nodemon": "^1.18.9",
-    "puppeteer": "^1.12.2"
+    "puppeteer": "^1.12.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "uuid": "^3.3.2"
   }
 }
