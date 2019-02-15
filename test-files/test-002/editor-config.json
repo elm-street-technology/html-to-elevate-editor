@@ -1,6 +1,6 @@
 [
   {
-    "id": "abeabff5-188e-4383-ae1b-d7dac9209faa",
+    "id": "5fae9d7f-000b-41c0-8428-38401c60405d",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,7 +14,7 @@
     },
     "content": [
       {
-        "id": "85e94272-b8ed-4f1b-a4da-a160410300b0",
+        "id": "f3f7a4c7-a7df-4d4b-b421-585df2a474ff",
         "type": "Row",
         "attrs": {
           "width": "1170px",
@@ -27,7 +27,7 @@
         },
         "content": [
           {
-            "id": "379fd3f7-d085-43ef-8462-c68aebe8dbf3",
+            "id": "4a143012-e19d-49f0-befb-3a65bf3addfd",
             "type": "Row",
             "attrs": {
               "width": "100%",
@@ -40,7 +40,7 @@
             },
             "content": [
               {
-                "id": "760408b2-8a7c-4731-ae3d-e5d3a155dd63",
+                "id": "1da5685b-9573-44fd-a726-8283aef17c58",
                 "type": "Row",
                 "attrs": {
                   "width": "",
@@ -53,7 +53,7 @@
                 },
                 "content": [
                   {
-                    "id": "92db80a2-e935-4c97-aabd-5e3ecc3b238b",
+                    "id": "8fc3c709-724d-4d80-af56-c50720118213",
                     "type": "Row",
                     "attrs": {
                       "width": "22.22222222222222%",
@@ -66,7 +66,7 @@
                     },
                     "content": [
                       {
-                        "id": "fa6c9519-774a-4ea5-abfe-e56ee4377089",
+                        "id": "3a1b034c-00cc-4760-841f-b7f403ca6a5e",
                         "type": "Row",
                         "attrs": {
                           "width": "100%",
@@ -79,7 +79,7 @@
                         },
                         "content": [
                           {
-                            "id": "f68af9f3-0d51-4b2e-ace7-51bb25eba4fc",
+                            "id": "bbad3e47-8a40-4fe4-920a-fb52a4140f5f",
                             "type": "Image",
                             "attrs": {
                               "src": "http://media.mlspropertyfinder.com/411828/bob.jpg",
@@ -92,7 +92,7 @@
                     ]
                   },
                   {
-                    "id": "81b1d369-eca2-4625-87b0-58c378b6178c",
+                    "id": "b97cf96b-d079-4ac6-9ba2-4215e14c69de",
                     "type": "Row",
                     "attrs": {
                       "width": "77.77777777777779%",
@@ -105,10 +105,10 @@
                     },
                     "content": [
                       {
-                        "id": "bc45b718-a2e7-439f-8e3b-283859be28c5",
+                        "id": "6cd03a92-da40-4441-b7e8-7fbf5115dff4",
                         "type": "Text",
                         "attrs": {
-                          "html": "<p><span style=\"font-weight: bold;\">Bob Davis</span><br>\n\tDirect:<a href=\"tel:(239) 770-7993\" value=\" 12397707993\" target=\"_blank\">239-770-7993</a>\n\t</p>",
+                          "html": "<p><span style=\"font-weight: bold;\">Bob Davis</span><br>\n\tDirect:<a href=\"tel:(239) 770-7993\" value=\" 12397707993\" target=\"_blank\">239-770-7993</a>\n\t</p><p>Email:<a href=\"mailto:bob@bluewaterpi.com\" target=\"_blank\">bob@bluewaterpi.com</a></p><p></p>\n<p><span class=\"ng-binding\">Bob is a full time resident of Pine Island and lives in Bokeelia with Patti, his wife of 29 years and their dog Bear.  Though originally from Oklahoma, Bob spent most of his adult life in Jacksonville, Florida along with a short 2 year stint in Lexington, Kentucky. Bob brings with him over 20 years of sales experience primarily in the fields of heavy construction equipment, paving equipment and cranes.In his spare time he enjoys fishing the waters of Pine Island and walking Bear around the streets and neighborhoods of the north end of the island.</span><br>\n\t\n\t\n\t\n\t</p>",
                           "value": {
                             "blocks": [
                               {
@@ -268,211 +268,134 @@
                                   }
                                 ],
                                 "inlineStyleRanges": [],
-                                "key": "8fi8q",
+                                "key": "7c5e1",
                                 "type": "unstyled",
                                 "text": "Bob Davis\n\n\tDirect:239-770-7993 ",
                                 "depth": 0,
                                 "data": {}
-                              }
-                            ],
-                            "entityMap": {
-                              "2": {
-                                "type": "LINK",
-                                "mutability": "MUTABLE",
-                                "data": {
-                                  "url": "tel:(239) 770-7993",
-                                  "title": "239-770-7993",
-                                  "targetOption": "_blank"
-                                }
-                              }
-                            }
-                          },
-                          "color": ""
-                        },
-                        "content": []
-                      },
-                      {
-                        "id": "54baec3d-e1b4-491c-bfa3-e7d33396573d",
-                        "type": "Row",
-                        "attrs": {
-                          "width": "1140px",
-                          "direction": "horizontal",
-                          "paddingTop": 0,
-                          "paddingRight": 0,
-                          "paddingBottom": 0,
-                          "paddingLeft": 0,
-                          "allowChildren": false
-                        },
-                        "content": [
-                          {
-                            "id": "5a21605b-bfd0-462e-bf74-5c119733d8e9",
-                            "type": "Row",
-                            "attrs": {
-                              "width": "100%",
-                              "direction": "verticle",
-                              "paddingTop": 0,
-                              "paddingRight": 0,
-                              "paddingBottom": 0,
-                              "paddingLeft": 0,
-                              "allowChildren": true
-                            },
-                            "content": [
+                              },
                               {
-                                "id": "5fc4a0f2-eb1b-46f7-afea-3f5b9a866fc7",
-                                "type": "Text",
-                                "attrs": {
-                                  "html": "Email:<a href=\"mailto:bob@bluewaterpi.com\" target=\"_blank\">bob@bluewaterpi.com</a>",
-                                  "value": {
-                                    "blocks": [
-                                      {
-                                        "entityRanges": [
-                                          {
-                                            "offset": 6,
-                                            "length": 19,
-                                            "key": "3"
-                                          }
-                                        ],
-                                        "characterList": [
-                                          {
-                                            "style": [],
-                                            "entity": null
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": null
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": null
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": null
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": null
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": null
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          },
-                                          {
-                                            "style": [],
-                                            "entity": "3"
-                                          }
-                                        ],
-                                        "inlineStyleRanges": [],
-                                        "key": "82k2o",
-                                        "type": "unstyled",
-                                        "text": "Email:bob@bluewaterpi.com",
-                                        "data": {}
-                                      }
-                                    ],
-                                    "entityMap": {
-                                      "3": {
-                                        "type": "LINK",
-                                        "mutability": "MUTABLE",
-                                        "data": {
-                                          "url": "mailto:bob@bluewaterpi.com",
-                                          "title": "bob@bluewaterpi.com",
-                                          "targetOption": "_blank"
-                                        }
-                                      }
-                                    }
+                                "entityRanges": [
+                                  {
+                                    "offset": 6,
+                                    "length": 19,
+                                    "key": "3"
+                                  }
+                                ],
+                                "characterList": [
+                                  {
+                                    "style": [],
+                                    "entity": null
                                   },
-                                  "color": ""
-                                },
-                                "content": []
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "id": "74a960aa-225d-4e06-b149-a97c4a8fafac",
-                        "type": "Text",
-                        "attrs": {
-                          "html": "<p></p>\n<p><span class=\"ng-binding\">Bob is a full time resident of Pine Island and lives in Bokeelia with Patti, his wife of 29 years and their dog Bear.  Though originally from Oklahoma, Bob spent most of his adult life in Jacksonville, Florida along with a short 2 year stint in Lexington, Kentucky. Bob brings with him over 20 years of sales experience primarily in the fields of heavy construction equipment, paving equipment and cranes.In his spare time he enjoys fishing the waters of Pine Island and walking Bear around the streets and neighborhoods of the north end of the island.</span><br>\n\t\n\t\n\t\n\t</p>",
-                          "value": {
-                            "blocks": [
+                                  {
+                                    "style": [],
+                                    "entity": null
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": null
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": null
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": null
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": null
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  },
+                                  {
+                                    "style": [],
+                                    "entity": "3"
+                                  }
+                                ],
+                                "inlineStyleRanges": [],
+                                "key": "82jpq",
+                                "type": "unstyled",
+                                "text": "Email:bob@bluewaterpi.com",
+                                "depth": 0,
+                                "data": {}
+                              },
                               {
                                 "entityRanges": [],
                                 "characterList": [],
                                 "inlineStyleRanges": [],
-                                "key": "657pq",
+                                "key": "t94t",
                                 "type": "unstyled",
                                 "text": "",
                                 "depth": 0,
@@ -2699,14 +2622,33 @@
                                   }
                                 ],
                                 "inlineStyleRanges": [],
-                                "key": "6hap4",
+                                "key": "694ch",
                                 "type": "unstyled",
                                 "text": "Bob is a full time resident of Pine Island and lives in Bokeelia with Patti, his wife of 29 years and their dog Bear.  Though originally from Oklahoma, Bob spent most of his adult life in Jacksonville, Florida along with a short 2 year stint in Lexington, Kentucky. Bob brings with him over 20 years of sales experience primarily in the fields of heavy construction equipment, paving equipment and cranes.In his spare time he enjoys fishing the waters of Pine Island and walking Bear around the streets and neighborhoods of the north end of the island.\n ",
                                 "depth": 0,
                                 "data": {}
                               }
                             ],
-                            "entityMap": {}
+                            "entityMap": {
+                              "2": {
+                                "type": "LINK",
+                                "mutability": "MUTABLE",
+                                "data": {
+                                  "url": "tel:(239) 770-7993",
+                                  "title": "239-770-7993",
+                                  "targetOption": "_blank"
+                                }
+                              },
+                              "3": {
+                                "type": "LINK",
+                                "mutability": "MUTABLE",
+                                "data": {
+                                  "url": "mailto:bob@bluewaterpi.com",
+                                  "title": "bob@bluewaterpi.com",
+                                  "targetOption": "_blank"
+                                }
+                              }
+                            }
                           },
                           "color": ""
                         },

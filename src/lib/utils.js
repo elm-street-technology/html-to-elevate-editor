@@ -1,4 +1,5 @@
 const _ = require("lodash");
+const cheerio = require("cheerio");
 
 function toCamelCase(payload) {
   if (Array.isArray(payload)) {
@@ -69,6 +70,25 @@ function getTreeNodes(nodes, path = [], tree = {}) {
   );
 }
 
+function hasComponents(node) {
+  const allNodes = Object.values(getTreeNodes(node.children));
+  return _.some(allNodes, { isComponent: true });
+}
+
+function hasText(nodeHTML) {
+  const html = _.isObject(nodeHTML) ? nodeHTML.outerHTML : nodeHTML;
+  const $base = cheerio.load(html, {
+    normalizeWhitespace: true,
+    xmlMode: true
+  });
+  return !_.isEmpty(
+    $base
+      .root()
+      .text()
+      .trim()
+  );
+}
+
 module.exports = {
   toCamelCase,
   toSelector,
@@ -77,5 +97,7 @@ module.exports = {
   makePath,
   updatePath,
   getTreePath,
-  getTreeNodes
+  getTreeNodes,
+  hasText,
+  hasComponents
 };

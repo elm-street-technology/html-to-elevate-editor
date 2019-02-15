@@ -5,6 +5,7 @@ const uuidV4 = require("uuid/v4");
 const { COMPONENT_NODE_NAMES } = require("../constants");
 const toEditorConfig = require("./editor-format");
 const utils = require("./utils");
+const ProcessText = require("./process-text");
 
 function annonateData(data) {
   let index = 1;
@@ -103,64 +104,17 @@ function shiftNodeInTree(structure, node) {
   return structure;
 }
 
-function cleanTextNodes(structure, node, remove) {
-  const path = utils.findPath(structure, node.id);
-  const parentPath = path.split(".");
-  let search = node.outerHTML;
-  let inner = node.innerHTML.replace(remove, "");
-  let replace = node.outerHTML.replace(node.innerHTML, inner);
-  structure = utils.updatePath(structure, path.split("."), {
-    innerHTML: inner,
-    outerHTML: replace
-  });
-
-  while (parentPath.length) {
-    parentPath.pop();
-    const parent = utils.getPath(structure, parentPath);
-    if (parent) {
-      structure = utils.updatePath(structure, parentPath, {
-        innerHTML: parent.innerHTML.replace(search, replace),
-        outerHTML: parent.outerHTML.replace(search, replace)
-      });
-    }
-  }
-
-  return structure;
-}
-
 function shiftAndFilterContent(structure) {
   const tree = utils.getTreeNodes(structure);
   const nodesToShift = _.filter(Object.values(tree), "needsToShift");
-  const nodesToClean = _.filter(Object.values(tree), { isComponent: false });
+  const nodesToClean = Object.values(tree);
   let node;
   if (nodesToShift.length) {
     while ((node = nodesToShift.shift())) {
       structure = shiftNodeInTree(structure, node);
     }
   }
-  if (nodesToClean.length) {
-    while ((node = nodesToClean.shift())) {
-      // remove elements from node types
-      if (node && /h\d|blockquote/i.test(node.nodeName)) {
-        structure = cleanTextNodes(structure, node, /<(\/)?(p)[^>]*>/gi);
-      }
-    }
-  }
-
   return structure;
-}
-
-function hasText(html) {
-  const $base = cheerio.load(html, {
-    normalizeWhitespace: true,
-    xmlMode: true
-  });
-  return !_.isEmpty(
-    $base
-      .root()
-      .text()
-      .trim()
-  );
 }
 
 function processNodeText(node, components) {
@@ -179,7 +133,7 @@ function processNodeText(node, components) {
     }
     children.push(child);
   });
-  if (hasText(baseContent)) {
+  if (utils.hasText(baseContent)) {
     children.push({
       nodeName: "TEXT",
       text: baseContent
@@ -301,7 +255,16 @@ function getMaxWidth(nodes, width = 0) {
 
 module.exports = async structure => {
   const annotated = annonateData([structure], 1);
-  const formatted = shiftAndFilterContent(annotated, annotated);
+  const cleaned = ProcessText.cleanTextNodes(annotated);
+  const formatted = shiftAndFilterContent(cleaned, cleaned);
+  require("fs").writeFileSync(
+    "./out/cleaned.json",
+    JSON.stringify(cleaned, null, 2)
+  );
+  require("fs").writeFileSync(
+    "./out/formatted.json",
+    JSON.stringify(formatted, null, 2)
+  );
   const structured = buildStructure(formatted);
   const config = toEditorConfig(structured, null, getMaxWidth(structured));
   return config;

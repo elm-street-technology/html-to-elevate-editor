@@ -45,9 +45,7 @@ function evaldateElements(target) {
 function getTargetParent(checks) {
   for (i = 0; i < checks.length; i++) {
     const item = checks[i];
-    console.log(item);
     const elements = document.querySelectorAll(item.tag);
-    console.log(elements);
     for (let s = 0; s < elements.length; s++) {
       const element = elements[s];
       if (element.innerText === item.text) {
