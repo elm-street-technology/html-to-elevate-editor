@@ -5,7 +5,9 @@
   "author": "Tim DeDecker <tdedecker@elmstreettechnology.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npx nodemon --inspect=0.0.0.0:9228 --watch src src/ "
+    "dev": "npx nodemon --inspect-brk=0.0.0.0:9228 --watch src src/dev.js",
+    "test": "npx ava",
+    "test:watch": "npx ava --watch"
   },
   "dependencies": {
     "@michaelkramer/npmhtml-to-draftjs": "^1.4.1",
@@ -21,5 +23,16 @@
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "ava": "^1.2.1"
+  },
+  "ava": {
+    "sources": [
+      "src/**/*"
+    ],
+    "failFast": true,
+    "failWithoutAssertions": false,
+    "verbose": true
   }
 }
