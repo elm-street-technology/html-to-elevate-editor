@@ -135,7 +135,11 @@ module.exports = async function getPageStructure(config) {
   }
   if (customJsCommands && customJsCommands.length) {
     while ((command = customJsCommands.shift())) {
-      await page.evaluate(command);
+      try {
+        await page.evaluate(command);
+      } catch (e) {
+        // ignore execution errors
+      }
     }
   }
   structure = stripStyles(await page.evaluate(evaldateElements, targetElement));
