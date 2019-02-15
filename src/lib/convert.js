@@ -261,8 +261,15 @@ function getFloat(node) {
   if (!node.isComponent) {
     return "none";
   }
-  if (["left", "right"].includes(_.get(node, "styles.float"))) {
-    return _.get(node, "styles.float");
+
+  const styleFloat = _.get(node, "styles.float", "").toLowerCase();
+  if (["left", "right"].includes(styleFloat)) {
+    return styleFloat;
+  }
+
+  const attrFloat = _.get(node, "attrs.align", "").toLowerCase();
+  if (["left", "right"].includes(attrFloat)) {
+    return attrFloat;
   }
   return "none";
 }

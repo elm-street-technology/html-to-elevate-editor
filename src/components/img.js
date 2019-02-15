@@ -28,7 +28,9 @@ function getAttrs(node, type) {
       });
 
     case "cell-img":
-      return _.assign({}, base, {});
+      return _.assign({}, base, {
+        width: "100%"
+      });
     case "container":
       return {
         width: "100%",

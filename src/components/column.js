@@ -25,20 +25,40 @@ function getMaxWidth(nodes, w = 0) {
   );
 }
 
-function processColumn(node, content = [], parent, maxWidth) {
+function calculateColumnWidths(columns, node, maxWidth) {
   let myMax = getMaxWidth(node.children);
-  if (myMax === 0) {
-    const otherColumns = parent.children
-      .filter(c => c.id !== node.id)
-      .map(n => getMaxWidth(n.children));
-    const remaining = _.filter(otherColumns, v => v === 0).length;
-    const total = _.sum(otherColumns);
-    const availWidth = maxWidth - total;
-    myMax = remaining > 0 ? availWidth / remaining : availWidth;
+  const columnW = _.sortBy(
+    columns.map((n, index) => ({
+      id: n.id,
+      width: getMaxWidth(n.children)
+    })),
+    ["width"]
+  );
+  let remWidth = maxWidth;
+  const columnWidths = _.map(columnW, ({ id, width }, index) => {
+    if (remWidth < width) {
+      width = remWidth;
+    }
+    remWidth = remWidth - width;
+    return {
+      id,
+      width: `${(width / maxWidth) * 100}%`
+    };
+  });
+  const zeroedValues = _.filter(columnWidths, { width: "0%" });
+  if (zeroedValues.length && remWidth > 0) {
+    const split = remWidth / zeroedValues.length;
+    if (_.get(_.find(columnWidths, { id: node.id }), "width", "0%") === "0%") {
+      return `${(split / maxWidth) * 100}%`;
+    }
   }
-  const width = myMax > 0 ? `${(myMax / maxWidth) * 100}%` : "auto";
+
+  return _.get(_.find(columnWidths, { id: node.id }), "width", 0);
+}
+
+function processColumn(node, content = [], parent, maxWidth) {
   return buildColumn(content, {
-    width: width,
+    width: calculateColumnWidths(parent.children, node, maxWidth),
     direction: "verticle",
     paddingTop: 0,
     paddingRight: 0,

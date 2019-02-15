@@ -8,6 +8,12 @@ const tests = [
     url: "http://414317.rlsplatform.com/patbishop/",
     target: ".rl-custompage",
     dir: "./test-files/test-001"
+  },
+  {
+    url:
+      "https://admin.rlsplatform.com/etl/default/custompage?url=bluewaterpi.com&secret=elevate&page=bob-davis",
+    target: ".rl-custompage",
+    dir: "./test-files/test-002"
   }
 ];
 

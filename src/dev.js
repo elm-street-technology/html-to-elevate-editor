@@ -1,19 +1,22 @@
 const fs = require("fs");
 const _ = require("lodash");
 const exportHtml = require("elevate-editor/dist/utils/export").default;
-const example = require("../examples/pat.json");
+const example = {
+  url:
+    "https://admin.rlsplatform.com/etl/default/custompage?url=bluewaterpi.com&secret=elevate&page=bob-davis",
+  target: ".rl-custompage",
+  dir: "./test-files/test-002"
+};
 const { Components } = require("elevate-editor");
 const { Convert, LoadStructure } = require("./");
 
-async function process(data) {
-  const { url, html } = data;
+async function process({ url, target, dir }) {
   // get the data structure
   const structure = await LoadStructure({
     url,
-    // html,
-    target: ".rl-custompage",
-    cache: `./out/${_.snakeCase(url)}-v2.json`,
-    // headless: true,
+    target,
+    cache: `${dir}/structure.json`,
+    headless: false,
     customJsCommands: [
       '$("#rls1a > div.modal-backdrop.fade.in, .rl-apology").remove()',
       '$("body").removeClass("modal-open")'
@@ -26,7 +29,7 @@ async function process(data) {
   // convert to editor format
   // const editorConfig = await EditorFormat(cleaned);
   fs.writeFileSync(
-    "./out/editorConfig.json",
+    `${dir}/editor-config.json`,
     JSON.stringify(EditorConfig, null, 2)
   );
   (async () => {
