@@ -5,7 +5,7 @@ const example = {
   url:
     "https://admin.rlsplatform.com/etl/default/custompage?url=bluewaterpi.com&secret=elevate&page=bob-davis",
   target: ".rl-custompage",
-  dir: "./test-files/test-002"
+  dir: "./test-files/test-001"
 };
 const { Components } = require("elevate-editor");
 const { Convert, LoadStructure } = require("./");
@@ -29,7 +29,7 @@ async function process({ url, target, dir }) {
   // convert to editor format
   // const editorConfig = await EditorFormat(cleaned);
   fs.writeFileSync(
-    `${dir}/editor-config.json`,
+    `./out/editor-config.json`,
     JSON.stringify(EditorConfig, null, 2)
   );
   (async () => {

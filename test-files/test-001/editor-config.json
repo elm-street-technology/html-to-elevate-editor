@@ -1,6 +1,6 @@
 [
   {
-    "id": "02a36873-ae80-4673-abef-f1cd9b29192b",
+    "id": "f0e46ff3-7313-4c0d-b6b3-9b8d529431b3",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,17 +14,33 @@
     },
     "content": [
       {
-        "id": "21159701-323c-4121-bf75-617d10470386",
+        "id": "6246aa4b-8a59-471b-87ff-a026c6c1669c",
         "type": "Row",
-        "attrs": {},
+        "attrs": {
+          "width": "1170px",
+          "direction": "horizontal",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "allowChildren": false
+        },
         "content": [
           {
-            "id": "3d018e9b-b204-4be1-bdad-566a2cd3ede1",
+            "id": "97c899ef-a6c6-497c-8b1c-bbfbfa76067c",
             "type": "Row",
-            "attrs": {},
+            "attrs": {
+              "width": "100%",
+              "direction": "verticle",
+              "paddingTop": 0,
+              "paddingRight": 15,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "allowChildren": true
+            },
             "content": [
               {
-                "id": "6c6be020-64d5-437e-b6a9-bd146a1bb4f1",
+                "id": "fee73c79-0711-42e6-b376-e2785169882e",
                 "type": "Text",
                 "attrs": {
                   "html": "<div class=\"col-xs-12 rl-custompage\">",
@@ -34,7 +50,7 @@
                         "entityRanges": [],
                         "characterList": [],
                         "inlineStyleRanges": [],
-                        "key": "v24q",
+                        "key": "21ap2",
                         "type": "unstyled",
                         "text": "",
                         "depth": 0,
@@ -48,17 +64,33 @@
                 "content": []
               },
               {
-                "id": "f962282d-2b08-43b3-b058-2409e9ddefb3",
+                "id": "7bb1b42c-b399-4f8d-b5fe-67d20e4d592c",
                 "type": "Row",
-                "attrs": {},
+                "attrs": {
+                  "width": "1140px",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
                 "content": [
                   {
-                    "id": "5f0b14e3-b849-4901-9c49-70a16a0f381f",
+                    "id": "6335835b-f715-46fa-8d61-00731961957e",
                     "type": "Row",
-                    "attrs": {},
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "verticle",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
                     "content": [
                       {
-                        "id": "2636f0a9-da31-40c6-be04-53856f14ddb0",
+                        "id": "7b2d75ec-c049-4902-8f29-013de0b12457",
                         "type": "Text",
                         "attrs": {
                           "html": "<div>\n\n<h3>Pat Bishop</h3>\n\n\n<h4>Real Estate Agent</h4>\n\n\n<p>\n\n\t\t\t\t\t\t\t\t\t<br>\n\n\n</p>",
@@ -73,7 +105,7 @@
                                   }
                                 ],
                                 "inlineStyleRanges": [],
-                                "key": "fd6s0",
+                                "key": "abh3j",
                                 "type": "unstyled",
                                 "text": " ",
                                 "depth": 0,
@@ -128,7 +160,7 @@
                                   }
                                 ],
                                 "inlineStyleRanges": [],
-                                "key": "ahsco",
+                                "key": "dhv91",
                                 "type": "header-three",
                                 "text": "Pat Bishop ",
                                 "depth": 0,
@@ -211,7 +243,7 @@
                                   }
                                 ],
                                 "inlineStyleRanges": [],
-                                "key": "5gelm",
+                                "key": "14dlf",
                                 "type": "header-four",
                                 "text": "Real Estate Agent ",
                                 "depth": 0,
@@ -234,7 +266,7 @@
                                   }
                                 ],
                                 "inlineStyleRanges": [],
-                                "key": "2d993",
+                                "key": "ajh5h",
                                 "type": "unstyled",
                                 "text": " \n ",
                                 "depth": 0,
@@ -248,7 +280,7 @@
                         "content": []
                       },
                       {
-                        "id": "6b542db7-21dc-4697-9ff4-fa6afd7f23f8",
+                        "id": "a995c894-e4dd-4616-8302-a19778eb1ce4",
                         "type": "Row",
                         "attrs": {
                           "width": "",
@@ -261,7 +293,7 @@
                         },
                         "content": [
                           {
-                            "id": "ce6a2ba0-85ee-4bd6-8783-93e93ed67510",
+                            "id": "462690eb-43d6-44bc-8d87-3c298c5be3cc",
                             "type": "Row",
                             "attrs": {
                               "width": "75.64102564102564%",
@@ -274,7 +306,7 @@
                             },
                             "content": [
                               {
-                                "id": "021062b7-33a9-4513-8e09-559a7be55375",
+                                "id": "47ff6cc0-6228-4966-950a-8850a21603ac",
                                 "type": "Text",
                                 "attrs": {
                                   "html": "<p>\n\n\n\n<span>Welcome to Homes Arizona Real Estate, LLC, a small but mighty real estate company with an excellent reputation, known for hard work and exceptional client service! Phoenix and western Maricopa County have been my home for many, many years. I decided to pursue my Arizona Real Estate License when my husband, Bob, and I made the decision to move from our home in Glendale and build a home in Waddell. Also, our children had graduated from college, gotten married, and eventually would need a real estate agent to purchase their homes. We are a blended family and we are very thankful for our children, grandchildren, and great-grandchildren. During my first year as a \n\t</span>\n\n<g class=\"gr_ gr_21 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-ins replaceWithoutSep\" data-gr-id=\"21\" id=\"21\">REALTOR</g>\n\n<span>® I attended classes and earned the GRI designation, a national designation delivered by the state REALTOR® associations. Upon completion of the program, students are awarded the GRI designation (Graduate REALTOR® Institute). I continue to take GRI classes to fulfill the Continuing Education requirements necessary to maintain a current Arizona Real Estate License. Over the years, I have represented buyers and sellers of new homes, resale homes, and vacant land. I have also worked at a property management company assisting families with rental properties. Whether you are buying or selling your dream home, horse property, or up-sizing or down-sizing due to life events that have changed your housing needs, I offer polite, courteous, and truthful client service and would like to work with you regarding your real estate needs. With the experience and expertise of our Homes Arizona Real Estate Designated Broker, Bing Davis, we are here for you to work through complex real estate transactions in this ever-changing market.&nbsp;</span>\n</p>\n\n\n<p>\n\n\t\t\t\t\t\t\t\t\t<br>\n\n\n</p>\n\n\n<blockquote>\n\n\n\n<span style=\"color: rgb(85, 85, 85);background-color: rgb(255, 255, 255);float: none;\">&nbsp;\"Exceptional client service…Always.”</span>\n\n\n\t\t\t\t\t\t\t\t\t<br>\n\n\n\n\n</blockquote>\n\n\n<p>\n\n\t\t\t\t\t\t\t\t\t<br>\n\n\n</p>\n\n\n<p>Call Direct: 623 363-4714</p>\n\n\n<p>Email: <a href=\"mailto:patriciabishop@cox.net\">patriciabishop@cox.net</a><br></p>\n\n</div>",
@@ -7129,7 +7161,7 @@
                                           }
                                         ],
                                         "inlineStyleRanges": [],
-                                        "key": "6d6d8",
+                                        "key": "ebbam",
                                         "type": "unstyled",
                                         "text": " Welcome to Homes Arizona Real Estate, LLC, a small but mighty real estate company with an excellent reputation, known for hard work and exceptional client service! Phoenix and western Maricopa County have been my home for many, many years. I decided to pursue my Arizona Real Estate License when my husband, Bob, and I made the decision to move from our home in Glendale and build a home in Waddell. Also, our children had graduated from college, gotten married, and eventually would need a real estate agent to purchase their homes. We are a blended family and we are very thankful for our children, grandchildren, and great-grandchildren. During my first year as a \n\t REALTOR ® I attended classes and earned the GRI designation, a national designation delivered by the state REALTOR® associations. Upon completion of the program, students are awarded the GRI designation (Graduate REALTOR® Institute). I continue to take GRI classes to fulfill the Continuing Education requirements necessary to maintain a current Arizona Real Estate License. Over the years, I have represented buyers and sellers of new homes, resale homes, and vacant land. I have also worked at a property management company assisting families with rental properties. Whether you are buying or selling your dream home, horse property, or up-sizing or down-sizing due to life events that have changed your housing needs, I offer polite, courteous, and truthful client service and would like to work with you regarding your real estate needs. With the experience and expertise of our Homes Arizona Real Estate Designated Broker, Bing Davis, we are here for you to work through complex real estate transactions in this ever-changing market.  ",
                                         "depth": 0,
@@ -7156,7 +7188,7 @@
                                           }
                                         ],
                                         "inlineStyleRanges": [],
-                                        "key": "3note",
+                                        "key": "f0h5c",
                                         "type": "unstyled",
                                         "text": " \n  ",
                                         "depth": 0,
@@ -7446,7 +7478,7 @@
                                           }
                                         ],
                                         "inlineStyleRanges": [],
-                                        "key": "cgrfm",
+                                        "key": "f1qtr",
                                         "type": "blockquote",
                                         "text": "  \"Exceptional client service…Always.” \n  ",
                                         "depth": 0,
@@ -7473,7 +7505,7 @@
                                           }
                                         ],
                                         "inlineStyleRanges": [],
-                                        "key": "39i3d",
+                                        "key": "3bh4r",
                                         "type": "unstyled",
                                         "text": " \n  ",
                                         "depth": 0,
@@ -7588,7 +7620,7 @@
                                           }
                                         ],
                                         "inlineStyleRanges": [],
-                                        "key": "fotoj",
+                                        "key": "29srv",
                                         "type": "unstyled",
                                         "text": "Call Direct: 623 363-4714 ",
                                         "depth": 0,
@@ -7729,7 +7761,7 @@
                                           }
                                         ],
                                         "inlineStyleRanges": [],
-                                        "key": "fpf3f",
+                                        "key": "58dnk",
                                         "type": "unstyled",
                                         "text": "Email: patriciabishop@cox.net\n ",
                                         "depth": 0,
@@ -7755,7 +7787,7 @@
                             ]
                           },
                           {
-                            "id": "daf038bb-a3c3-48c2-a363-bbf760c3809a",
+                            "id": "1661f003-52bc-413c-988c-32ab93a41a97",
                             "type": "Row",
                             "attrs": {
                               "width": "24.358974358974358%",
@@ -7768,7 +7800,7 @@
                             },
                             "content": [
                               {
-                                "id": "d8586657-c1a9-47e5-b892-49e3e2d6385e",
+                                "id": "64188346-25a0-44dd-ba13-f29586d969be",
                                 "type": "Row",
                                 "attrs": {
                                   "width": "100%",
@@ -7781,7 +7813,7 @@
                                 },
                                 "content": [
                                   {
-                                    "id": "a731a0d8-430d-43ec-876a-6d9c294b441d",
+                                    "id": "103eca11-a9e9-4d35-8a4e-27495bc64872",
                                     "type": "Image",
                                     "attrs": {
                                       "src": "https://rlsresizer.azureedge.net/clientmedia/414318/Pat Bishop.jpg",

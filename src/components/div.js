@@ -13,10 +13,11 @@ function toDim(value, dim) {
   return `${value}`.includes(dim) ? value : `${value}${dim}`;
 }
 
-function getAttrs(node, type) {
+function getAttrs(node, type, hasParent, maxWidth) {
   const rect = node.boundingClientRect;
   const styles = node.camStyles;
   const base = {};
+  let width = !hasParent ? toDim(node.boundingClientRect.width, "px") : "100%";
   switch (type) {
     case "inner":
       return _.assign({}, base, {
@@ -64,8 +65,8 @@ function buildContainer(content, attrs = {}) {
 }
 
 function processDiv(node, content = [], parent, maxWidth) {
-  const outer = getAttrs(node, "margin");
-  const inner = getAttrs(node, "padding");
+  const outer = getAttrs(node, "outer", !!parent, maxWidth);
+  const inner = getAttrs(node, "inner", !!parent, maxWidth);
   const element = buildContainer(buildContainer(content, inner), outer);
   if (!parent) {
     return getWrapper(element);

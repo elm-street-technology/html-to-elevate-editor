@@ -1,6 +1,6 @@
 [
   {
-    "id": "df645451-3422-4fae-a5c3-8d6a2145a4e2",
+    "id": "abeabff5-188e-4383-ae1b-d7dac9209faa",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,17 +14,33 @@
     },
     "content": [
       {
-        "id": "944788b2-a889-40f5-9dd1-64d4d07f7f10",
+        "id": "85e94272-b8ed-4f1b-a4da-a160410300b0",
         "type": "Row",
-        "attrs": {},
+        "attrs": {
+          "width": "1170px",
+          "direction": "horizontal",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "allowChildren": false
+        },
         "content": [
           {
-            "id": "c9805612-7d98-4877-b180-df9b7300c6b3",
+            "id": "379fd3f7-d085-43ef-8462-c68aebe8dbf3",
             "type": "Row",
-            "attrs": {},
+            "attrs": {
+              "width": "100%",
+              "direction": "verticle",
+              "paddingTop": 0,
+              "paddingRight": 15,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "allowChildren": true
+            },
             "content": [
               {
-                "id": "623d877d-920f-41f2-afe6-d99ffd83d89b",
+                "id": "760408b2-8a7c-4731-ae3d-e5d3a155dd63",
                 "type": "Row",
                 "attrs": {
                   "width": "",
@@ -37,7 +53,7 @@
                 },
                 "content": [
                   {
-                    "id": "a485111d-5b70-4cc6-b795-ee9ec7adc29e",
+                    "id": "92db80a2-e935-4c97-aabd-5e3ecc3b238b",
                     "type": "Row",
                     "attrs": {
                       "width": "22.22222222222222%",
@@ -50,7 +66,7 @@
                     },
                     "content": [
                       {
-                        "id": "daee813a-01ca-481f-bb9b-0b5715ae0a02",
+                        "id": "fa6c9519-774a-4ea5-abfe-e56ee4377089",
                         "type": "Row",
                         "attrs": {
                           "width": "100%",
@@ -63,7 +79,7 @@
                         },
                         "content": [
                           {
-                            "id": "a88ea9e3-b930-4c66-b468-e374d2b2b013",
+                            "id": "f68af9f3-0d51-4b2e-ace7-51bb25eba4fc",
                             "type": "Image",
                             "attrs": {
                               "src": "http://media.mlspropertyfinder.com/411828/bob.jpg",
@@ -76,7 +92,7 @@
                     ]
                   },
                   {
-                    "id": "430956a6-f461-4a2f-ba91-ec66410bd22f",
+                    "id": "81b1d369-eca2-4625-87b0-58c378b6178c",
                     "type": "Row",
                     "attrs": {
                       "width": "77.77777777777779%",
@@ -89,7 +105,7 @@
                     },
                     "content": [
                       {
-                        "id": "aac31973-c3eb-4a45-8c24-ed830f2441cc",
+                        "id": "bc45b718-a2e7-439f-8e3b-283859be28c5",
                         "type": "Text",
                         "attrs": {
                           "html": "<p><span style=\"font-weight: bold;\">Bob Davis</span><br>\n\tDirect:<a href=\"tel:(239) 770-7993\" value=\" 12397707993\" target=\"_blank\">239-770-7993</a>\n\t</p>",
@@ -100,7 +116,7 @@
                                   {
                                     "offset": 19,
                                     "length": 12,
-                                    "key": "1"
+                                    "key": "2"
                                   }
                                 ],
                                 "characterList": [
@@ -200,51 +216,51 @@
                                   },
                                   {
                                     "style": [],
-                                    "entity": "1"
+                                    "entity": "2"
                                   },
                                   {
                                     "style": [],
-                                    "entity": "1"
+                                    "entity": "2"
                                   },
                                   {
                                     "style": [],
-                                    "entity": "1"
+                                    "entity": "2"
                                   },
                                   {
                                     "style": [],
-                                    "entity": "1"
+                                    "entity": "2"
                                   },
                                   {
                                     "style": [],
-                                    "entity": "1"
+                                    "entity": "2"
                                   },
                                   {
                                     "style": [],
-                                    "entity": "1"
+                                    "entity": "2"
                                   },
                                   {
                                     "style": [],
-                                    "entity": "1"
+                                    "entity": "2"
                                   },
                                   {
                                     "style": [],
-                                    "entity": "1"
+                                    "entity": "2"
                                   },
                                   {
                                     "style": [],
-                                    "entity": "1"
+                                    "entity": "2"
                                   },
                                   {
                                     "style": [],
-                                    "entity": "1"
+                                    "entity": "2"
                                   },
                                   {
                                     "style": [],
-                                    "entity": "1"
+                                    "entity": "2"
                                   },
                                   {
                                     "style": [],
-                                    "entity": "1"
+                                    "entity": "2"
                                   },
                                   {
                                     "style": [],
@@ -252,7 +268,7 @@
                                   }
                                 ],
                                 "inlineStyleRanges": [],
-                                "key": "94pbm",
+                                "key": "8fi8q",
                                 "type": "unstyled",
                                 "text": "Bob Davis\n\n\tDirect:239-770-7993 ",
                                 "depth": 0,
@@ -260,7 +276,7 @@
                               }
                             ],
                             "entityMap": {
-                              "1": {
+                              "2": {
                                 "type": "LINK",
                                 "mutability": "MUTABLE",
                                 "data": {
@@ -276,17 +292,33 @@
                         "content": []
                       },
                       {
-                        "id": "583977da-4800-4449-9a3d-55f571da8847",
+                        "id": "54baec3d-e1b4-491c-bfa3-e7d33396573d",
                         "type": "Row",
-                        "attrs": {},
+                        "attrs": {
+                          "width": "1140px",
+                          "direction": "horizontal",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false
+                        },
                         "content": [
                           {
-                            "id": "5d5f3fe7-982e-4f27-a3f5-f839a41914a9",
+                            "id": "5a21605b-bfd0-462e-bf74-5c119733d8e9",
                             "type": "Row",
-                            "attrs": {},
+                            "attrs": {
+                              "width": "100%",
+                              "direction": "verticle",
+                              "paddingTop": 0,
+                              "paddingRight": 0,
+                              "paddingBottom": 0,
+                              "paddingLeft": 0,
+                              "allowChildren": true
+                            },
                             "content": [
                               {
-                                "id": "de1f5e87-59fd-4a2f-a86d-fb5bda5797c7",
+                                "id": "5fc4a0f2-eb1b-46f7-afea-3f5b9a866fc7",
                                 "type": "Text",
                                 "attrs": {
                                   "html": "Email:<a href=\"mailto:bob@bluewaterpi.com\" target=\"_blank\">bob@bluewaterpi.com</a>",
@@ -297,7 +329,7 @@
                                           {
                                             "offset": 6,
                                             "length": 19,
-                                            "key": "2"
+                                            "key": "3"
                                           }
                                         ],
                                         "characterList": [
@@ -327,90 +359,90 @@
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           },
                                           {
                                             "style": [],
-                                            "entity": "2"
+                                            "entity": "3"
                                           }
                                         ],
                                         "inlineStyleRanges": [],
-                                        "key": "7fv27",
+                                        "key": "82k2o",
                                         "type": "unstyled",
                                         "text": "Email:bob@bluewaterpi.com",
                                         "data": {}
                                       }
                                     ],
                                     "entityMap": {
-                                      "2": {
+                                      "3": {
                                         "type": "LINK",
                                         "mutability": "MUTABLE",
                                         "data": {
@@ -430,7 +462,7 @@
                         ]
                       },
                       {
-                        "id": "604c2b52-65e5-4801-bf3e-6a22ec900da2",
+                        "id": "74a960aa-225d-4e06-b149-a97c4a8fafac",
                         "type": "Text",
                         "attrs": {
                           "html": "<p></p>\n<p><span class=\"ng-binding\">Bob is a full time resident of Pine Island and lives in Bokeelia with Patti, his wife of 29 years and their dog Bear.  Though originally from Oklahoma, Bob spent most of his adult life in Jacksonville, Florida along with a short 2 year stint in Lexington, Kentucky. Bob brings with him over 20 years of sales experience primarily in the fields of heavy construction equipment, paving equipment and cranes.In his spare time he enjoys fishing the waters of Pine Island and walking Bear around the streets and neighborhoods of the north end of the island.</span><br>\n\t\n\t\n\t\n\t</p>",
@@ -440,7 +472,7 @@
                                 "entityRanges": [],
                                 "characterList": [],
                                 "inlineStyleRanges": [],
-                                "key": "61ehi",
+                                "key": "657pq",
                                 "type": "unstyled",
                                 "text": "",
                                 "depth": 0,
@@ -2667,7 +2699,7 @@
                                   }
                                 ],
                                 "inlineStyleRanges": [],
-                                "key": "f9qi1",
+                                "key": "6hap4",
                                 "type": "unstyled",
                                 "text": "Bob is a full time resident of Pine Island and lives in Bokeelia with Patti, his wife of 29 years and their dog Bear.  Though originally from Oklahoma, Bob spent most of his adult life in Jacksonville, Florida along with a short 2 year stint in Lexington, Kentucky. Bob brings with him over 20 years of sales experience primarily in the fields of heavy construction equipment, paving equipment and cranes.In his spare time he enjoys fishing the waters of Pine Island and walking Bear around the streets and neighborhoods of the north end of the island.\n ",
                                 "depth": 0,
