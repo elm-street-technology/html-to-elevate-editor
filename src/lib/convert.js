@@ -4,20 +4,7 @@ const uuidV4 = require("uuid/v4");
 
 const { COMPONENT_NODE_NAMES } = require("../constants");
 const toEditorConfig = require("./editor-format");
-
-function toCamelCase(payload) {
-  if (Array.isArray(payload)) {
-    return _.map(payload, item => {
-      return _.mapKeys(item, (value, key) => {
-        return _.camelCase(key);
-      });
-    });
-  }
-
-  return _.mapKeys(payload, (value, key) => {
-    return _.camelCase(key);
-  });
-}
+const utils = require("./utils");
 
 function annonateData(data) {
   let index = 1;
@@ -29,7 +16,7 @@ function annonateData(data) {
       const isComponent = COMPONENT_NODE_NAMES.includes(structure.nodeName);
       return _.assign({}, structure, {
         id: index++,
-        camStyles: toCamelCase(structure.styles),
+        camStyles: utils.toCamelCase(structure.styles),
         isComponent: isComponent,
         needsToShift: isComponent && !isParentComponent,
         children: structure.children.length
@@ -41,63 +28,8 @@ function annonateData(data) {
   return loop(data);
 }
 
-function toSelector(path) {
-  let pathString = `[${path[0]}]`;
-  const add = _.map(path.slice(1), d => `children[${d}]`).join(".");
-  if (!_.isEmpty(add)) {
-    pathString += `.${add}`;
-  }
-  return pathString;
-}
-
-function getPath(nodes, path) {
-  return _.get(nodes, toSelector(path));
-}
-
-function findPath(nodes, id) {
-  const tree = getTreePath(nodes);
-  return tree[id];
-}
-
-function makePath(path, index) {
-  return _.compact(_.flatten([path, index.toString()]));
-}
-
-function updatePath(nodes, path, update = {}) {
-  const node = getPath(nodes, path);
-  const select = toSelector(path);
-  _.set(nodes, select, _.assign({}, node, update));
-  return nodes;
-}
-
-function getTreePath(nodes, path) {
-  const tree = getTreeNodes(nodes);
-  return _.transform(
-    tree,
-    (out, v, k) => {
-      out[v.id] = k;
-    },
-    {}
-  );
-}
-
-function getTreeNodes(nodes, path = [], tree = {}) {
-  return _.reduce(
-    nodes,
-    (_tree, node, index) => {
-      const nodePath = makePath(path, index);
-      _tree[nodePath.join(".")] = node;
-      if (node.children && node.children.length) {
-        return getTreeNodes(node.children, nodePath, _tree);
-      }
-      return _tree;
-    },
-    tree
-  );
-}
-
 function shiftNodeInTree(structure, node) {
-  const path = findPath(structure, node.id);
+  const path = utils.findPath(structure, node.id);
   const parentPath = path.split(".");
   let search = node.outerHTML;
   let replace = "";
@@ -105,7 +37,7 @@ function shiftNodeInTree(structure, node) {
   let lastIndex = _.last(parentPath);
   while (parentPath.length) {
     parentPath.pop();
-    const parent = getPath(structure, parentPath);
+    const parent = utils.getPath(structure, parentPath);
     if (parent) {
       const innerHtml = parent.innerHTML;
       const split = innerHtml.split(search);
@@ -160,7 +92,7 @@ function shiftNodeInTree(structure, node) {
           // TODO: split parent into two
         }
       }
-      structure = updatePath(structure, parentPath, {
+      structure = utils.updatePath(structure, parentPath, {
         innerHTML: pInner,
         outerHTML: pOuter,
         children: _.filter(children, ({ id }) => !nodeIds.includes(id))
@@ -172,21 +104,21 @@ function shiftNodeInTree(structure, node) {
 }
 
 function cleanTextNodes(structure, node, remove) {
-  const path = findPath(structure, node.id);
+  const path = utils.findPath(structure, node.id);
   const parentPath = path.split(".");
   let search = node.outerHTML;
   let inner = node.innerHTML.replace(remove, "");
   let replace = node.outerHTML.replace(node.innerHTML, inner);
-  structure = updatePath(structure, path.split("."), {
+  structure = utils.updatePath(structure, path.split("."), {
     innerHTML: inner,
     outerHTML: replace
   });
 
   while (parentPath.length) {
     parentPath.pop();
-    const parent = getPath(structure, parentPath);
+    const parent = utils.getPath(structure, parentPath);
     if (parent) {
-      structure = updatePath(structure, parentPath, {
+      structure = utils.updatePath(structure, parentPath, {
         innerHTML: parent.innerHTML.replace(search, replace),
         outerHTML: parent.outerHTML.replace(search, replace)
       });
@@ -197,7 +129,7 @@ function cleanTextNodes(structure, node, remove) {
 }
 
 function shiftAndFilterContent(structure) {
-  const tree = getTreeNodes(structure);
+  const tree = utils.getTreeNodes(structure);
   const nodesToShift = _.filter(Object.values(tree), "needsToShift");
   const nodesToClean = _.filter(Object.values(tree), { isComponent: false });
   let node;
