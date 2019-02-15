@@ -11,6 +11,13 @@
       "address": "127.0.0.1",
       "port": 9228,
       "restart": true
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/src/convert-to-page.js",
+      "restart": true
     }
   ]
 }
