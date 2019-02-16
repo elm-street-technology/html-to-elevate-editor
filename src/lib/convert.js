@@ -7,6 +7,27 @@ const toEditorConfig = require("./editor-format");
 const utils = require("./utils");
 const ProcessText = require("./process-text");
 
+function getStyleNumber(node, style) {
+  let value = _.get(node, `styles['${style}']`, "0px").replace(/[^\d]/g, "");
+  if (_.isEmpty(value)) {
+    return 0;
+  }
+  return Number(value);
+}
+
+function calculateInnerWidth(node) {
+  const width = _.get(node, "boundingClientRect.width", 0);
+  const paddingRight = getStyleNumber(node, "padding-right");
+  const paddingLeft = getStyleNumber(node, "padding-left");
+  const marginRight = getStyleNumber(node, "margin-left");
+  const marginLeft = getStyleNumber(node, "margin-left");
+  return {
+    inner: width - paddingRight - paddingLeft - marginLeft - marginRight,
+    container: width - marginLeft - marginRight,
+    outer: width
+  };
+}
+
 function annonateData(data) {
   let index = 1;
   const loop = (structure, isParentComponent = true) => {
@@ -19,6 +40,7 @@ function annonateData(data) {
         id: index++,
         camStyles: utils.toCamelCase(structure.styles),
         isComponent: isComponent,
+        widths: calculateInnerWidth(structure),
         needsToShift: isComponent && !isParentComponent,
         children: structure.children.length
           ? loop(structure.children, isComponent)
@@ -128,6 +150,7 @@ function processNodeText(node, components) {
       // push text then element
       children.push({
         nodeName: "TEXT",
+        widths: child.widths,
         text: firstContent
       });
     }
@@ -136,6 +159,7 @@ function processNodeText(node, components) {
   if (utils.hasText(baseContent)) {
     children.push({
       nodeName: "TEXT",
+      widths: child.widths,
       text: baseContent
     });
   }
@@ -198,15 +222,18 @@ function buildStructure(node) {
           newChildren.push({
             id: uuidV4(),
             nodeName: "ROW",
+            width: node.widths.inner,
             children: [
               {
                 id: uuidV4(),
                 nodeName: "COLUMN",
+                width: childNode.widths.outer,
                 children: [childNode]
               },
               {
                 id: uuidV4(),
                 nodeName: "COLUMN",
+                width: node.widths.inner - childNode.widths.outer,
                 children: column
               }
             ]
@@ -216,15 +243,18 @@ function buildStructure(node) {
           newChildren.push({
             id: uuidV4(),
             nodeName: "ROW",
+            width: node.widths.inner,
             children: [
               {
                 id: uuidV4(),
                 nodeName: "COLUMN",
+                width: node.widths.inner - childNode.widths.outer,
                 children: column
               },
               {
                 id: uuidV4(),
                 nodeName: "COLUMN",
+                width: childNode.widths.outer,
                 children: [childNode]
               }
             ]

@@ -14,22 +14,29 @@ function toDim(value, dim) {
   return `${value}`.includes(dim) ? value : `${value}${dim}`;
 }
 
-function getAttrs(node, type) {
+function getParentWidth(parent) {
+  const width = _.get(parent, "width");
+  const inner = _.get(parent, "widths.inner");
+  return _.isNil(width) ? inner : width;
+}
+
+function getAttrs(node, type, parent) {
   const rect = node.boundingClientRect;
   const styles = node.camStyles;
   const attrs = node.attrs;
+  const width = node.widths.outer;
   const base = {
     src: attrs.src
   };
   switch (type) {
     case "img":
       return _.assign({}, base, {
-        width: `${rect.width}px`
+        width: `${width}px`
       });
 
     case "cell-img":
       return _.assign({}, base, {
-        width: "100%"
+        width: getParentWidth(parent) > width ? `${width}px` : "100%"
       });
     case "container":
       return {
@@ -70,7 +77,8 @@ function processImg(node, content = [], parent, maxWidth) {
   const outer = getAttrs(node, "container");
   const inner = getAttrs(
     node,
-    _.get(parent, "nodeName") === "COLUMN" ? "cell-img" : "img"
+    _.get(parent, "nodeName") === "COLUMN" ? "cell-img" : "img",
+    parent
   );
   return buildContainer(buildImage(content, inner), outer);
 }

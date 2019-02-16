@@ -47,8 +47,12 @@ function cleanTextNodes(nodes) {
         const newNode = _.assign({}, node, {
           innerHTML,
           outerHTML,
-          children: node.children.filter(
-            child => !["P"].includes(child.nodeName)
+          children: _.compact(
+            _.flatten(
+              node.children.map(child =>
+                ["P"].includes(child.nodeName) ? child.children : child
+              )
+            )
           )
         });
         nodes = updateTree(nodes, newNode, node.outerHTML, newNode.outerHTML);
