@@ -150,7 +150,6 @@ function processNodeText(node, components) {
       // push text then element
       children.push({
         nodeName: "TEXT",
-        widths: child.widths,
         text: firstContent
       });
     }
@@ -159,7 +158,6 @@ function processNodeText(node, components) {
   if (utils.hasText(baseContent)) {
     children.push({
       nodeName: "TEXT",
-      widths: child.widths,
       text: baseContent
     });
   }
