@@ -11,10 +11,9 @@ var app = express();
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get("/:site", async function(req, res) {
+  const site = req.params.site;
   const content = await axios.get(
-    `https://admin.rlsplatform.com/etl/default/custompage?url=${
-      req.params.site
-    }&secret=elevate`
+    `https://admin.rlsplatform.com/etl/default/custompage?url=${site}&secret=elevate`
   );
   const $base = cheerio.load(content.data, {
     normalizeWhitespace: true,
@@ -30,9 +29,7 @@ app.get("/:site", async function(req, res) {
       .replace("Page Name:", "")
       .trim();
     links.push(
-      `<a href="http://localhost:3030/${
-        req.params.site
-      }/${page}" target="_blank">${page}</a>`
+      `<a href="http://localhost:3030/${site}/${page}" target="_blank">Preview</a> | <a href="https://admin.rlsplatform.com/etl/default/custompage?url=${site}&secret=elevate&page=${page}" target="_blank">${page}</a>`
     );
   }
   res.send(links.join("<br />"));

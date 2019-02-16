@@ -1,6 +1,6 @@
 [
   {
-    "id": "5fae9d7f-000b-41c0-8428-38401c60405d",
+    "id": "91da549f-3e5c-4b3f-a055-d208aa551dad",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,7 +14,7 @@
     },
     "content": [
       {
-        "id": "f3f7a4c7-a7df-4d4b-b421-585df2a474ff",
+        "id": "6d92619f-730e-45f7-9f15-217792fe8993",
         "type": "Row",
         "attrs": {
           "width": "1170px",
@@ -27,7 +27,7 @@
         },
         "content": [
           {
-            "id": "4a143012-e19d-49f0-befb-3a65bf3addfd",
+            "id": "5f95f832-48a3-49d5-aa69-8181369cfd0d",
             "type": "Row",
             "attrs": {
               "width": "100%",
@@ -40,7 +40,7 @@
             },
             "content": [
               {
-                "id": "1da5685b-9573-44fd-a726-8283aef17c58",
+                "id": "ce6313ec-2627-4b06-b58e-aba13574a2c6",
                 "type": "Row",
                 "attrs": {
                   "width": "",
@@ -53,10 +53,10 @@
                 },
                 "content": [
                   {
-                    "id": "8fc3c709-724d-4d80-af56-c50720118213",
+                    "id": "543ddd0c-bb9f-4e93-9a18-f1fdc3dd2086",
                     "type": "Row",
                     "attrs": {
-                      "width": "22.22222222222222%",
+                      "width": "22.807017543859647%",
                       "direction": "verticle",
                       "paddingTop": 0,
                       "paddingRight": 0,
@@ -66,7 +66,7 @@
                     },
                     "content": [
                       {
-                        "id": "3a1b034c-00cc-4760-841f-b7f403ca6a5e",
+                        "id": "29987735-98d6-47df-b267-033588d443a0",
                         "type": "Row",
                         "attrs": {
                           "width": "100%",
@@ -79,7 +79,7 @@
                         },
                         "content": [
                           {
-                            "id": "bbad3e47-8a40-4fe4-920a-fb52a4140f5f",
+                            "id": "255b0c23-cd00-4438-99fb-8ca8d3389561",
                             "type": "Image",
                             "attrs": {
                               "src": "http://media.mlspropertyfinder.com/411828/bob.jpg",
@@ -92,10 +92,10 @@
                     ]
                   },
                   {
-                    "id": "b97cf96b-d079-4ac6-9ba2-4215e14c69de",
+                    "id": "a81d9aee-c48f-4c02-927a-c7785ffbe03d",
                     "type": "Row",
                     "attrs": {
-                      "width": "77.77777777777779%",
+                      "width": "77.19298245614034%",
                       "direction": "verticle",
                       "paddingTop": 0,
                       "paddingRight": 0,
@@ -105,7 +105,7 @@
                     },
                     "content": [
                       {
-                        "id": "6cd03a92-da40-4441-b7e8-7fbf5115dff4",
+                        "id": "3d33a583-d563-4c02-99e2-4ead396102f0",
                         "type": "Text",
                         "attrs": {
                           "html": "<p><span style=\"font-weight: bold;\">Bob Davis</span><br>\n\tDirect:<a href=\"tel:(239) 770-7993\" value=\" 12397707993\" target=\"_blank\">239-770-7993</a>\n\t</p><p>Email:<a href=\"mailto:bob@bluewaterpi.com\" target=\"_blank\">bob@bluewaterpi.com</a></p><p></p>\n<p><span class=\"ng-binding\">Bob is a full time resident of Pine Island and lives in Bokeelia with Patti, his wife of 29 years and their dog Bear.  Though originally from Oklahoma, Bob spent most of his adult life in Jacksonville, Florida along with a short 2 year stint in Lexington, Kentucky. Bob brings with him over 20 years of sales experience primarily in the fields of heavy construction equipment, paving equipment and cranes.In his spare time he enjoys fishing the waters of Pine Island and walking Bear around the streets and neighborhoods of the north end of the island.</span><br>\n\t\n\t\n\t\n\t</p>",
@@ -268,7 +268,7 @@
                                   }
                                 ],
                                 "inlineStyleRanges": [],
-                                "key": "7c5e1",
+                                "key": "3hqjb",
                                 "type": "unstyled",
                                 "text": "Bob Davis\n\n\tDirect:239-770-7993 ",
                                 "depth": 0,
@@ -385,7 +385,7 @@
                                   }
                                 ],
                                 "inlineStyleRanges": [],
-                                "key": "82jpq",
+                                "key": "frvmf",
                                 "type": "unstyled",
                                 "text": "Email:bob@bluewaterpi.com",
                                 "depth": 0,
@@ -395,7 +395,7 @@
                                 "entityRanges": [],
                                 "characterList": [],
                                 "inlineStyleRanges": [],
-                                "key": "t94t",
+                                "key": "lgs3",
                                 "type": "unstyled",
                                 "text": "",
                                 "depth": 0,
@@ -2622,7 +2622,7 @@
                                   }
                                 ],
                                 "inlineStyleRanges": [],
-                                "key": "694ch",
+                                "key": "3gi3b",
                                 "type": "unstyled",
                                 "text": "Bob is a full time resident of Pine Island and lives in Bokeelia with Patti, his wife of 29 years and their dog Bear.  Though originally from Oklahoma, Bob spent most of his adult life in Jacksonville, Florida along with a short 2 year stint in Lexington, Kentucky. Bob brings with him over 20 years of sales experience primarily in the fields of heavy construction equipment, paving equipment and cranes.In his spare time he enjoys fishing the waters of Pine Island and walking Bear around the streets and neighborhoods of the north end of the island.\n ",
                                 "depth": 0,
