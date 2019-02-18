@@ -12,34 +12,43 @@ var app = express();
 // respond with "hello world" when a GET request is made to the homepage
 app.get("/:site", async function(req, res) {
   const site = req.params.site;
-  const content = await axios.get(
-    `https://admin.rlsplatform.com/etl/default/custompage?url=${site}&secret=elevate`
-  );
-  const $base = cheerio.load(content.data, {
-    normalizeWhitespace: true,
-    xmlMode: true
-  });
-  const items = $base("div.row");
-  const links = [];
-  for (i = 0; i < items.length; i++) {
-    const page = items
-      .children()
-      .eq(i)
-      .text()
-      .replace("Page Name:", "")
-      .trim();
-    links.push(
-      `<a href="http://localhost:3030/${site}/${page}" target="_blank">Preview</a> | <a href="https://admin.rlsplatform.com/etl/default/custompage?url=${site}&secret=elevate&page=${page}" target="_blank">${page}</a>`
+  try {
+    const content = await axios.get(
+      `https://admin.rlsplatform.com/etl/default/custompage?url=${site}&secret=elevate`
     );
+    const $base = cheerio.load(content.data, {
+      normalizeWhitespace: true,
+      xmlMode: true
+    });
+    const items = $base("div.row");
+    const links = [];
+    for (i = 0; i < items.length; i++) {
+      const page = items
+        .children()
+        .eq(i)
+        .text()
+        .replace("Page Name:", "")
+        .trim();
+      links.push(
+        `<a href="http://localhost:3030/${site}/${page}" target="_blank">Preview</a> | <a href="https://admin.rlsplatform.com/etl/default/custompage?url=${site}&secret=elevate&page=${page}" target="_blank">${page}</a>`
+      );
+    }
+    res.send(links.join("<br />"));
+  } catch (e) {
+    res.sendStatus(500);
   }
-  res.send(links.join("<br />"));
 });
 app.get("/:site/:page", async function(req, res) {
-  const { config, structure, preview } = await process({
-    site: req.params.site,
-    page: req.params.page
-  });
-  res.send(preview);
+  try {
+    const { config, structure, preview } = await process({
+      site: req.params.site,
+      page: req.params.page
+    });
+    res.send(preview);
+  } catch (e) {
+    console.error(e);
+    res.sendStatus(500);
+  }
 });
 app.listen(3030);
 
@@ -49,12 +58,12 @@ async function process({ site, page }) {
     url: `https://admin.rlsplatform.com/etl/default/custompage?url=${site}&secret=elevate&page=${page}`,
     target: ".rl-custompage",
     // cache: `${dir}/structure.json`,
-    cache: `./out/${site}-${page}-structure.json`,
+    cache: `./out/${site}-${page}-structure.json`
     // headless: false,
-    customJsCommands: [
-      '$("#rls1a > div.modal-backdrop.fade.in, .rl-apology").remove()',
-      '$("body").removeClass("modal-open")'
-    ]
+    // customJsCommands: [
+    //   '$("#rls1a > div.modal-backdrop.fade.in, .rl-apology").remove()',
+    //   '$("body").removeClass("modal-open")'
+    // ]
   });
 
   // Pre Process the data

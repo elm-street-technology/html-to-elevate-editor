@@ -16,5 +16,11 @@ module.exports = [
     page: "chinese-speaking-florida-agent",
     target: ".rl-custompage",
     dir: "./test-files/test-003"
+  },
+  {
+    site: "415339.rlsplatform.com",
+    page: "bridgeport-office",
+    target: ".rl-custompage",
+    dir: "./test-files/test-004"
   }
 ];

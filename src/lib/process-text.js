@@ -28,6 +28,11 @@ function updateTree(structure, node, search, replace) {
   return structure;
 }
 
+function getParentNode(nodes, node) {
+  const path = utils.findPath(nodes, node.id);
+  return utils.getPath(nodes, path.split(".").slice(0, -1));
+}
+
 function cleanTextNodes(nodes) {
   let treeValues = _.keys(utils.getTreeNodes(nodes));
   while ((path = treeValues.shift())) {
@@ -36,7 +41,7 @@ function cleanTextNodes(nodes) {
       const hasText = utils.hasText(node);
       const hasComponents = utils.hasComponents(node);
       const isContainer = ["DIV"].includes(node.nodeName);
-
+      const parent = getParentNode(nodes, node);
       // remove uneeded nodes
       if (
         /h\d|blockquote/i.test(node.nodeName) &&
@@ -59,7 +64,7 @@ function cleanTextNodes(nodes) {
       }
 
       // Convert Components To Text
-      if (node.isComponent && !hasComponents && isContainer) {
+      if (parent && node.isComponent && !hasComponents && isContainer) {
         if (hasText) {
           const outer = node.outerHTML
             .replace(node.innerHTML, "{-- inner --}")

@@ -5,7 +5,7 @@
   "author": "Tim DeDecker <tdedecker@elmstreettechnology.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "npx nodemon --inspect-brk=0.0.0.0:9228 --watch src src/dev.js",
+    "dev": "npx nodemon --inspect=0.0.0.0:9228 --watch src src/dev.js",
     "test": "npx ava",
     "test:watch": "npx ava --watch"
   },

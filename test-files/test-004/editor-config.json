@@ -1,0 +1,483 @@
+[
+  {
+    "id": "bbd61f16-ef2b-4508-88bc-1bcb02950e2c",
+    "type": "Row",
+    "attrs": {
+      "width": "100%",
+      "direction": "horizontal",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "alignment": "center",
+      "allowChildren": false
+    },
+    "content": [
+      {
+        "id": "9f0495e9-1439-4e9c-8ff8-d260e6f33e98",
+        "type": "Row",
+        "attrs": {
+          "width": "1170px",
+          "direction": "horizontal",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "allowChildren": false
+        },
+        "content": [
+          {
+            "id": "24b160f0-9627-4c1c-91b4-45e1bb0147fd",
+            "type": "Row",
+            "attrs": {
+              "width": "100%",
+              "direction": "verticle",
+              "paddingTop": 0,
+              "paddingRight": 15,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "allowChildren": true
+            },
+            "content": [
+              {
+                "id": "8f4a938e-ae45-44b6-932f-d8e269643604",
+                "type": "Text",
+                "attrs": {
+                  "html": "\n<p style=\"text-align: center; \"><span style=\"font-size: 18pt;\">We have a new office in Bridgeport!</span></p>\n\n\n<p style=\"text-align: center; \">610 Brooklawn Avenue,&nbsp;</p>\n<p style=\"text-align: center; \">Bridgeport, CT 06604</p>   ",
+                  "value": {
+                    "blocks": [
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "fontsize-18pt"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "83mma",
+                        "type": "unstyled",
+                        "text": "We have a new office in Bridgeport! ",
+                        "depth": 0,
+                        "data": {
+                          "text-align": "center"
+                        }
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "8vhm6",
+                        "type": "unstyled",
+                        "text": "610 Brooklawn Avenue, ",
+                        "depth": 0,
+                        "data": {
+                          "text-align": "center"
+                        }
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "8b44o",
+                        "type": "unstyled",
+                        "text": "Bridgeport, CT 06604",
+                        "depth": 0,
+                        "data": {
+                          "text-align": "center"
+                        }
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  "color": ""
+                },
+                "content": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
