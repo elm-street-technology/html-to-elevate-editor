@@ -1,0 +1,5326 @@
+[
+  {
+    "id": "196151b7-c6ce-465a-b036-dcb7319f9e9c",
+    "type": "Row",
+    "attrs": {
+      "width": "100%",
+      "direction": "horizontal",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "alignment": "center",
+      "allowChildren": false
+    },
+    "content": [
+      {
+        "id": "dece40fd-1144-4d9f-8358-ed8b3a073f22",
+        "type": "Row",
+        "attrs": {
+          "width": "1170px",
+          "direction": "horizontal",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "allowChildren": false
+        },
+        "content": [
+          {
+            "id": "67b24f65-4c39-4c09-bf67-3048eae885a6",
+            "type": "Row",
+            "attrs": {
+              "width": "100%",
+              "direction": "verticle",
+              "paddingTop": 0,
+              "paddingRight": 15,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "allowChildren": true
+            },
+            "content": [
+              {
+                "id": "ab61e38e-74ae-447a-9848-1c55ae5022ce",
+                "type": "Text",
+                "attrs": {
+                  "html": "\n\n<p>\n\n\n\n\n\n\t\n\n\n\n\t<p class=\"p1\"><span class=\"s1\">\"Thanks Elaine for helping us find the perfect home for our family.&nbsp; Your professionalism and&nbsp;negotiation skills were awesome!&nbsp; Without your help, we wouldn't be in our new home sweet home.\"</span></p>\n\n\t<p class=\"p2\"><span class=\"s1\" style=\"font-weight: bold;\">&nbsp; - Marie, Mike &amp; Jake</span></p>\n\n\t<p class=\"p3\"><span class=\"s1\"></span><br>\n\t\t</p>\n\n\t<p class=\"p4\"><span class=\"s1\"></span><br>\n\t\t</p>\n\n\t<p class=\"p3\"><span class=\"s1\"></span><br>\n\t\t</p>\n\n\t<p class=\"p1\"><span class=\"s1\">\"You made&nbsp;the&nbsp;complicated process of selling&nbsp;our old home and then finding a new home go so smoothly.&nbsp;Your staging tips&nbsp;helped us get top dollar for our home.&nbsp; And&nbsp;your attention to our buying needs, helped us find the perfect home for our new family.\"</span></p>\n\n\t<p class=\"p2\"><span class=\"s1\" style=\"font-weight: bold;\">- Lou Ann, Vinny and Lady Di (Dog)</span></p>\n\n\t<p class=\"p5\"><span class=\"s1\"></span><br>\n\t\t</p>\n\n\t<p class=\"p3\"><span class=\"s1\"></span><br>\n\t\t</p>\n\n\t<p class=\"p1\"><span class=\"s1\">\"Elaine's knowledge as a Senior Residential Specialist was invaluable to me in the selling of my mother's home.&nbsp; We had to overcome many obstacles.&nbsp;&nbsp;Thanks to Elaine's hard work, we received top dollar and had a very smooth transaction.\"</span></p>\n\n\t<p class=\"p2\"><span class=\"s1\" style=\"font-weight: bold;\">- Henry Gwiazda</span></p>\n\n\t<p class=\"p5\"><span class=\"s1\"></span><br>\n\t\t</p>\n\n\t<p class=\"p3\"><span class=\"s1\"></span><br>\n\t\t</p>\n\n\t<p class=\"p1\"><span class=\"s1\">\"Finding a home to meet the needs of a family with two rambunctous boys....priceless.&nbsp;&nbsp;We had worked&nbsp;unsuccessfully with another agent before&nbsp;Elaine represented us as our Buyer's agent.&nbsp;&nbsp;She helped us found our home sweet home! \"</span></p>\n\n\t<p class=\"p2\"><span class=\"s1\" style=\"font-weight: bold;\">- Veronesi Family</span></p>\n\n\t<p class=\"p5\"><span class=\"s1\"></span><br>\n\t\t</p>\n\n\t<p class=\"p3\"><span class=\"s1\"></span><br>\n\t\t</p>\n\n\t<p class=\"p1\"><span class=\"s1\">I cannot thank you enough for all your help in relocating to Connecticut.&nbsp; Your time, patience and effort helped my find the perfect place as I begin a new stage in my life.&nbsp;</span></p>\n\n\t<p class=\"p2\"><span class=\"s1\" style=\"font-weight: bold;\">- Sal</span></p></p>",
+                  "value": {
+                    "blocks": [
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "802sk",
+                        "type": "unstyled",
+                        "text": " ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "6bjcc",
+                        "type": "unstyled",
+                        "text": "\"Thanks Elaine for helping us find the perfect home for our family.  Your professionalism and negotiation skills were awesome!  Without your help, we wouldn't be in our new home sweet home.\" ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "54oh7",
+                        "type": "unstyled",
+                        "text": "  - Marie, Mike & Jake ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "4ugr0",
+                        "type": "unstyled",
+                        "text": "\n  ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "4v1ek",
+                        "type": "unstyled",
+                        "text": "\n  ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "1lo7v",
+                        "type": "unstyled",
+                        "text": "\n  ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "db9rc",
+                        "type": "unstyled",
+                        "text": "\"You made the complicated process of selling our old home and then finding a new home go so smoothly. Your staging tips helped us get top dollar for our home.  And your attention to our buying needs, helped us find the perfect home for our new family.\" ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "avbe5",
+                        "type": "unstyled",
+                        "text": "- Lou Ann, Vinny and Lady Di (Dog) ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "d6hdh",
+                        "type": "unstyled",
+                        "text": "\n  ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "uc2r",
+                        "type": "unstyled",
+                        "text": "\n  ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "6dfl9",
+                        "type": "unstyled",
+                        "text": "\"Elaine's knowledge as a Senior Residential Specialist was invaluable to me in the selling of my mother's home.  We had to overcome many obstacles.  Thanks to Elaine's hard work, we received top dollar and had a very smooth transaction.\" ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "bkeg1",
+                        "type": "unstyled",
+                        "text": "- Henry Gwiazda ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "9lnsm",
+                        "type": "unstyled",
+                        "text": "\n  ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "1d2ob",
+                        "type": "unstyled",
+                        "text": "\n  ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "3c0ga",
+                        "type": "unstyled",
+                        "text": "\"Finding a home to meet the needs of a family with two rambunctous boys....priceless.  We had worked unsuccessfully with another agent before Elaine represented us as our Buyer's agent.  She helped us found our home sweet home! \" ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "3m5il",
+                        "type": "unstyled",
+                        "text": "- Veronesi Family ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "6ua6c",
+                        "type": "unstyled",
+                        "text": "\n  ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "3d0sc",
+                        "type": "unstyled",
+                        "text": "\n  ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          },
+                          {
+                            "style": [],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "djs19",
+                        "type": "unstyled",
+                        "text": "I cannot thank you enough for all your help in relocating to Connecticut.  Your time, patience and effort helped my find the perfect place as I begin a new stage in my life.  ",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          },
+                          {
+                            "style": [
+                              "BOLD"
+                            ],
+                            "entity": null
+                          }
+                        ],
+                        "inlineStyleRanges": [],
+                        "key": "55vkp",
+                        "type": "unstyled",
+                        "text": "- Sal",
+                        "depth": 0,
+                        "data": {}
+                      },
+                      {
+                        "entityRanges": [],
+                        "characterList": [],
+                        "inlineStyleRanges": [],
+                        "key": "apqle",
+                        "type": "unstyled",
+                        "text": "",
+                        "depth": 0,
+                        "data": {}
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  "color": ""
+                },
+                "content": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

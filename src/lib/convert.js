@@ -127,10 +127,51 @@ function shiftNodeInTree(structure, node) {
 }
 
 function shiftAndFilterContent(structure) {
-  const tree = utils.getTreeNodes(structure);
-  const nodesToShift = _.filter(Object.values(tree), "needsToShift");
-  const nodesToClean = Object.values(tree);
   let node;
+
+  let tree = utils.getTreeNodes(structure);
+
+  // find any comment and remove
+  const commentRegex = /(?=<!--)([\s\S]*?)-->/g;
+  const commentsToFilter = _.filter(Object.values(tree), ({ innerHTML }) =>
+    commentRegex.test(innerHTML)
+  );
+
+  if (commentsToFilter.length) {
+    while ((node = commentsToFilter.pop())) {
+      if (commentRegex.test(node.innerHTML)) {
+        const newNode = _.assign({}, node, {
+          innerHTML: node.innerHTML.replace(commentRegex, ""),
+          outerHTML: node.outerHTML.replace(commentRegex, "")
+        });
+        structure = utils.updateTree(
+          structure,
+          newNode,
+          node.outerHTML,
+          newNode.outerHTML
+        );
+      }
+    }
+  }
+
+  // rebuild tree for next pass
+  tree = utils.getTreeNodes(structure);
+
+  // removed any unsupported nodes
+  const nodesToRemove = _.filter(Object.values(tree), ({ nodeName }) =>
+    ["SCRIPT", "STYLE"].includes(nodeName)
+  );
+  if (nodesToRemove.length) {
+    while ((node = nodesToRemove.shift())) {
+      structure = utils.removeNode(structure, node);
+    }
+  }
+
+  // rebuild tree for next pass
+  tree = utils.getTreeNodes(structure);
+
+  // shift nodes up the tree
+  const nodesToShift = _.filter(Object.values(tree), "needsToShift");
   if (nodesToShift.length) {
     while ((node = nodesToShift.shift())) {
       structure = shiftNodeInTree(structure, node);

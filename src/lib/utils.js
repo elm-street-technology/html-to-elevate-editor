@@ -33,6 +33,11 @@ function findPath(nodes, id) {
   return tree[id];
 }
 
+function getParentNode(nodes, node) {
+  const path = findPath(nodes, node.id);
+  return getPath(nodes, path.split(".").slice(0, -1));
+}
+
 function makePath(path, index) {
   return _.compact(_.flatten([path, index.toString()]));
 }
@@ -42,6 +47,41 @@ function updatePath(nodes, path, update = {}) {
   const select = toSelector(path);
   _.set(nodes, select, _.assign({}, node, update));
   return nodes;
+}
+
+function updateTree(structure, node, search, replace) {
+  const path = findPath(structure, node.id);
+  const parentPath = path.split(".");
+
+  structure = updatePath(structure, path.split("."), node);
+
+  while (parentPath.length) {
+    parentPath.pop();
+    const parent = getPath(structure, parentPath);
+
+    if (parent) {
+      const innerHTML = parent.innerHTML.replace(search, replace);
+      const outerHTML = parent.outerHTML.replace(search, replace);
+      search = parent.outerHTML;
+      replace = outerHTML;
+      structure = updatePath(structure, parentPath, {
+        innerHTML,
+        outerHTML
+      });
+    }
+  }
+
+  return structure;
+}
+
+function removeNode(nodes, node) {
+  const parent = getParentNode(nodes, node);
+  const newParent = _.assign({}, parent, {
+    innerHTML: parent.innerHTML.replace(node.outerHTML, ""),
+    outerHTML: parent.outerHTML.replace(node.outerHTML, ""),
+    children: _.filter(parent.children, ({ id }) => id !== node.id)
+  });
+  return updateTree(nodes, newParent, parent.outerHTML, newParent.outerHTML);
 }
 
 function getTreePath(nodes, path) {
@@ -96,6 +136,9 @@ module.exports = {
   findPath,
   makePath,
   updatePath,
+  removeNode,
+  updateTree,
+  getParentNode,
   getTreePath,
   getTreeNodes,
   hasText,
