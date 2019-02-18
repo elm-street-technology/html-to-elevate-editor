@@ -3,19 +3,7 @@ import fs from "fs";
 import _ from "lodash";
 import { Convert, LoadStructure } from "./src";
 
-const tests = [
-  {
-    url: "http://414317.rlsplatform.com/patbishop/",
-    target: ".rl-custompage",
-    dir: "./test-files/test-001"
-  },
-  {
-    url:
-      "https://admin.rlsplatform.com/etl/default/custompage?url=bluewaterpi.com&secret=elevate&page=bob-davis",
-    target: ".rl-custompage",
-    dir: "./test-files/test-002"
-  }
-];
+import tests from "./test-files/test-config";
 
 const cleanContent = nodes => {
   return _.map(nodes, node =>
@@ -29,9 +17,9 @@ const cleanContent = nodes => {
   );
 };
 
-async function performTest({ url, target, dir }, t) {
+async function performTest({ site, page, target, dir }, t) {
   const structure = await LoadStructure({
-    url,
+    url: `https://admin.rlsplatform.com/etl/default/custompage?url=${site}&secret=elevate&page=${page}`,
     target,
     cache: `${dir}/structure.json`,
     customJsCommands: [
@@ -61,7 +49,7 @@ async function performTest({ url, target, dir }, t) {
 }
 
 tests.map(item => {
-  test(item.dir, t => {
+  test(`${item.dir} - ${item.site} - ${item.page}`, t => {
     return performTest(item, t);
   });
 });

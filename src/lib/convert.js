@@ -4,19 +4,28 @@ const uuidV4 = require("uuid/v4");
 
 const { COMPONENT_NODE_NAMES } = require("../constants");
 const toEditorConfig = require("./editor-format");
+const utils = require("./utils");
+const ProcessText = require("./process-text");
 
-function toCamelCase(payload) {
-  if (Array.isArray(payload)) {
-    return _.map(payload, item => {
-      return _.mapKeys(item, (value, key) => {
-        return _.camelCase(key);
-      });
-    });
+function getStyleNumber(node, style) {
+  let value = _.get(node, `styles['${style}']`, "0px").replace(/[^\d]/g, "");
+  if (_.isEmpty(value)) {
+    return 0;
   }
+  return Number(value);
+}
 
-  return _.mapKeys(payload, (value, key) => {
-    return _.camelCase(key);
-  });
+function calculateInnerWidth(node) {
+  const width = _.get(node, "boundingClientRect.width", 0);
+  const paddingRight = getStyleNumber(node, "padding-right");
+  const paddingLeft = getStyleNumber(node, "padding-left");
+  const marginRight = getStyleNumber(node, "margin-left");
+  const marginLeft = getStyleNumber(node, "margin-left");
+  return {
+    inner: width - paddingRight - paddingLeft - marginLeft - marginRight,
+    container: width - marginLeft - marginRight,
+    outer: width
+  };
 }
 
 function annonateData(data) {
@@ -29,8 +38,9 @@ function annonateData(data) {
       const isComponent = COMPONENT_NODE_NAMES.includes(structure.nodeName);
       return _.assign({}, structure, {
         id: index++,
-        camStyles: toCamelCase(structure.styles),
+        camStyles: utils.toCamelCase(structure.styles),
         isComponent: isComponent,
+        widths: calculateInnerWidth(structure),
         needsToShift: isComponent && !isParentComponent,
         children: structure.children.length
           ? loop(structure.children, isComponent)
@@ -41,63 +51,8 @@ function annonateData(data) {
   return loop(data);
 }
 
-function toSelector(path) {
-  let pathString = `[${path[0]}]`;
-  const add = _.map(path.slice(1), d => `children[${d}]`).join(".");
-  if (!_.isEmpty(add)) {
-    pathString += `.${add}`;
-  }
-  return pathString;
-}
-
-function getPath(nodes, path) {
-  return _.get(nodes, toSelector(path));
-}
-
-function findPath(nodes, id) {
-  const tree = getTreePath(nodes);
-  return tree[id];
-}
-
-function makePath(path, index) {
-  return _.compact(_.flatten([path, index.toString()]));
-}
-
-function updatePath(nodes, path, update = {}) {
-  const node = getPath(nodes, path);
-  const select = toSelector(path);
-  _.set(nodes, select, _.assign({}, node, update));
-  return nodes;
-}
-
-function getTreePath(nodes, path) {
-  const tree = getTreeNodes(nodes);
-  return _.transform(
-    tree,
-    (out, v, k) => {
-      out[v.id] = k;
-    },
-    {}
-  );
-}
-
-function getTreeNodes(nodes, path = [], tree = {}) {
-  return _.reduce(
-    nodes,
-    (_tree, node, index) => {
-      const nodePath = makePath(path, index);
-      _tree[nodePath.join(".")] = node;
-      if (node.children && node.children.length) {
-        return getTreeNodes(node.children, nodePath, _tree);
-      }
-      return _tree;
-    },
-    tree
-  );
-}
-
 function shiftNodeInTree(structure, node) {
-  const path = findPath(structure, node.id);
+  const path = utils.findPath(structure, node.id);
   const parentPath = path.split(".");
   let search = node.outerHTML;
   let replace = "";
@@ -105,7 +60,7 @@ function shiftNodeInTree(structure, node) {
   let lastIndex = _.last(parentPath);
   while (parentPath.length) {
     parentPath.pop();
-    const parent = getPath(structure, parentPath);
+    const parent = utils.getPath(structure, parentPath);
     if (parent) {
       const innerHtml = parent.innerHTML;
       const split = innerHtml.split(search);
@@ -160,7 +115,7 @@ function shiftNodeInTree(structure, node) {
           // TODO: split parent into two
         }
       }
-      structure = updatePath(structure, parentPath, {
+      structure = utils.updatePath(structure, parentPath, {
         innerHTML: pInner,
         outerHTML: pOuter,
         children: _.filter(children, ({ id }) => !nodeIds.includes(id))
@@ -171,64 +126,17 @@ function shiftNodeInTree(structure, node) {
   return structure;
 }
 
-function cleanTextNodes(structure, node, remove) {
-  const path = findPath(structure, node.id);
-  const parentPath = path.split(".");
-  let search = node.outerHTML;
-  let inner = node.innerHTML.replace(remove, "");
-  let replace = node.outerHTML.replace(node.innerHTML, inner);
-  structure = updatePath(structure, path.split("."), {
-    innerHTML: inner,
-    outerHTML: replace
-  });
-
-  while (parentPath.length) {
-    parentPath.pop();
-    const parent = getPath(structure, parentPath);
-    if (parent) {
-      structure = updatePath(structure, parentPath, {
-        innerHTML: parent.innerHTML.replace(search, replace),
-        outerHTML: parent.outerHTML.replace(search, replace)
-      });
-    }
-  }
-
-  return structure;
-}
-
 function shiftAndFilterContent(structure) {
-  const tree = getTreeNodes(structure);
+  const tree = utils.getTreeNodes(structure);
   const nodesToShift = _.filter(Object.values(tree), "needsToShift");
-  const nodesToClean = _.filter(Object.values(tree), { isComponent: false });
+  const nodesToClean = Object.values(tree);
   let node;
   if (nodesToShift.length) {
     while ((node = nodesToShift.shift())) {
       structure = shiftNodeInTree(structure, node);
     }
   }
-  if (nodesToClean.length) {
-    while ((node = nodesToClean.shift())) {
-      // remove elements from node types
-      if (node && /h\d|blockquote/i.test(node.nodeName)) {
-        structure = cleanTextNodes(structure, node, /<(\/)?(p)[^>]*>/gi);
-      }
-    }
-  }
-
   return structure;
-}
-
-function hasText(html) {
-  const $base = cheerio.load(html, {
-    normalizeWhitespace: true,
-    xmlMode: true
-  });
-  return !_.isEmpty(
-    $base
-      .root()
-      .text()
-      .trim()
-  );
 }
 
 function processNodeText(node, components) {
@@ -247,7 +155,7 @@ function processNodeText(node, components) {
     }
     children.push(child);
   });
-  if (hasText(baseContent)) {
+  if (utils.hasText(baseContent)) {
     children.push({
       nodeName: "TEXT",
       text: baseContent
@@ -312,15 +220,18 @@ function buildStructure(node) {
           newChildren.push({
             id: uuidV4(),
             nodeName: "ROW",
+            width: node.widths.inner,
             children: [
               {
                 id: uuidV4(),
                 nodeName: "COLUMN",
+                width: childNode.widths.outer,
                 children: [childNode]
               },
               {
                 id: uuidV4(),
                 nodeName: "COLUMN",
+                width: node.widths.inner - childNode.widths.outer,
                 children: column
               }
             ]
@@ -330,15 +241,18 @@ function buildStructure(node) {
           newChildren.push({
             id: uuidV4(),
             nodeName: "ROW",
+            width: node.widths.inner,
             children: [
               {
                 id: uuidV4(),
                 nodeName: "COLUMN",
+                width: node.widths.inner - childNode.widths.outer,
                 children: column
               },
               {
                 id: uuidV4(),
                 nodeName: "COLUMN",
+                width: childNode.widths.outer,
                 children: [childNode]
               }
             ]
@@ -369,7 +283,16 @@ function getMaxWidth(nodes, width = 0) {
 
 module.exports = async structure => {
   const annotated = annonateData([structure], 1);
-  const formatted = shiftAndFilterContent(annotated, annotated);
+  const cleaned = ProcessText.cleanTextNodes(annotated);
+  const formatted = shiftAndFilterContent(cleaned, cleaned);
+  require("fs").writeFileSync(
+    "./out/cleaned.json",
+    JSON.stringify(cleaned, null, 2)
+  );
+  require("fs").writeFileSync(
+    "./out/formatted.json",
+    JSON.stringify(formatted, null, 2)
+  );
   const structured = buildStructure(formatted);
   const config = toEditorConfig(structured, null, getMaxWidth(structured));
   return config;
