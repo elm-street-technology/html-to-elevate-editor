@@ -6,10 +6,18 @@ const cheerio = require("cheerio");
 var express = require("express");
 const { Components } = require("elevate-editor");
 const { Convert, LoadStructure } = require("./");
-
+const Tests = require("../test-files/test-config");
 var app = express();
 
-// respond with "hello world" when a GET request is made to the homepage
+app.get("/tests", async function(req, res) {
+  res.send(
+    Tests.map(
+      ({ site, page }) =>
+        `<a href="http://localhost:3030/${site}/${page}" target="_blank">Preview</a> | <a href="https://admin.rlsplatform.com/etl/default/custompage?url=${site}&secret=elevate&page=${page}" target="_blank">${page}</a>`
+    ).join("<br />")
+  );
+});
+
 app.get("/:site", async function(req, res) {
   const site = req.params.site;
   try {
@@ -38,13 +46,20 @@ app.get("/:site", async function(req, res) {
     res.sendStatus(500);
   }
 });
-app.get("/:site/:page", async function(req, res) {
+app.get("/:site/:page/:type?", async function(req, res) {
   try {
     const { config, structure, preview } = await process({
       site: req.params.site,
       page: req.params.page
     });
-    res.send(preview);
+    switch (req.params.type) {
+      case "structure":
+        return res.send(structure);
+      case "config":
+        return res.send(config);
+      default:
+        return res.send(preview);
+    }
   } catch (e) {
     console.error(e);
     res.sendStatus(500);
@@ -58,8 +73,8 @@ async function process({ site, page }) {
     url: `https://admin.rlsplatform.com/etl/default/custompage?url=${site}&secret=elevate&page=${page}`,
     target: ".rl-custompage",
     // cache: `${dir}/structure.json`,
+    headless: false,
     cache: `./out/${site}-${page}-structure.json`
-    // headless: false,
     // customJsCommands: [
     //   '$("#rls1a > div.modal-backdrop.fade.in, .rl-apology").remove()',
     //   '$("body").removeClass("modal-open")'

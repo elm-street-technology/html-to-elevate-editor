@@ -67,8 +67,8 @@ function shiftNodeInTree(structure, node) {
       const first = split.shift();
       const last = split.join(search);
       const pSearch = parent.outerHTML;
-      const pOuter = pSearch.replace(search, replace);
-      const pInner = pSearch.replace(search, replace);
+      const pOuter = parent.outerHTML.replace(search, replace);
+      const pInner = parent.innerHTML.replace(search, replace);
       let children = parent.children;
 
       // add components to parent
@@ -255,7 +255,11 @@ function buildStructure(node) {
           },
           []
         );
-        const column = items.splice(0, elements.length);
+        let elIndex = _.findIndex(elements, el => {
+          return ["left", "right"].includes(getFloat(el));
+        });
+        elIndex = elIndex >= 0 ? elIndex : elements.length;
+        const column = items.splice(0, elIndex);
 
         if (float === "left") {
           newChildren.push({
@@ -326,14 +330,6 @@ module.exports = async structure => {
   const annotated = annonateData([structure], 1);
   const cleaned = ProcessText.cleanTextNodes(annotated);
   const formatted = shiftAndFilterContent(cleaned, cleaned);
-  require("fs").writeFileSync(
-    "./out/cleaned.json",
-    JSON.stringify(cleaned, null, 2)
-  );
-  require("fs").writeFileSync(
-    "./out/formatted.json",
-    JSON.stringify(formatted, null, 2)
-  );
   const structured = buildStructure(formatted);
   const config = toEditorConfig(structured, null, getMaxWidth(structured));
   return config;
