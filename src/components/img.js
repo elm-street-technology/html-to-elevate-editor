@@ -40,8 +40,8 @@ function getAttrs(node, type, parent) {
       });
     case "container":
       return {
-        width: "100%",
-        direction: "verticle",
+        width: getParentWidth(parent) > width ? `${width}px` : "100%",
+        direction: "vertical",
         paddingTop: toNumber(styles.marginTop || 0),
         paddingRight: toNumber(styles.marginRight || 0),
         paddingBottom: toNumber(styles.marginBottom || 0),
@@ -49,19 +49,6 @@ function getAttrs(node, type, parent) {
         allowChildren: false
       };
   }
-}
-
-function getWrapper(content) {
-  return buildContainer([content], {
-    width: "100%",
-    direction: "horizontal",
-    paddingTop: 0,
-    paddingRight: 0,
-    paddingBottom: 0,
-    paddingLeft: 0,
-    alignment: "center",
-    allowChildren: false
-  });
 }
 
 function buildImage(content, attrs = {}) {
@@ -74,7 +61,7 @@ function buildImage(content, attrs = {}) {
 }
 
 function processImg(node, content = [], parent, maxWidth) {
-  const outer = getAttrs(node, "container");
+  const outer = getAttrs(node, "container", parent);
   const inner = getAttrs(
     node,
     _.get(parent, "nodeName") === "COLUMN" ? "cell-img" : "img",

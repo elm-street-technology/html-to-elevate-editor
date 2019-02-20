@@ -14,7 +14,7 @@ function buildColumn(content, attrs = {}) {
 function processColumn(node, content = [], parent, maxWidth) {
   return buildColumn(content, {
     width: `${(node.width / parent.width) * 100}%`,
-    direction: "verticle",
+    direction: "vertical",
     paddingTop: 0,
     paddingRight: 0,
     paddingBottom: 0,

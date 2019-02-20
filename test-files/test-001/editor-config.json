@@ -1,6 +1,6 @@
 [
   {
-    "id": "fa18838e-7a5d-44ec-8d41-2ac24aa02438",
+    "id": "0b72ffce-6ae4-448a-9aad-55db5d539ab7",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,7 +14,7 @@
     },
     "content": [
       {
-        "id": "bc47223a-0e3b-4fc5-aedd-6272c5809109",
+        "id": "f0d520f4-466f-4917-9a82-a6bd9f10d285",
         "type": "Row",
         "attrs": {
           "width": "1170px",
@@ -27,20 +27,21 @@
         },
         "content": [
           {
-            "id": "18ab4d1b-5cb6-47bb-840e-0b80e228fabb",
+            "id": "49be7683-7228-49cd-8141-d73578ae41a3",
             "type": "Row",
             "attrs": {
               "width": "100%",
-              "direction": "verticle",
+              "direction": "vertical",
               "paddingTop": 0,
               "paddingRight": 15,
               "paddingBottom": 0,
               "paddingLeft": 15,
+              "alignment": "",
               "allowChildren": true
             },
             "content": [
               {
-                "id": "94b40ceb-9906-4447-980f-c9748db6a7e7",
+                "id": "f92d25b8-b3df-4043-b86d-bd9c14eb92e6",
                 "type": "Row",
                 "attrs": {
                   "width": "1140px",
@@ -53,26 +54,27 @@
                 },
                 "content": [
                   {
-                    "id": "c8cf01e9-0550-4c35-8044-d0ee3b21f370",
+                    "id": "b4f36820-0e99-45fb-b63b-c15241afc1f5",
                     "type": "Row",
                     "attrs": {
                       "width": "100%",
-                      "direction": "verticle",
+                      "direction": "vertical",
                       "paddingTop": 0,
                       "paddingRight": 0,
                       "paddingBottom": 0,
                       "paddingLeft": 0,
+                      "alignment": "",
                       "allowChildren": true
                     },
                     "content": [
                       {
-                        "id": "adc125e0-6ff6-4cff-86b2-264a0c6a0a8d",
+                        "id": "8419af7a-84f4-4dbd-bcda-2d18014b7fcb",
                         "type": "Text",
                         "attrs": {
                           "value": {
                             "blocks": [
                               {
-                                "key": "35ku8",
+                                "key": "bsrnp",
                                 "text": "Pat Bishop",
                                 "type": "header-three",
                                 "depth": 0,
@@ -81,7 +83,7 @@
                                 "data": {}
                               },
                               {
-                                "key": "34v98",
+                                "key": "1ssku",
                                 "text": "Real Estate Agent",
                                 "type": "header-four",
                                 "depth": 0,
@@ -97,7 +99,7 @@
                         "content": []
                       },
                       {
-                        "id": "ae9bf715-3292-423e-9bcc-a70e59ce0c96",
+                        "id": "02b8cb48-7dfa-4681-b531-548dae76c641",
                         "type": "Row",
                         "attrs": {
                           "width": "",
@@ -110,11 +112,11 @@
                         },
                         "content": [
                           {
-                            "id": "59fe081a-b144-4d0a-8d5d-72ca1865a184",
+                            "id": "9727df1a-7681-4b7b-9c80-dfd9ef3cb0df",
                             "type": "Row",
                             "attrs": {
                               "width": "75%",
-                              "direction": "verticle",
+                              "direction": "vertical",
                               "paddingTop": 0,
                               "paddingRight": 0,
                               "paddingBottom": 0,
@@ -123,13 +125,13 @@
                             },
                             "content": [
                               {
-                                "id": "89c76ded-9512-4d80-9e95-1ac869e21bb4",
+                                "id": "178ecbcb-d457-43ac-86d4-be7b5b7184bc",
                                 "type": "Text",
                                 "attrs": {
                                   "value": {
                                     "blocks": [
                                       {
-                                        "key": "75bo7",
+                                        "key": "eccg4",
                                         "text": "Welcome to Homes Arizona Real Estate, LLC, a small but mighty real estate company with an excellent reputation, known for hard work and exceptional client service! Phoenix and western Maricopa County have been my home for many, many years. I decided to pursue my Arizona Real Estate License when my husband, Bob, and I made the decision to move from our home in Glendale and build a home in Waddell. Also, our children had graduated from college, gotten married, and eventually would need a real estate agent to purchase their homes. We are a blended family and we are very thankful for our children, grandchildren, and great-grandchildren. During my first year as a  \t REALTOR ® I attended classes and earned the GRI designation, a national designation delivered by the state REALTOR® associations. Upon completion of the program, students are awarded the GRI designation (Graduate REALTOR® Institute). I continue to take GRI classes to fulfill the Continuing Education requirements necessary to maintain a current Arizona Real Estate License. Over the years, I have represented buyers and sellers of new homes, resale homes, and vacant land. I have also worked at a property management company assisting families with rental properties. Whether you are buying or selling your dream home, horse property, or up-sizing or down-sizing due to life events that have changed your housing needs, I offer polite, courteous, and truthful client service and would like to work with you regarding your real estate needs. With the experience and expertise of our Homes Arizona Real Estate Designated Broker, Bing Davis, we are here for you to work through complex real estate transactions in this ever-changing market.  ",
                                         "type": "unstyled",
                                         "depth": 0,
@@ -138,7 +140,7 @@
                                         "data": {}
                                       },
                                       {
-                                        "key": "1kte3",
+                                        "key": "8n3sc",
                                         "text": " \"Exceptional client service…Always.” \n \n ",
                                         "type": "blockquote",
                                         "depth": 0,
@@ -147,7 +149,7 @@
                                         "data": {}
                                       },
                                       {
-                                        "key": "55gj9",
+                                        "key": "ctgm0",
                                         "text": "Call Direct: 623 363-4714",
                                         "type": "unstyled",
                                         "depth": 0,
@@ -156,7 +158,7 @@
                                         "data": {}
                                       },
                                       {
-                                        "key": "1u9u5",
+                                        "key": "b3k2p",
                                         "text": "Email: patriciabishop@cox.net\n",
                                         "type": "unstyled",
                                         "depth": 0,
@@ -189,11 +191,11 @@
                             ]
                           },
                           {
-                            "id": "b2219338-9453-4810-8704-7eac9c95fb3d",
+                            "id": "2e370e19-eef7-4f08-8035-479e90bcda41",
                             "type": "Row",
                             "attrs": {
                               "width": "25%",
-                              "direction": "verticle",
+                              "direction": "vertical",
                               "paddingTop": 0,
                               "paddingRight": 0,
                               "paddingBottom": 0,
@@ -202,11 +204,11 @@
                             },
                             "content": [
                               {
-                                "id": "af184ede-124b-46d3-acfc-00680c7b949b",
+                                "id": "66074480-eb0b-4bbc-b636-03a1155bfa62",
                                 "type": "Row",
                                 "attrs": {
                                   "width": "100%",
-                                  "direction": "verticle",
+                                  "direction": "vertical",
                                   "paddingTop": 0,
                                   "paddingRight": 0,
                                   "paddingBottom": 0,
@@ -215,7 +217,7 @@
                                 },
                                 "content": [
                                   {
-                                    "id": "08dbdd32-4bf1-4cc3-9e9e-f0105608b819",
+                                    "id": "2c820ce8-9ff6-4a24-9408-b721aeac6e42",
                                     "type": "Image",
                                     "attrs": {
                                       "src": "https://rlsresizer.azureedge.net/clientmedia/414318/Pat Bishop.jpg",

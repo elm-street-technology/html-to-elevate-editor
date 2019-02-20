@@ -13,6 +13,14 @@ function toDim(value, dim) {
   return `${value}`.includes(dim) ? value : `${value}${dim}`;
 }
 
+function getAlignment(style) {
+  const align = (style.textAlign || "").toLowerCase().trim();
+  if (["right", "center"].includes(align)) {
+    return align;
+  }
+  return "";
+}
+
 function getAttrs(node, type, hasParent, maxWidth) {
   const rect = node.boundingClientRect;
   const styles = node.camStyles;
@@ -22,11 +30,12 @@ function getAttrs(node, type, hasParent, maxWidth) {
     case "inner":
       return _.assign({}, base, {
         width: "100%",
-        direction: "verticle",
+        direction: "vertical",
         paddingTop: toNumber(styles.paddingTop || 0),
         paddingRight: toNumber(styles.paddingRight || 0),
         paddingBottom: toNumber(styles.paddingBottom || 0),
         paddingLeft: toNumber(styles.paddingLeft || 0),
+        alignment: getAlignment(styles),
         allowChildren: true
       });
     case "outer":

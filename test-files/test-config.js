@@ -34,5 +34,11 @@ module.exports = [
     page: "About-Me",
     target: ".rl-custompage",
     dir: "./test-files/test-006"
+  },
+  {
+    site: "416427.rlsplatform.com",
+    page: "home",
+    target: ".rl-custompage",
+    dir: "./test-files/test-007"
   }
 ];

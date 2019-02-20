@@ -1,6 +1,6 @@
 [
   {
-    "id": "eee7e984-276b-4782-b03a-6c7ea93ca8c8",
+    "id": "91aa70e4-58ec-4fda-b42f-65dcfafc44e3",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,7 +14,7 @@
     },
     "content": [
       {
-        "id": "7242c104-3b11-4177-b3b2-bc150e2f4f32",
+        "id": "c38760f6-b777-4159-9153-0fbbbf7edf99",
         "type": "Row",
         "attrs": {
           "width": "1170px",
@@ -27,20 +27,21 @@
         },
         "content": [
           {
-            "id": "ccfacfbb-542c-4432-9a9c-66e4eea5d237",
+            "id": "c99aba08-1159-47f9-8026-a67ca33150c4",
             "type": "Row",
             "attrs": {
               "width": "100%",
-              "direction": "verticle",
+              "direction": "vertical",
               "paddingTop": 0,
               "paddingRight": 15,
               "paddingBottom": 0,
               "paddingLeft": 15,
+              "alignment": "",
               "allowChildren": true
             },
             "content": [
               {
-                "id": "a7992942-6b29-4686-85a3-041085de9eec",
+                "id": "4c88c0db-b995-4a31-9376-f94c3d42525b",
                 "type": "Row",
                 "attrs": {
                   "width": "",
@@ -53,11 +54,11 @@
                 },
                 "content": [
                   {
-                    "id": "dda422c8-2fbd-4344-be4b-40ad512d5245",
+                    "id": "225cd380-f182-4d07-9e3e-70e9dd0e42a9",
                     "type": "Row",
                     "attrs": {
                       "width": "22.807017543859647%",
-                      "direction": "verticle",
+                      "direction": "vertical",
                       "paddingTop": 0,
                       "paddingRight": 0,
                       "paddingBottom": 0,
@@ -66,11 +67,11 @@
                     },
                     "content": [
                       {
-                        "id": "85d1dbde-53b4-4649-82c0-6d89268cc886",
+                        "id": "d0a2c59e-8c07-4f04-b11b-9bf4715658c3",
                         "type": "Row",
                         "attrs": {
                           "width": "100%",
-                          "direction": "verticle",
+                          "direction": "vertical",
                           "paddingTop": 0,
                           "paddingRight": 5,
                           "paddingBottom": 0,
@@ -79,7 +80,7 @@
                         },
                         "content": [
                           {
-                            "id": "637245e8-0239-425d-a6e1-be024bc15219",
+                            "id": "0ab480bc-af13-4971-a0f7-0ee03e6a2161",
                             "type": "Image",
                             "attrs": {
                               "src": "http://media.mlspropertyfinder.com/411828/bob.jpg",
@@ -92,11 +93,11 @@
                     ]
                   },
                   {
-                    "id": "c65e9409-d389-4857-a997-3d4ac7c03f88",
+                    "id": "3fc44332-7701-484d-b2d9-c09bd4dcc009",
                     "type": "Row",
                     "attrs": {
                       "width": "77.19298245614034%",
-                      "direction": "verticle",
+                      "direction": "vertical",
                       "paddingTop": 0,
                       "paddingRight": 0,
                       "paddingBottom": 0,
@@ -105,13 +106,13 @@
                     },
                     "content": [
                       {
-                        "id": "cd5ea190-c21f-4e63-a650-21870a76518b",
+                        "id": "7674dc98-3a90-4da3-a07b-f6099c9b48c3",
                         "type": "Text",
                         "attrs": {
                           "value": {
                             "blocks": [
                               {
-                                "key": "rbul",
+                                "key": "dg9rm",
                                 "text": "Bob Davis\n \tDirect:239-770-7993 ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -126,7 +127,7 @@
                                 "data": {}
                               },
                               {
-                                "key": "9i662",
+                                "key": "at85s",
                                 "text": "Email:bob@bluewaterpi.com",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -141,7 +142,7 @@
                                 "data": {}
                               },
                               {
-                                "key": "4trms",
+                                "key": "c7jdl",
                                 "text": "Bob is a full time resident of Pine Island and lives in Bokeelia with Patti, his wife of 29 years and their dog Bear.  Though originally from Oklahoma, Bob spent most of his adult life in Jacksonville, Florida along with a short 2 year stint in Lexington, Kentucky. Bob brings with him over 20 years of sales experience primarily in the fields of heavy construction equipment, paving equipment and cranes.In his spare time he enjoys fishing the waters of Pine Island and walking Bear around the streets and neighborhoods of the north end of the island.\n ",
                                 "type": "unstyled",
                                 "depth": 0,
