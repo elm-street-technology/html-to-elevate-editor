@@ -6,6 +6,7 @@ const { COMPONENT_NODE_NAMES } = require("../constants");
 const toEditorConfig = require("./editor-format");
 const utils = require("./utils");
 const ProcessText = require("./process-text");
+const Transform = require("./transform");
 
 function getStyleNumber(node, style) {
   let value = _.get(node, `styles['${style}']`, "0px").replace(/[^\d]/g, "");
@@ -330,7 +331,8 @@ module.exports = async structure => {
   const annotated = annonateData([structure], 1);
   const cleaned = ProcessText.cleanTextNodes(annotated);
   const formatted = shiftAndFilterContent(cleaned, cleaned);
-  const structured = buildStructure(formatted);
+  const transformed = Transform(formatted);
+  const structured = buildStructure(transformed);
   const config = toEditorConfig(structured, null, getMaxWidth(structured));
   return config;
 };

@@ -73,7 +73,7 @@ async function process({ site, page }) {
     url: `https://admin.rlsplatform.com/etl/default/custompage?url=${site}&secret=elevate&page=${page}`,
     target: ".rl-custompage",
     // cache: `${dir}/structure.json`,
-    headless: false,
+    // headless: false,
     cache: `./out/${site}-${page}-structure.json`
     // customJsCommands: [
     //   '$("#rls1a > div.modal-backdrop.fade.in, .rl-apology").remove()',

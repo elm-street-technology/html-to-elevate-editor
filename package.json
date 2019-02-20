@@ -10,7 +10,6 @@
     "test:watch": "npx ava --watch"
   },
   "dependencies": {
-    "@michaelkramer/npmhtml-to-draftjs": "^1.4.1",
     "cheerio": "^1.0.0-rc.2",
     "draft-js": "^0.10.5",
     "elevate-editor": "^0.3.7",

@@ -1,96 +1,64 @@
 const _ = require("lodash");
 const uuidV4 = require("uuid/v4");
-const htmlToDraft = require("@michaelkramer/npmhtml-to-draftjs").default;
+const utils = require("../lib/utils");
 
-function stateFromHTML(html) {
-  const blocksFromHTML = htmlToDraft(html);
-  const blocks = _.map(blocksFromHTML.contentBlocks, contentBlock => {
-    return _.assign(
-      {},
-      {
-        entityRanges: [],
-        characterList: [],
-        inlineStyleRanges: []
-      },
-      contentBlock.toJSON()
-    );
-  });
-  const entityMap = blocksFromHTML.entityMap.toJSON();
-  _.each(blocks, block => {
-    block.entityRanges = createEntityRange(block, entityMap);
-    const inlineStyleRanges = createInlineStyleRanges(block);
-    block.inlineStyleRanges = inlineStyleRanges;
-  });
+const { convertToRaw, ContentState } = require("draft-js");
+const { JSDOM } = require("jsdom");
+const convertFromHTML = require("../html-to-draft");
+
+function serverDOMBuilder(html) {
+  const { document: jsdomDocument, HTMLElement, HTMLAnchorElement } = new JSDOM(
+    `<!DOCTYPE html>`
+  ).window;
+  // HTMLElement and HTMLAnchorElement needed on global for convertFromHTML to work
+  global.HTMLElement = HTMLElement;
+  global.HTMLAnchorElement = HTMLAnchorElement;
+
+  const doc = jsdomDocument.implementation.createHTMLDocument("foo");
+  doc.documentElement.innerHTML = html;
+  const body = doc.getElementsByTagName("body")[0];
+  return body;
+}
+
+function convertAlignText(content) {
+  const { blocks, entityMap } = content;
 
   return {
-    blocks,
+    blocks: _.map(blocks, block => {
+      const data = {};
+      const hasStyle = _.find(block.inlineStyleRanges, inline =>
+        /^TEXTALIGN/.test(inline.style)
+      );
+      if (hasStyle) {
+        data["text-align"] = hasStyle.style
+          .replace(/^TEXTALIGN(.*?)$/, "$1")
+          .toLowerCase();
+      }
+      return _.assign({}, block, {
+        inlineStyleRanges: _.filter(
+          block.inlineStyleRanges,
+          inline => !/^TEXTALIGN/.test(inline.style)
+        ),
+        data: _.assign({}, block.data, data)
+      });
+    }),
     entityMap
   };
 }
 
-function createEntityRange(block, entityMap) {
-  const entityRanges = [];
-  for (var k in entityMap) {
-    if (entityMap.hasOwnProperty(k)) {
-      const characterList = block.characterList;
-      const indexoffirst = _.findIndex(characterList, { entity: k });
-      const indexoflast = _.findLastIndex(characterList, { entity: k });
-      if (indexoffirst !== -1) {
-        entityRanges.push({
-          offset: indexoffirst,
-          length: indexoflast - indexoffirst + 1,
-          key: k
-        });
-      }
-    }
-  }
-  return entityRanges;
-}
-
-function createInlineStyleRanges(block) {
-  const inlineStyleRanges = [];
-
-  const characterList = block.characterList;
-  const styleList = _.uniq(
-    _.flattenDeep(
-      _.map(characterList, list => {
-        return list.style;
-      })
-    )
+function stateFromHTML(html) {
+  // if DOMBuilder is undefined convertFromHTML will use the browser dom,
+  //  hence we set DOMBuilder to undefined when document exist
+  let DOMBuilder =
+    typeof document === "undefined" ? serverDOMBuilder : undefined;
+  // const blocksFromHTML = convertFromHTML(html, DOMBuilder);
+  const blocksFromHTML = convertFromHTML(html, DOMBuilder);
+  const state = ContentState.createFromBlockArray(
+    blocksFromHTML.contentBlocks,
+    blocksFromHTML.entityMap
   );
-  styleList.forEach(elm => {
-    const indexList = _.keys(
-      _.pickBy(characterList, list => {
-        return list.style.includes(elm);
-      })
-    );
-    const consList = _consecutive(indexList);
-    consList.forEach(num => {
-      inlineStyleRanges.push({
-        offset: parseInt(num[0]),
-        length: num.length,
-        style: elm
-      });
-    });
-  });
-  return inlineStyleRanges;
-}
 
-function _consecutive(numbers) {
-  let chunks = [];
-  let prev = 0;
-  numbers.forEach(current => {
-    if (current - prev != 1) {
-      chunks.push([]);
-    }
-    const chunkIndex = chunks.length !== 0 ? chunks.length - 1 : 0;
-    if (chunks[chunkIndex]) {
-      chunks[chunkIndex].push(current);
-    }
-    prev = current;
-  });
-  chunks.sort((a, b) => b.length - a.length);
-  return chunks;
+  return convertAlignText(convertToRaw(state));
 }
 
 module.exports = {
@@ -99,8 +67,7 @@ module.exports = {
       id: uuidV4(),
       type: "Text",
       attrs: {
-        html: node.text,
-        value: stateFromHTML(node.text),
+        value: utils.hasText(node.text) ? stateFromHTML(node.text) : {},
         color: ""
       },
       content: []

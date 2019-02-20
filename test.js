@@ -5,12 +5,25 @@ import { Convert, LoadStructure } from "./src";
 
 import tests from "./test-files/test-config";
 
+const cleanText = text => {
+  return _.assign({}, text, {
+    blocks: _.map(text.blocks, data => {
+      return _.omit(data, ["key"]);
+    })
+  });
+};
+
 const cleanContent = nodes => {
   return _.map(nodes, node =>
     _.omit(
       _.assign({}, node, {
         content: cleanContent(node.content || []),
-        attrs: node.type === "Text" ? _.omit(node.attrs, ["value"]) : node.attrs
+        attrs:
+          node.type === "Text"
+            ? _.assign({}, node.attrs, {
+                value: cleanText(node.attrs.value)
+              })
+            : node.attrs
       }),
       ["id"]
     )

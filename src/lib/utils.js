@@ -115,6 +115,22 @@ function hasComponents(node) {
   return _.some(allNodes, { isComponent: true });
 }
 
+function nodeHasText(node) {
+  const childIsText = _.some(
+    _.filter(node.children, { isComponent: false }),
+    ({ outerHTML }) => hasText(outerHTML)
+  );
+
+  const html = _.reduce(
+    node.children,
+    (out, child) => {
+      return out.replace(child.outerHTML, "");
+    },
+    node.innerHTML
+  );
+  return childIsText || hasText(`<div>${html}</div>`);
+}
+
 function hasText(nodeHTML) {
   const html = _.isObject(nodeHTML) ? nodeHTML.outerHTML : nodeHTML;
   const $base = cheerio.load(html, {
@@ -125,6 +141,7 @@ function hasText(nodeHTML) {
     $base
       .root()
       .text()
+      .replace(/&nbsp;/g, "")
       .trim()
   );
 }
@@ -142,5 +159,6 @@ module.exports = {
   getTreePath,
   getTreeNodes,
   hasText,
+  nodeHasText,
   hasComponents
 };

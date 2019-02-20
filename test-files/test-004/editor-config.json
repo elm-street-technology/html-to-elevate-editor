@@ -1,6 +1,6 @@
 [
   {
-    "id": "bbd61f16-ef2b-4508-88bc-1bcb02950e2c",
+    "id": "70ddabc8-b45b-4d9a-90e6-b61bc9c6ad47",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,7 +14,7 @@
     },
     "content": [
       {
-        "id": "9f0495e9-1439-4e9c-8ff8-d260e6f33e98",
+        "id": "371f563f-68ee-49dd-9d8d-8b2d02516cd3",
         "type": "Row",
         "attrs": {
           "width": "1170px",
@@ -27,7 +27,7 @@
         },
         "content": [
           {
-            "id": "24b160f0-9627-4c1c-91b4-45e1bb0147fd",
+            "id": "6301303d-c5e6-4529-a6ff-dfd18863b84d",
             "type": "Row",
             "attrs": {
               "width": "100%",
@@ -40,429 +40,40 @@
             },
             "content": [
               {
-                "id": "8f4a938e-ae45-44b6-932f-d8e269643604",
+                "id": "02e17cce-3fc7-4157-a60f-60f3765f5cd4",
                 "type": "Text",
                 "attrs": {
-                  "html": "\n<p style=\"text-align: center; \"><span style=\"font-size: 18pt;\">We have a new office in Bridgeport!</span></p>\n\n\n<p style=\"text-align: center; \">610 Brooklawn Avenue,&nbsp;</p>\n<p style=\"text-align: center; \">Bridgeport, CT 06604</p>   ",
                   "value": {
                     "blocks": [
                       {
-                        "entityRanges": [],
-                        "characterList": [
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [
-                              "fontsize-18pt"
-                            ],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          }
-                        ],
-                        "inlineStyleRanges": [],
-                        "key": "83mma",
+                        "key": "3gp0a",
+                        "text": "We have a new office in Bridgeport!",
                         "type": "unstyled",
-                        "text": "We have a new office in Bridgeport! ",
                         "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
                         "data": {
                           "text-align": "center"
                         }
                       },
                       {
-                        "entityRanges": [],
-                        "characterList": [
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          }
-                        ],
-                        "inlineStyleRanges": [],
-                        "key": "8vhm6",
-                        "type": "unstyled",
+                        "key": "ei0jf",
                         "text": "610 Brooklawn Avenue, ",
+                        "type": "unstyled",
                         "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
                         "data": {
                           "text-align": "center"
                         }
                       },
                       {
-                        "entityRanges": [],
-                        "characterList": [
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          },
-                          {
-                            "style": [],
-                            "entity": null
-                          }
-                        ],
-                        "inlineStyleRanges": [],
-                        "key": "8b44o",
-                        "type": "unstyled",
+                        "key": "crfv2",
                         "text": "Bridgeport, CT 06604",
+                        "type": "unstyled",
                         "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
                         "data": {
                           "text-align": "center"
                         }

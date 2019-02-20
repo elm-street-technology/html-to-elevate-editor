@@ -4,23 +4,6 @@ const fs = require("fs");
 const cheerio = require("cheerio");
 
 function evaldateElements(target) {
-  function getInnerWidths(el) {
-    const origHtml = el.innerHTML;
-    const myRect = el.getBoundingClientRect();
-    const span1 = `<span id="calculateTextSpacing1">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span>`;
-    const span2 = `<span id="calculateTextSpacing2">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span>`;
-
-    el.innerHTML = span1 + origHtml + span2;
-    const topLine = document.getElementById("calculateTextSpacing1");
-    const bottomLine = document.getElementById("calculateTextSpacing2");
-    const ret = {
-      topWidth: topLine ? topLine.getBoundingClientRect().width : 0,
-      bottomWidth: bottomLine ? bottomLine.getBoundingClientRect().width : 0
-    };
-    el.innerHTML = origHtml;
-    return ret;
-  }
-
   function getAttrs(element) {
     const attrs = {};
     const names = element.getAttributeNames() || [];
@@ -52,12 +35,10 @@ function evaldateElements(target) {
       innerHTML: element.innerHTML,
       outerHTML: element.outerHTML,
       boundingClientRect: element.getBoundingClientRect().toJSON(),
-      innerWidths: getInnerWidths(element),
       children: loopItems(element.children)
     };
   }
   return parseElement(target);
-  // return parseElement(document.querySelector(".rl-custompage > div"));
 }
 
 function getTargetParent(checks) {
@@ -102,7 +83,7 @@ function processStyles(styles) {
     styles,
     (o, value, attr) => {
       if (
-        /^(border|margin|padding|font|text-align|background|display|float)/.test(
+        /^(border|margin|padding|font|text-*|background|display|float)/.test(
           attr
         )
       ) {
