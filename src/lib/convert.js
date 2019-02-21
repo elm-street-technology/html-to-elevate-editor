@@ -31,20 +31,24 @@ function calculateInnerWidth(node) {
 
 function annonateData(data) {
   let index = 1;
-  const loop = (structure, isParentComponent = true) => {
+  const loop = (structure, isParentComponent = true, extra = {}) => {
     if (_.isArray(structure)) {
-      return _.map(structure, node => loop(node, isParentComponent));
+      return _.map(structure, node => loop(node, isParentComponent, extra));
     }
     if (structure) {
       const isComponent = COMPONENT_NODE_NAMES.includes(structure.nodeName);
+      if (structure.nodeName === "A") {
+        extra.url = structure.attrs.href;
+      }
       return _.assign({}, structure, {
         id: index++,
+        attrs: _.assign({}, structure.attrs || {}, extra),
         camStyles: utils.toCamelCase(structure.styles),
         isComponent: isComponent,
         widths: calculateInnerWidth(structure),
         needsToShift: isComponent && !isParentComponent,
         children: structure.children.length
-          ? loop(structure.children, isComponent)
+          ? loop(structure.children, isComponent, extra)
           : []
       });
     }

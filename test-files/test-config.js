@@ -52,5 +52,11 @@ module.exports = [
     page: "vacation-rental",
     target: ".rl-custompage",
     dir: "./test-files/test-009"
+  },
+  {
+    site: "413201.rlsplatform.com",
+    page: "investments",
+    target: ".rl-custompage",
+    dir: "./test-files/test-010"
   }
 ];

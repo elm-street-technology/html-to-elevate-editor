@@ -51,7 +51,7 @@
                         "data": {}
                       },
                       {
-                        "text": "This is test text",
+                        "text": "Coming Soon",
                         "type": "unstyled",
                         "depth": 0,
                         "inlineStyleRanges": [],
@@ -95,7 +95,7 @@
                       {
                         "type": "Row",
                         "attrs": {
-                          "width": "71px",
+                          "width": "302px",
                           "direction": "vertical",
                           "paddingTop": 0,
                           "paddingRight": 0,
@@ -107,9 +107,9 @@
                           {
                             "type": "Image",
                             "attrs": {
-                              "src": "http://media.mlspropertyfinder.com/416427/fair%20housing%20logo_equal%20housing%20opportunity_small.jpg",
-                              "url": "",
-                              "width": "71px"
+                              "src": "http://media.mlspropertyfinder.com/413201/button.png",
+                              "url": "http://www.envisionrealestatellc.com/results/type-100303/type-100304/type-100307/status-Active/price400,000-/ByInput/word-investment/town-1757947/town-30138/town-1757984/town-1757952/town-1757929/town-321526/",
+                              "width": "302px"
                             },
                             "content": []
                           }

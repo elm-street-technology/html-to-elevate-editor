@@ -26,7 +26,8 @@ function getAttrs(node, type, parent) {
   const attrs = node.attrs;
   const width = node.widths.outer;
   const base = {
-    src: attrs.src
+    src: attrs.src,
+    url: attrs.url || ""
   };
   switch (type) {
     case "img":

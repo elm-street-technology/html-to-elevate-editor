@@ -103,6 +103,7 @@
                             "type": "Image",
                             "attrs": {
                               "src": "",
+                              "url": "",
                               "width": "100%"
                             },
                             "content": []
@@ -166,6 +167,7 @@
                             "type": "Image",
                             "attrs": {
                               "src": "http://media.mlspropertyfinder.com/416307/barbara.jpg",
+                              "url": "",
                               "width": "100%"
                             },
                             "content": []
@@ -280,6 +282,7 @@
                             "type": "Image",
                             "attrs": {
                               "src": "http://media.mlspropertyfinder.com/416307/barbara%20cleland%20admin%20pic.png",
+                              "url": "",
                               "width": "100%"
                             },
                             "content": []
