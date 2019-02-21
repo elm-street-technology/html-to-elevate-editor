@@ -46,5 +46,11 @@ module.exports = [
     page: "save-lives-with-clean-water",
     target: ".rl-custompage",
     dir: "./test-files/test-008"
+  },
+  {
+    site: "413193.rlsplatform.com",
+    page: "vacation-rental",
+    target: ".rl-custompage",
+    dir: "./test-files/test-009"
   }
 ];

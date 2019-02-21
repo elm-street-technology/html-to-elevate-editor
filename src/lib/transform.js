@@ -15,14 +15,19 @@ function inlineStyles(nodes) {
   const allNodes = _.values(utils.getTreeNodes(nodes));
   let node;
   while ((node = allNodes.shift())) {
+    // reset node
+    node = utils.getNodeById(nodes, node.id);
+    if (_.isEmpty(node.innerHTML)) {
+      continue;
+    }
     const style = getNodeStyles(node);
     const attrs = _.assign({}, node.attrs, {
-      style
+      style: style.replace(/"/g, '\\"')
     });
     const inlineAttrs = _.reduce(
       attrs,
       (out, value, attr) => {
-        return `${out} ${attr}="${value.replace(/"/g, '\\"')}"`;
+        return `${out} ${attr}="${value}"`;
       },
       ""
     );
@@ -42,7 +47,12 @@ function wrapGeneralStyles(nodes) {
   });
   let node;
   while ((node = allTextNodes.shift())) {
+    // reset node
+    node = utils.getNodeById(nodes, node.id);
     const tags = [];
+    if (_.isEmpty(node.innerHTML) || !node.isComponent) {
+      continue;
+    }
     if (
       ["center", "right", "left"].includes(
         (node.camStyles.textAlign || "").toLowerCase()

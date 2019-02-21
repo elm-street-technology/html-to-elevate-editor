@@ -1,6 +1,5 @@
 [
   {
-    "id": "5888cb43-5874-410e-9df9-fe1ea7685e36",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,7 +13,6 @@
     },
     "content": [
       {
-        "id": "85e7956d-e496-46fb-b041-2a437a050ed2",
         "type": "Row",
         "attrs": {
           "width": "1170px",
@@ -27,7 +25,6 @@
         },
         "content": [
           {
-            "id": "04a507d8-4e46-458a-8974-bdce340dfd4c",
             "type": "Row",
             "attrs": {
               "width": "100%",
@@ -41,7 +38,6 @@
             },
             "content": [
               {
-                "id": "54de08d6-515e-498d-aa7c-3c1b636a580e",
                 "type": "Row",
                 "attrs": {
                   "width": "1140px",
@@ -54,7 +50,6 @@
                 },
                 "content": [
                   {
-                    "id": "9df30357-95e8-4d5f-ae08-6417ea507d8a",
                     "type": "Row",
                     "attrs": {
                       "width": "100%",
@@ -68,13 +63,11 @@
                     },
                     "content": [
                       {
-                        "id": "2cfe9801-2028-4faa-800f-975fb660b080",
                         "type": "Text",
                         "attrs": {
                           "value": {
                             "blocks": [
                               {
-                                "key": "cd2aj",
                                 "text": "Chinese Speaking Florida Agent",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -83,7 +76,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "86p7r",
                                 "text": "About Kwee she is a multilingual full service real estate agent, REALTOR®. A Cantonese, Mandarin, Chinese speaking Florida Agent in Venice since 2000.",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -92,7 +84,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "6og78",
                                 "text": "Living in Venice Florida since 1991, Kwee Huset is a multilingual. English, Cantonese, Mandarin, Chinese speaking Florida Agent in Venice since 2000 helping others to find their dream homes.",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -101,7 +92,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "fug1n",
                                 "text": "The Reasons Kwee Huset is the Florida Agent for You!",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -110,7 +100,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "1u37h",
                                 "text": "1. Working with you and for you. ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -119,7 +108,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "a13ga",
                                 "text": "2. I have been named a 5 Star – Best in Client Satisfaction Agent. ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -128,7 +116,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "fs99l",
                                 "text": "3. Always has your interest in mind so you have someone on your side.",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -137,7 +124,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "b65h5",
                                 "text": "4. Kwee know the neighborhoods, market conditions, zoning regulations, schools and the local economy. ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -146,7 +132,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "finti",
                                 "text": "5. Your Property will have the exposure of 53 dynamic websites 24 hours a day. ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -155,7 +140,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "acn4l",
                                 "text": "6. Pays for all marketing and advertising costs.",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -164,7 +148,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "d77s",
                                 "text": "7. I will guide you through the process and ease stress during your buying and/or selling of property.     ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -173,7 +156,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "9gmbo",
                                 "text": "8. I am a full time resident of Venice for over 25 years, and own home and investment properties locally.   ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -182,7 +164,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "bf8r4",
                                 "text": "9. I am a full time Florida Real Estate Licensee for over 15 years with experience in successfully selling homes and investment properties. ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -191,7 +172,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "bkps4",
                                 "text": "10. Gives an unbiased, realistic view of home and your options. Unlike buyers and sellers, Kwee has no emotional attachment to property. ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -200,7 +180,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "3p4m5",
                                 "text": "11. I Love Venice, it is a wonderful place to live – many FREE things to do. ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -209,7 +188,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "ffmit",
                                 "text": "Kwee has been helping buyers and sellers locally, as well as from other states and countries in all walks of life. I have been easing stress and making attitudes more relaxed during the process of buying and selling properties while meeting needs for over 15 years.",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -218,7 +196,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "7io5d",
                                 "text": "I have extensive experience, knowledge and a proven track record that will work with your best interest at heart while maintaining the utmost level of confidentiality in meeting your needs and trust in this fast changing real estate market.",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -227,7 +204,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "4jgs9",
                                 "text": "I help to educate homeowners by showing them the options; e.g. loan modification, special forbearance,  repayment plan, short sale, etc. to save their homes from foreclosure and maintain good credit.",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -236,7 +212,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "2438d",
                                 "text": "Check out my testimonial, it is self-explanatory about my services of which there is no substitute and helped me to achieve the 2010, 2013, 2014 FIVE STAR Best in Client Satisfaction Award (Kwee Huset Realty), Century 21 Quality Service Awards and Century 21 Centurion Awards in the Top 100 among all the agents in Southern Region of Florida from Tampa, Orlando, Daytona Beach all the way to Key West (while I work at Century 21 C & L Real Estate from 2002 – 2005).",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -245,7 +220,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "ag7il",
                                 "text": "I can help you with every aspect of buying or selling your home",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -254,7 +228,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "kjg5",
                                 "text": "because I’m experienced, because I’m professional . . . and",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -263,7 +236,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "2rjar",
                                 "text": "because I care. ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -272,7 +244,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "4c6b1",
                                 "text": "Kwee Huset",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -281,7 +252,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "ehsi7",
                                 "text": "Contact Kwee Today!",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -290,7 +260,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "8llj0",
                                 "text": "The relationship between a home buyer or seller and their agent is based on trust, shared goals and understanding.  I strive to continually improve and to do this I listen and take your needs and wants into consideration. You may contact Kwee at phone/text 941-716-3090.",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -310,16 +279,16 @@
                 ]
               },
               {
-                "id": "40209310-fab8-4fdc-b44c-a9d04a388705",
                 "type": "Text",
                 "attrs": {
-                  "value": {},
+                  "value": {
+                    "blocks": []
+                  },
                   "color": ""
                 },
                 "content": []
               },
               {
-                "id": "044ceb4a-a020-4539-b4ef-01bcad7fe985",
                 "type": "Row",
                 "attrs": {
                   "width": "1140px",
@@ -332,7 +301,6 @@
                 },
                 "content": [
                   {
-                    "id": "d9335a0f-0dcf-4a4a-a527-3f44941baf9f",
                     "type": "Row",
                     "attrs": {
                       "width": "100%",
@@ -346,7 +314,6 @@
                     },
                     "content": [
                       {
-                        "id": "a79be501-1b00-419b-a17a-01c115238983",
                         "type": "Row",
                         "attrs": {
                           "width": "600px",
@@ -359,7 +326,6 @@
                         },
                         "content": [
                           {
-                            "id": "7f51183b-959d-41d8-a81d-a9d03abfc0e8",
                             "type": "Image",
                             "attrs": {
                               "src": "http://media.mlspropertyfinder.com/415554/kwee%20award%20018.jpg",
@@ -374,13 +340,11 @@
                 ]
               },
               {
-                "id": "bb1a3c4d-1cc7-4997-9150-433af20ab18c",
                 "type": "Text",
                 "attrs": {
                   "value": {
                     "blocks": [
                       {
-                        "key": "cfuea",
                         "text": "\n ",
                         "type": "unstyled",
                         "depth": 0,
@@ -389,7 +353,6 @@
                         "data": {}
                       },
                       {
-                        "key": "9v9nv",
                         "text": "Your personal referrals help local students realize and achieve their dreams as well as provide children and families with Clean Water in 3rd world countries.\n ",
                         "type": "unstyled",
                         "depth": 0,
@@ -404,7 +367,6 @@
                         "data": {}
                       },
                       {
-                        "key": "6qa6t",
                         "text": "www.KweeHuset.com/scholarship ",
                         "type": "unstyled",
                         "depth": 0,
@@ -419,7 +381,6 @@
                         "data": {}
                       },
                       {
-                        "key": "fkbvo",
                         "text": "www.KweeHuset.com/Save-Lives-With-Clean-Water",
                         "type": "unstyled",
                         "depth": 0,

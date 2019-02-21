@@ -1,6 +1,5 @@
 [
   {
-    "id": "3b1d61dc-81ff-4fc7-8bbf-e759f5f03138",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,7 +13,6 @@
     },
     "content": [
       {
-        "id": "c4e07366-f492-44fb-ba11-204c60da9ef6",
         "type": "Row",
         "attrs": {
           "width": "1170px",
@@ -27,7 +25,6 @@
         },
         "content": [
           {
-            "id": "22905fef-21af-469f-aed7-eab324b9c455",
             "type": "Row",
             "attrs": {
               "width": "100%",
@@ -41,13 +38,11 @@
             },
             "content": [
               {
-                "id": "517a0147-2180-44b0-a633-115e2f95667d",
                 "type": "Text",
                 "attrs": {
                   "value": {
                     "blocks": [
                       {
-                        "key": "4jpvo",
                         "text": "Barbara Cleland, Associate Broker, GRI, MBA",
                         "type": "unstyled",
                         "depth": 0,
@@ -69,7 +64,6 @@
                 "content": []
               },
               {
-                "id": "9359a925-aa70-4062-b253-bacf7a04cd76",
                 "type": "Row",
                 "attrs": {
                   "width": "",
@@ -82,7 +76,6 @@
                 },
                 "content": [
                   {
-                    "id": "54cc171e-4ca9-4fb3-a679-4caf293fd147",
                     "type": "Row",
                     "attrs": {
                       "width": "0%",
@@ -95,7 +88,6 @@
                     },
                     "content": [
                       {
-                        "id": "fcfe11fd-cb36-4bb6-b881-65b0adf2cdff",
                         "type": "Row",
                         "attrs": {
                           "width": "100%",
@@ -108,7 +100,6 @@
                         },
                         "content": [
                           {
-                            "id": "2f3fc270-46c2-4473-9b4e-575da9fd1ec1",
                             "type": "Image",
                             "attrs": {
                               "src": "",
@@ -121,7 +112,6 @@
                     ]
                   },
                   {
-                    "id": "7d3418e5-afee-4e2e-9ba5-cd96c13034bc",
                     "type": "Row",
                     "attrs": {
                       "width": "100%",
@@ -137,7 +127,6 @@
                 ]
               },
               {
-                "id": "d88a0e6a-994b-4905-9cce-639af61bd453",
                 "type": "Row",
                 "attrs": {
                   "width": "",
@@ -150,7 +139,6 @@
                 },
                 "content": [
                   {
-                    "id": "20992adb-9e28-4c03-aefa-f3776dbc15b0",
                     "type": "Row",
                     "attrs": {
                       "width": "13.157894736842104%",
@@ -163,7 +151,6 @@
                     },
                     "content": [
                       {
-                        "id": "7da822e4-f54f-47c8-be4e-3c1ec4d19152",
                         "type": "Row",
                         "attrs": {
                           "width": "100%",
@@ -176,7 +163,6 @@
                         },
                         "content": [
                           {
-                            "id": "63383466-f4d3-47a0-b1b8-2e9f8d45b9ad",
                             "type": "Image",
                             "attrs": {
                               "src": "http://media.mlspropertyfinder.com/416307/barbara.jpg",
@@ -189,7 +175,6 @@
                     ]
                   },
                   {
-                    "id": "aafc3653-7695-4060-ae64-1fcab56feff7",
                     "type": "Row",
                     "attrs": {
                       "width": "86.8421052631579%",
@@ -202,13 +187,11 @@
                     },
                     "content": [
                       {
-                        "id": "52e2caed-730a-4d8b-99ab-82a5255b4c19",
                         "type": "Text",
                         "attrs": {
                           "value": {
                             "blocks": [
                               {
-                                "key": "cbtqa",
                                 "text": "Barbara Cleland is a top producing licensed real estate broker in Lower Fairfield County, proudly representing residential buyers and sellers for almost twenty years. In addition to curating an extensive real estate portfolio, Barbara’s successful business is generated from high-volume sales and referrals from satisfied clients. The team is highly skilled in marketing and backed by Keller Williams, the current industry leader in technology, market research and business strategies. ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -217,7 +200,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "uj33",
                                 "text": "Prior to obtaining her real estate license, Barbara built a solid professional background in marketing strategy and sales promotions, working for luxury brands Estee Lauder Cosmetics and Calvin Klein, among others, in New York. Barbara earned her Master of Business Administration (MBA) from Western Michigan University, a Bachelor of Science in Communications from Michigan State University and a Graduate, REALTOR® Institute (GRI) designation.",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -226,7 +208,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "2ccna",
                                 "text": "Barbara’s expertise lies in her ability to create a very customized and rewarding experience for her clients. She is passionate about art and architecture and has experience in rehabbing, restoring and re-selling various properties. A long-time resident of Norwalk, Barbara is also a relocation specialist and utilizes her insider knowledge of Fairfield County to pair clients with the perfect homes. Barbara has also completed three half Ironman competitions and is an avid hiker and yoga enthusiast. She brings this balance to her business and is known in the field as as an exceptional listener, marketer and negotiator. Barbara is dedicated to making sure her clients’ properties are sold for top dollar.",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -235,7 +216,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "chlnp",
                                 "text": " Anne Miranda, Marketing Manager",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -261,7 +241,6 @@
                 ]
               },
               {
-                "id": "61c80d1f-0dae-4d21-9d88-e94950ba1a4d",
                 "type": "Row",
                 "attrs": {
                   "width": "",
@@ -274,7 +253,6 @@
                 },
                 "content": [
                   {
-                    "id": "5227624f-e123-4517-a397-5b592d20f32f",
                     "type": "Row",
                     "attrs": {
                       "width": "15.350877192982457%",
@@ -287,7 +265,6 @@
                     },
                     "content": [
                       {
-                        "id": "b8d6fc49-b321-4a41-9e14-9741aeee6645",
                         "type": "Row",
                         "attrs": {
                           "width": "100%",
@@ -300,7 +277,6 @@
                         },
                         "content": [
                           {
-                            "id": "9ce4972e-7f07-454a-a141-b5b2dfe014a0",
                             "type": "Image",
                             "attrs": {
                               "src": "http://media.mlspropertyfinder.com/416307/barbara%20cleland%20admin%20pic.png",
@@ -313,7 +289,6 @@
                     ]
                   },
                   {
-                    "id": "efd6366c-ea25-44ff-b6a1-504d10538aeb",
                     "type": "Row",
                     "attrs": {
                       "width": "84.64912280701753%",
@@ -326,13 +301,11 @@
                     },
                     "content": [
                       {
-                        "id": "06456295-7048-44d0-9ec1-8a47692da3cd",
                         "type": "Text",
                         "attrs": {
                           "value": {
                             "blocks": [
                               {
-                                "key": "7nnt4",
                                 "text": "Anne is the Executive Associate Marketing Manager for Barbara Cleland Realty Group KW. She brings more than 16 years of administrative and senior-level management experience to the group with an expertise in digital marketing and publications. Anne began her career at Sotheby’s Auction House in New York and has worked for prestigious organizations such as the Isabella Stewart Gardner Museum in Boston, The Montclair Art Museum, The Royal Oak Foundation and Louis Vuitton, Maison Fifth Avenue, New York. As the Marketing Communications Manager of the Visual Arts Center of New Jersey, she helped publicize and implement several successful fundraising events, a new website launch and advertising campaigns. Anne holds a Master of Arts from Trinity College in Hartford and a Bachelor of Arts from Sweet Briar College. She is a former competitive figure skater and resides in Stamford with her family. ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -341,7 +314,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "7g1ql",
                                 "text": "Call 203.246. 4156 or email us at info@babaraclelandrealty.com today for a free market analysis.",
                                 "type": "unstyled",
                                 "depth": 0,

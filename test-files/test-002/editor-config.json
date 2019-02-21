@@ -1,6 +1,5 @@
 [
   {
-    "id": "91aa70e4-58ec-4fda-b42f-65dcfafc44e3",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,7 +13,6 @@
     },
     "content": [
       {
-        "id": "c38760f6-b777-4159-9153-0fbbbf7edf99",
         "type": "Row",
         "attrs": {
           "width": "1170px",
@@ -27,7 +25,6 @@
         },
         "content": [
           {
-            "id": "c99aba08-1159-47f9-8026-a67ca33150c4",
             "type": "Row",
             "attrs": {
               "width": "100%",
@@ -41,7 +38,6 @@
             },
             "content": [
               {
-                "id": "4c88c0db-b995-4a31-9376-f94c3d42525b",
                 "type": "Row",
                 "attrs": {
                   "width": "",
@@ -54,7 +50,6 @@
                 },
                 "content": [
                   {
-                    "id": "225cd380-f182-4d07-9e3e-70e9dd0e42a9",
                     "type": "Row",
                     "attrs": {
                       "width": "22.807017543859647%",
@@ -67,7 +62,6 @@
                     },
                     "content": [
                       {
-                        "id": "d0a2c59e-8c07-4f04-b11b-9bf4715658c3",
                         "type": "Row",
                         "attrs": {
                           "width": "100%",
@@ -80,7 +74,6 @@
                         },
                         "content": [
                           {
-                            "id": "0ab480bc-af13-4971-a0f7-0ee03e6a2161",
                             "type": "Image",
                             "attrs": {
                               "src": "http://media.mlspropertyfinder.com/411828/bob.jpg",
@@ -93,7 +86,6 @@
                     ]
                   },
                   {
-                    "id": "3fc44332-7701-484d-b2d9-c09bd4dcc009",
                     "type": "Row",
                     "attrs": {
                       "width": "77.19298245614034%",
@@ -106,13 +98,11 @@
                     },
                     "content": [
                       {
-                        "id": "7674dc98-3a90-4da3-a07b-f6099c9b48c3",
                         "type": "Text",
                         "attrs": {
                           "value": {
                             "blocks": [
                               {
-                                "key": "dg9rm",
                                 "text": "Bob Davis\n \tDirect:239-770-7993 ",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -127,7 +117,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "at85s",
                                 "text": "Email:bob@bluewaterpi.com",
                                 "type": "unstyled",
                                 "depth": 0,
@@ -142,7 +131,6 @@
                                 "data": {}
                               },
                               {
-                                "key": "c7jdl",
                                 "text": "Bob is a full time resident of Pine Island and lives in Bokeelia with Patti, his wife of 29 years and their dog Bear.  Though originally from Oklahoma, Bob spent most of his adult life in Jacksonville, Florida along with a short 2 year stint in Lexington, Kentucky. Bob brings with him over 20 years of sales experience primarily in the fields of heavy construction equipment, paving equipment and cranes.In his spare time he enjoys fishing the waters of Pine Island and walking Bear around the streets and neighborhoods of the north end of the island.\n ",
                                 "type": "unstyled",
                                 "depth": 0,

@@ -46,17 +46,15 @@ async function performTest({ site, page, target, dir }, t) {
   if (!fs.existsSync(`${dir}/editor-config.json`)) {
     fs.writeFileSync(
       `${dir}/editor-config.json`,
-      JSON.stringify(editorConfig, null, 2)
+      JSON.stringify(cleanContent(editorConfig), null, 2)
     );
     return t.fail();
   }
 
-  const baseConfig = cleanContent(
-    JSON.parse(
-      fs.readFileSync(`${dir}/editor-config.json`, {
-        encoding: "UTF-8"
-      })
-    )
+  const baseConfig = JSON.parse(
+    fs.readFileSync(`${dir}/editor-config.json`, {
+      encoding: "UTF-8"
+    })
   );
   t.deepEqual(baseConfig, cleanContent(editorConfig));
 }

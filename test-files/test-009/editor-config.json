@@ -1,0 +1,278 @@
+[
+  {
+    "type": "Row",
+    "attrs": {
+      "width": "100%",
+      "direction": "horizontal",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "alignment": "center",
+      "allowChildren": false
+    },
+    "content": [
+      {
+        "type": "Row",
+        "attrs": {
+          "width": "1170px",
+          "direction": "horizontal",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "allowChildren": false
+        },
+        "content": [
+          {
+            "type": "Row",
+            "attrs": {
+              "width": "100%",
+              "direction": "vertical",
+              "paddingTop": 0,
+              "paddingRight": 15,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "alignment": "",
+              "allowChildren": true
+            },
+            "content": [
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "1140px",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "alignment": "",
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Text",
+                        "attrs": {
+                          "value": {
+                            "blocks": []
+                          },
+                          "color": ""
+                        },
+                        "content": []
+                      },
+                      {
+                        "type": "Row",
+                        "attrs": {
+                          "width": "1140px",
+                          "direction": "horizontal",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false
+                        },
+                        "content": [
+                          {
+                            "type": "Row",
+                            "attrs": {
+                              "width": "100%",
+                              "direction": "vertical",
+                              "paddingTop": 0,
+                              "paddingRight": 0,
+                              "paddingBottom": 0,
+                              "paddingLeft": 0,
+                              "alignment": "center",
+                              "allowChildren": true
+                            },
+                            "content": [
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "800px",
+                                  "direction": "vertical",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Image",
+                                    "attrs": {
+                                      "src": "http://media.mlspropertyfinder.com/413193/beach2.jpg",
+                                      "width": "800px"
+                                    },
+                                    "content": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Text",
+                "attrs": {
+                  "value": {
+                    "blocks": [
+                      {
+                        "text": "Treasure Island, FL ~ The ISLAND INN, 2 Hotel Style Units: ",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": {
+                          "text-align": "center"
+                        }
+                      },
+                      {
+                        "text": "Unit#406www.vrbo.com/385694 and Unit#417www.vrbo.com/426145",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [
+                          {
+                            "offset": 4,
+                            "length": 4,
+                            "key": 0
+                          },
+                          {
+                            "offset": 8,
+                            "length": 19,
+                            "key": 1
+                          },
+                          {
+                            "offset": 36,
+                            "length": 4,
+                            "key": 2
+                          },
+                          {
+                            "offset": 40,
+                            "length": 19,
+                            "key": 3
+                          }
+                        ],
+                        "data": {
+                          "text-align": "center"
+                        }
+                      },
+                      {
+                        "text": "Gulfport, FL ~ BAYSIDE DREAM, 2/Bed, 1/Bath - Single Family Homewww.homeaway.com/4713357",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [
+                          {
+                            "offset": 64,
+                            "length": 24,
+                            "key": 4
+                          }
+                        ],
+                        "data": {
+                          "text-align": "center"
+                        }
+                      },
+                      {
+                        "text": "Seminole, FL ~ The BLUE PEACOCK, 3 Bed, 2/Bath - Single Family Home w/Poolwww.homeaway.com/4919048",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [
+                          {
+                            "offset": 74,
+                            "length": 24,
+                            "key": 5
+                          }
+                        ],
+                        "data": {
+                          "text-align": "center"
+                        }
+                      }
+                    ],
+                    "entityMap": {
+                      "0": {
+                        "type": "LINK",
+                        "mutability": "MUTABLE",
+                        "data": {
+                          "href": "https://elmstreettechnology.zendesk.com/agent/tickets/406",
+                          "rel": "ticket",
+                          "target": "_blank",
+                          "url": "https://elmstreettechnology.zendesk.com/agent/tickets/406"
+                        }
+                      },
+                      "1": {
+                        "type": "LINK",
+                        "mutability": "MUTABLE",
+                        "data": {
+                          "href": "http://www.vrbo.com/385694",
+                          "rel": "noreferrer",
+                          "url": "http://www.vrbo.com/385694"
+                        }
+                      },
+                      "2": {
+                        "type": "LINK",
+                        "mutability": "MUTABLE",
+                        "data": {
+                          "href": "https://elmstreettechnology.zendesk.com/agent/tickets/417",
+                          "rel": "ticket",
+                          "target": "_blank",
+                          "url": "https://elmstreettechnology.zendesk.com/agent/tickets/417"
+                        }
+                      },
+                      "3": {
+                        "type": "LINK",
+                        "mutability": "MUTABLE",
+                        "data": {
+                          "href": "http://www.vrbo.com/426145",
+                          "rel": "noreferrer",
+                          "url": "http://www.vrbo.com/426145"
+                        }
+                      },
+                      "4": {
+                        "type": "LINK",
+                        "mutability": "MUTABLE",
+                        "data": {
+                          "href": "http://www.homeaway.com/4713357",
+                          "rel": "noreferrer",
+                          "url": "http://www.homeaway.com/4713357"
+                        }
+                      },
+                      "5": {
+                        "type": "LINK",
+                        "mutability": "MUTABLE",
+                        "data": {
+                          "href": "http://www.homeaway.com/4919048",
+                          "rel": "noreferrer",
+                          "url": "http://www.homeaway.com/4919048"
+                        }
+                      }
+                    }
+                  },
+                  "color": ""
+                },
+                "content": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

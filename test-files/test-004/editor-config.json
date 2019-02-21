@@ -1,6 +1,5 @@
 [
   {
-    "id": "9e6d9566-ede0-4c29-9685-44baab24cc51",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,7 +13,6 @@
     },
     "content": [
       {
-        "id": "31709daa-ccd3-4364-8df1-1dcb8ddc475f",
         "type": "Row",
         "attrs": {
           "width": "1170px",
@@ -27,7 +25,6 @@
         },
         "content": [
           {
-            "id": "7cd6c1a4-9742-4731-bb6b-d8b892ea4792",
             "type": "Row",
             "attrs": {
               "width": "100%",
@@ -41,13 +38,11 @@
             },
             "content": [
               {
-                "id": "9ec42562-01b9-4f56-9327-53c553c682a7",
                 "type": "Text",
                 "attrs": {
                   "value": {
                     "blocks": [
                       {
-                        "key": "9eaik",
                         "text": "We have a new office in Bridgeport!",
                         "type": "unstyled",
                         "depth": 0,
@@ -58,7 +53,6 @@
                         }
                       },
                       {
-                        "key": "j5r6",
                         "text": "610 Brooklawn Avenue, ",
                         "type": "unstyled",
                         "depth": 0,
@@ -69,7 +63,6 @@
                         }
                       },
                       {
-                        "key": "7cs1p",
                         "text": "Bridgeport, CT 06604",
                         "type": "unstyled",
                         "depth": 0,

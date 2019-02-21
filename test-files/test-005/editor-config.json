@@ -1,6 +1,5 @@
 [
   {
-    "id": "b2979d6f-1d82-4a1c-a987-c60275365733",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,7 +13,6 @@
     },
     "content": [
       {
-        "id": "5de7cb8e-0172-46ab-be92-0d10500102a6",
         "type": "Row",
         "attrs": {
           "width": "1170px",
@@ -27,7 +25,6 @@
         },
         "content": [
           {
-            "id": "194d41b0-fea4-4b67-8192-5ec4444482b6",
             "type": "Row",
             "attrs": {
               "width": "100%",
@@ -41,13 +38,11 @@
             },
             "content": [
               {
-                "id": "51401559-63ff-4264-9716-b6be2fd11448",
                 "type": "Text",
                 "attrs": {
                   "value": {
                     "blocks": [
                       {
-                        "key": "3eujc",
                         "text": "\"Thanks Elaine for helping us find the perfect home for our family.  Your professionalism and negotiation skills were awesome!  Without your help, we wouldn't be in our new home sweet home.\"",
                         "type": "unstyled",
                         "depth": 0,
@@ -56,7 +51,6 @@
                         "data": {}
                       },
                       {
-                        "key": "a32kl",
                         "text": " - Marie, Mike & Jake",
                         "type": "unstyled",
                         "depth": 0,
@@ -71,7 +65,6 @@
                         "data": {}
                       },
                       {
-                        "key": "8u900",
                         "text": "\"You made the complicated process of selling our old home and then finding a new home go so smoothly. Your staging tips helped us get top dollar for our home.  And your attention to our buying needs, helped us find the perfect home for our new family.\"",
                         "type": "unstyled",
                         "depth": 0,
@@ -80,7 +73,6 @@
                         "data": {}
                       },
                       {
-                        "key": "b7h91",
                         "text": "- Lou Ann, Vinny and Lady Di (Dog)",
                         "type": "unstyled",
                         "depth": 0,
@@ -95,7 +87,6 @@
                         "data": {}
                       },
                       {
-                        "key": "13ffb",
                         "text": "\"Elaine's knowledge as a Senior Residential Specialist was invaluable to me in the selling of my mother's home.  We had to overcome many obstacles.  Thanks to Elaine's hard work, we received top dollar and had a very smooth transaction.\"",
                         "type": "unstyled",
                         "depth": 0,
@@ -104,7 +95,6 @@
                         "data": {}
                       },
                       {
-                        "key": "92kv4",
                         "text": "- Henry Gwiazda",
                         "type": "unstyled",
                         "depth": 0,
@@ -119,7 +109,6 @@
                         "data": {}
                       },
                       {
-                        "key": "bk09k",
                         "text": "\"Finding a home to meet the needs of a family with two rambunctous boys....priceless.  We had worked unsuccessfully with another agent before Elaine represented us as our Buyer's agent.  She helped us found our home sweet home! \"",
                         "type": "unstyled",
                         "depth": 0,
@@ -128,7 +117,6 @@
                         "data": {}
                       },
                       {
-                        "key": "1qjee",
                         "text": "- Veronesi Family",
                         "type": "unstyled",
                         "depth": 0,
@@ -143,7 +131,6 @@
                         "data": {}
                       },
                       {
-                        "key": "9hmve",
                         "text": "I cannot thank you enough for all your help in relocating to Connecticut.  Your time, patience and effort helped my find the perfect place as I begin a new stage in my life. ",
                         "type": "unstyled",
                         "depth": 0,
@@ -152,7 +139,6 @@
                         "data": {}
                       },
                       {
-                        "key": "6d7b8",
                         "text": "- Sal",
                         "type": "unstyled",
                         "depth": 0,

@@ -1,6 +1,5 @@
 [
   {
-    "id": "9610dca1-1cbb-4762-9ea1-225aa1907ac5",
     "type": "Row",
     "attrs": {
       "width": "100%",
@@ -14,7 +13,6 @@
     },
     "content": [
       {
-        "id": "70314c44-7b73-4c36-94e7-03b50ee18b74",
         "type": "Row",
         "attrs": {
           "width": "1170px",
@@ -27,7 +25,6 @@
         },
         "content": [
           {
-            "id": "7d99c812-b73e-4c11-8040-4dde48f46a7f",
             "type": "Row",
             "attrs": {
               "width": "100%",
@@ -41,14 +38,12 @@
             },
             "content": [
               {
-                "id": "56a69141-0370-4f99-9269-5fd49c49060f",
                 "type": "Text",
                 "attrs": {
                   "value": {
                     "blocks": [
                       {
-                        "key": "6sv2d",
-                        "text": "\n",
+                        "text": "\n ",
                         "type": "unstyled",
                         "depth": 0,
                         "inlineStyleRanges": [],
@@ -56,7 +51,6 @@
                         "data": {}
                       },
                       {
-                        "key": "7a886",
                         "text": "This is test text",
                         "type": "unstyled",
                         "depth": 0,
@@ -74,7 +68,6 @@
                 "content": []
               },
               {
-                "id": "9e8b386f-90fb-4817-b00a-dfe0cc7389e1",
                 "type": "Row",
                 "attrs": {
                   "width": "1140px",
@@ -87,7 +80,6 @@
                 },
                 "content": [
                   {
-                    "id": "fe957f1f-b9fb-472c-8ead-6c02dfdff195",
                     "type": "Row",
                     "attrs": {
                       "width": "100%",
@@ -101,7 +93,6 @@
                     },
                     "content": [
                       {
-                        "id": "e85718e5-4680-45b0-ab91-52ad4b4da5f7",
                         "type": "Row",
                         "attrs": {
                           "width": "71px",
@@ -114,7 +105,6 @@
                         },
                         "content": [
                           {
-                            "id": "5221aca5-4057-40b4-b221-b6ced8783988",
                             "type": "Image",
                             "attrs": {
                               "src": "http://media.mlspropertyfinder.com/416427/fair%20housing%20logo_equal%20housing%20opportunity_small.jpg",
