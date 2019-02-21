@@ -52,79 +52,87 @@ function annonateData(data) {
   return loop(data);
 }
 
-function shiftNodeInTree(structure, node) {
-  const path = utils.findPath(structure, node.id);
-  const parentPath = path.split(".");
-  let search = node.outerHTML;
-  let replace = "";
-  let components = [node];
-  let lastIndex = _.last(parentPath);
-  while (parentPath.length) {
-    parentPath.pop();
-    const parent = utils.getPath(structure, parentPath);
-    if (parent) {
-      const innerHtml = parent.innerHTML;
-      const split = innerHtml.split(search);
-      const first = split.shift();
-      const last = split.join(search);
-      const pSearch = parent.outerHTML;
-      const pOuter = parent.outerHTML.replace(search, replace);
-      const pInner = parent.innerHTML.replace(search, replace);
-      let children = parent.children;
+function shiftComponent(structure, node, components, index, search, replace) {
+  const parent = utils.getParentNode(structure, node);
+  const ids = _.map(components, "id");
+  let children = parent.children;
+  children.splice(index, 1, components);
+  children = _.flatten(_.compact(children));
+  const newParent = _.assign({}, parent, {
+    children,
+    innerHTML: parent.innerHTML.replace(search, replace),
+    outerHTML: parent.outerHTML.replace(search, replace)
+  });
+  structure = utils.updateTree(
+    structure,
+    newParent,
+    parent.outerHTML,
+    newParent.outerHTML
+  );
+  return structure;
+}
 
-      // add components to parent
-      components = _.reduce(
-        components,
-        (out, child, index) => {
-          if (child.isComponent && parent.isComponent) {
-            // Add Componet type if parent is component
-            children.splice(lastIndex, 0, child);
-          } else if (!child.isComponent) {
-            // add non componet types
-            children.splice(lastIndex, 0, child);
-          } else {
-            // save for next shift
-            out.push(child);
-          }
-          return out;
-        },
-        []
-      );
-
-      const nodeIds = _.map(components, "id");
-
-      if (!parent.isComponent) {
-        if (_.isEmpty(first.trim())) {
-          // move up
-          replace = _.filter(
-            _.compact([_.isEmpty(replace) ? node.outerHTML : replace, pOuter]),
-            a => !_.isEmpty(a)
-          ).join("\n");
-          search = pSearch;
-          lastIndex = _.last(parentPath);
-        } else if (_.isEmpty(last.trim())) {
-          // move down
-          replace = _.filter(
-            _.compact([pOuter, _.isEmpty(replace) ? node.outerHTML : replace]),
-            a => !_.isEmpty(a)
-          ).join("\n");
-          search = pSearch;
-          lastIndex = _.last(parentPath) + 1;
-        } else {
-          lastIndex = _.last(parentPath) + 1;
-          // split element into two
-          // TODO: split parent into two
-        }
-      }
-      structure = utils.updatePath(structure, parentPath, {
-        innerHTML: pInner,
-        outerHTML: pOuter,
-        children: _.filter(children, ({ id }) => !nodeIds.includes(id))
-      });
-    }
+function shiftNodeInTree(nodes, node) {
+  const parent = utils.getParentNode(nodes, node);
+  if (!parent || parent.isComponent) {
+    return nodes;
   }
 
-  return structure;
+  const components = [];
+  const index = _.last(utils.findPath(nodes, parent.id).split("."));
+  const split = parent.innerHTML.split(node.outerHTML);
+  const first = split.shift();
+  const last = split.join(node.outerHTML);
+
+  if (_.isEmpty(first.trim())) {
+    // move up
+    const newParent = _.assign({}, parent, {
+      children: parent.children.filter(({ id }) => id !== node.id),
+      innerHTML: parent.innerHTML.replace(node.outerHTML, ""),
+      outerHTML: parent.outerHTML.replace(node.outerHTML, "")
+    });
+
+    components.push(node);
+    components.push(newParent);
+  } else if (_.isEmpty(last.trim())) {
+    // move down
+    const newParent = _.assign({}, parent, {
+      children: parent.children.filter(({ id }) => id !== node.id),
+      innerHTML: parent.innerHTML.replace(node.outerHTML, ""),
+      outerHTML: parent.outerHTML.replace(node.outerHTML, "")
+    });
+
+    components.push(newParent);
+    components.push(node);
+  } else {
+    // shift between
+    let childIndex = _.findIndex(parent.children, { id: node.id });
+    const newParentTop = _.assign({}, parent, {
+      children: parent.children.slice(0, childIndex),
+      innerHTML: parent.innerHTML.replace(parent.innerHTML, first),
+      outerHTML: parent.outerHTML.replace(parent.innerHTML, first)
+    });
+    const newParentBottom = _.assign({}, parent, {
+      id: uuidV4(),
+      children: parent.children.slice(childIndex + 1),
+      innerHTML: parent.innerHTML.replace(parent.innerHTML, last),
+      outerHTML: parent.outerHTML.replace(parent.innerHTML, last)
+    });
+    components.push(newParentTop);
+    components.push(node);
+    components.push(newParentBottom);
+  }
+
+  const search = parent.outerHTML;
+  const replace = _.map(components, "outerHTML").join("\n");
+
+  // move & restructure parent node
+  nodes = shiftComponent(nodes, parent, components, index, search, replace);
+
+  if (!parent.isComponent) {
+    return shiftNodeInTree(nodes, utils.getNodeById(nodes, node.id));
+  }
+  return nodes;
 }
 
 function shiftAndFilterContent(structure) {

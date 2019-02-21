@@ -1,0 +1,189 @@
+[
+  {
+    "id": "84563f4b-b817-40b2-a484-19499f7d1de0",
+    "type": "Row",
+    "attrs": {
+      "width": "100%",
+      "direction": "horizontal",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "alignment": "center",
+      "allowChildren": false
+    },
+    "content": [
+      {
+        "id": "48f8b030-41af-419e-a717-f5e16ef045ac",
+        "type": "Row",
+        "attrs": {
+          "width": "1170px",
+          "direction": "horizontal",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "allowChildren": false
+        },
+        "content": [
+          {
+            "id": "effd6669-bde4-431b-b891-89a0584591bf",
+            "type": "Row",
+            "attrs": {
+              "width": "100%",
+              "direction": "vertical",
+              "paddingTop": 0,
+              "paddingRight": 15,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "alignment": "",
+              "allowChildren": true
+            },
+            "content": [
+              {
+                "id": "a5173c08-c9d1-4a9e-8e93-b8d3009cb955",
+                "type": "Text",
+                "attrs": {
+                  "value": {
+                    "blocks": [
+                      {
+                        "key": "d1i40",
+                        "text": "Referrals Save Lives With Clean Water",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": {}
+                      },
+                      {
+                        "key": "6n084",
+                        "text": "Clean water is a commodity we often take for granted. We live in a country where fresh drinkable water is plentiful and often wasted. Because of this, we can forget that water is a necessity for human life regardless of being rich or poor. Kwee Huset Realty is on a mission to provide this basic asset to the people of third world countries who do not have access to safe drinking water – who do not have access to one  \t\t \t\tof \t\t\t \t\t \t\t \t\t\t \t\t\tlife’s most fundamental requirements.",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [
+                          {
+                            "offset": 290,
+                            "length": 11,
+                            "style": "BOLD"
+                          },
+                          {
+                            "offset": 389,
+                            "length": 93,
+                            "style": "BOLD"
+                          },
+                          {
+                            "offset": 389,
+                            "length": 93,
+                            "style": "ITALIC"
+                          }
+                        ],
+                        "entityRanges": [],
+                        "data": {}
+                      },
+                      {
+                        "key": "f2qu7",
+                        "text": " ",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": {}
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  "color": ""
+                },
+                "content": []
+              },
+              {
+                "id": "2ee17d83-6445-46e2-adbf-cc575a430951",
+                "type": "Row",
+                "attrs": {
+                  "width": "627px",
+                  "direction": "vertical",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "id": "4337848a-5baf-4bba-a4b9-373c0de42505",
+                    "type": "Image",
+                    "attrs": {
+                      "src": "http://media.mlspropertyfinder.com/415554/waterbuck.jpg",
+                      "width": "627px"
+                    },
+                    "content": []
+                  }
+                ]
+              },
+              {
+                "id": "121abad2-5e9d-497f-8076-553b6c859ae4",
+                "type": "Text",
+                "attrs": {
+                  "value": {
+                    "blocks": [
+                      {
+                        "key": "ekj1b",
+                        "text": "\n",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": {}
+                      },
+                      {
+                        "key": "ahsfm",
+                        "text": " ",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": {}
+                      },
+                      {
+                        "key": "9lfh4",
+                        "text": "Kwee’s goal is to raise $15,000 to build wells that provide accessible drinking water to families in third world countries. Now you can help her with that goal. Every property bought or sold through Kwee Huset Realty is a donation toward helping to improve the lives of children, men, and women in a place that deserves having a basic human right – clean water!",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [
+                          {
+                            "offset": 124,
+                            "length": 35,
+                            "style": "BOLD"
+                          },
+                          {
+                            "offset": 349,
+                            "length": 12,
+                            "style": "BOLD"
+                          }
+                        ],
+                        "entityRanges": [],
+                        "data": {}
+                      },
+                      {
+                        "key": "6sqdr",
+                        "text": "Call Kwee Huset Realty now at 941-716-3090 to help our brothers and sisters living in desperate circumstances across the globe.",
+                        "type": "unstyled",
+                        "depth": 0,
+                        "inlineStyleRanges": [],
+                        "entityRanges": [],
+                        "data": {}
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  "color": ""
+                },
+                "content": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -22,7 +22,7 @@ function inlineStyles(nodes) {
     const inlineAttrs = _.reduce(
       attrs,
       (out, value, attr) => {
-        return `${out} ${attr}="${value}"`;
+        return `${out} ${attr}="${value.replace(/"/g, '\\"')}"`;
       },
       ""
     );

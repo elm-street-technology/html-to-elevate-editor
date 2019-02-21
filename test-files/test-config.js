@@ -40,5 +40,11 @@ module.exports = [
     page: "home",
     target: ".rl-custompage",
     dir: "./test-files/test-007"
+  },
+  {
+    site: "415554.rlsplatform.com",
+    page: "save-lives-with-clean-water",
+    target: ".rl-custompage",
+    dir: "./test-files/test-008"
   }
 ];

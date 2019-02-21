@@ -38,6 +38,11 @@ function getParentNode(nodes, node) {
   return getPath(nodes, path.split(".").slice(0, -1));
 }
 
+function getNodeById(nodes, id) {
+  const path = findPath(nodes, id);
+  return getPath(nodes, path.split("."));
+}
+
 function makePath(path, index) {
   return _.compact(_.flatten([path, index.toString()]));
 }
@@ -150,6 +155,7 @@ module.exports = {
   toCamelCase,
   toSelector,
   getPath,
+  getNodeById,
   findPath,
   makePath,
   updatePath,
