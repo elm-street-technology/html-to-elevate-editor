@@ -41,13 +41,14 @@ function getAttrs(node, type, parent) {
       });
     case "container":
       return {
-        width: getParentWidth(parent) > width ? `${width}px` : "100%",
+        // width: getParentWid th(parent) > width ? `${width}px` : "100%",
         direction: "vertical",
         paddingTop: toNumber(styles.marginTop || 0),
         paddingRight: toNumber(styles.marginRight || 0),
         paddingBottom: toNumber(styles.marginBottom || 0),
         paddingLeft: toNumber(styles.marginLeft || 0),
-        allowChildren: false
+        allowChildren: false,
+        alignment: attrs.alignment || ""
       };
   }
 }

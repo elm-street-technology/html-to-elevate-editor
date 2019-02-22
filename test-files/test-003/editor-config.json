@@ -316,13 +316,13 @@
                       {
                         "type": "Row",
                         "attrs": {
-                          "width": "600px",
                           "direction": "vertical",
                           "paddingTop": 0,
                           "paddingRight": 0,
                           "paddingBottom": 0,
                           "paddingLeft": 0,
-                          "allowChildren": false
+                          "allowChildren": false,
+                          "alignment": ""
                         },
                         "content": [
                           {

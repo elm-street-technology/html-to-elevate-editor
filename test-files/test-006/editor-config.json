@@ -90,13 +90,13 @@
                       {
                         "type": "Row",
                         "attrs": {
-                          "width": "100%",
                           "direction": "vertical",
                           "paddingTop": 0,
                           "paddingRight": 0,
                           "paddingBottom": 0,
                           "paddingLeft": 0,
-                          "allowChildren": false
+                          "allowChildren": false,
+                          "alignment": ""
                         },
                         "content": [
                           {
@@ -154,13 +154,13 @@
                       {
                         "type": "Row",
                         "attrs": {
-                          "width": "100%",
                           "direction": "vertical",
                           "paddingTop": 10,
                           "paddingRight": 10,
                           "paddingBottom": 10,
                           "paddingLeft": 10,
-                          "allowChildren": false
+                          "allowChildren": false,
+                          "alignment": ""
                         },
                         "content": [
                           {
@@ -269,13 +269,13 @@
                       {
                         "type": "Row",
                         "attrs": {
-                          "width": "100%",
                           "direction": "vertical",
                           "paddingTop": 5,
                           "paddingRight": 5,
                           "paddingBottom": 10,
                           "paddingLeft": 10,
-                          "allowChildren": false
+                          "allowChildren": false,
+                          "alignment": ""
                         },
                         "content": [
                           {

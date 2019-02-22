@@ -40,6 +40,12 @@ function annonateData(data) {
       if (structure.nodeName === "A") {
         extra.url = structure.attrs.href;
       }
+
+      extra.alignment = getAlignment(
+        structure,
+        _.get(extra, "alignment", null)
+      );
+
       return _.assign({}, structure, {
         id: index++,
         attrs: _.assign({}, structure.attrs || {}, extra),
@@ -219,6 +225,15 @@ function processNodeText(node, components) {
   return children;
 }
 
+function getAlignment(node, lastAlignment = null) {
+  const align = _.get(node, "styles['text-align']", "").toLowerCase();
+  if (["left", "right", "center"].includes(align)) {
+    return align;
+  }
+
+  return lastAlignment;
+}
+
 function getFloat(node) {
   if (!node.isComponent) {
     return "none";
@@ -243,9 +258,32 @@ function buildStructure(node) {
   if (!node.isComponent) {
     return null;
   }
-
+  let parentGrid;
+  if ((parentGrid = getParentGrid(node))) {
+    const rows = _.transform(
+      parentGrid,
+      (_rows, row) => {
+        _rows.push({
+          id: uuidV4(),
+          nodeName: "ROW",
+          width: node.widths.inner,
+          children: row.map(child => {
+            return {
+              id: uuidV4(),
+              nodeName: "COLUMN",
+              width: child.widths.inner,
+              children: buildStructure([child])
+            };
+          })
+        });
+      },
+      []
+    );
+    return _.assign({}, node, {
+      children: rows
+    });
+  }
   let children = processNodeText(node, buildStructure(node.children));
-
   const floatItems = _.filter(
     children,
     n => n.isComponent && ["left", "right"].includes(getFloat(n))
@@ -326,6 +364,18 @@ function buildStructure(node) {
   return _.assign({}, node, {
     children
   });
+}
+
+function getParentGrid(parent) {
+  const components = _.filter(parent.children, { isComponent: true });
+  if (components.length < parent.children.length) {
+    return false;
+  }
+  const rows = _.values(_.groupBy(components, "boundingClientRect.top"));
+  if (_.some(rows, row => row.length > 1)) {
+    return rows;
+  }
+  return false;
 }
 
 function getMaxWidth(nodes, width = 0) {
