@@ -64,5 +64,11 @@ module.exports = [
     page: "NewTeam",
     target: ".rl-custompage",
     dir: "./test-files/test-011"
+  },
+  {
+    site: "417101.rlsplatform.com",
+    page: "about-us",
+    target: ".rl-custompage",
+    dir: "./test-files/test-012"
   }
 ];

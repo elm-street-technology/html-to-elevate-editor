@@ -37,24 +37,23 @@ function annonateData(data) {
     }
     if (structure) {
       const isComponent = COMPONENT_NODE_NAMES.includes(structure.nodeName);
-      if (structure.nodeName === "A") {
-        extra.url = structure.attrs.href;
-      }
 
-      extra.alignment = getAlignment(
-        structure,
-        _.get(extra, "alignment", null)
-      );
+      const nextra = _.assign({}, extra, {
+        alignment: getAlignment(structure, _.get(extra, "alignment", null))
+      });
+      if (structure.nodeName === "A") {
+        nextra.url = structure.attrs.href;
+      }
 
       return _.assign({}, structure, {
         id: index++,
-        attrs: _.assign({}, structure.attrs || {}, extra),
+        attrs: _.assign({}, structure.attrs || {}, nextra),
         camStyles: utils.toCamelCase(structure.styles),
         isComponent: isComponent,
         widths: calculateInnerWidth(structure),
         needsToShift: isComponent && !isParentComponent,
         children: structure.children.length
-          ? loop(structure.children, isComponent, extra)
+          ? loop(structure.children, isComponent, nextra)
           : []
       });
     }

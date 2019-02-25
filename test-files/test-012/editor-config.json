@@ -1,0 +1,516 @@
+[
+  {
+    "type": "Row",
+    "attrs": {
+      "width": "100%",
+      "direction": "horizontal",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "alignment": "center",
+      "allowChildren": false
+    },
+    "content": [
+      {
+        "type": "Row",
+        "attrs": {
+          "width": "1170px",
+          "direction": "horizontal",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "allowChildren": false
+        },
+        "content": [
+          {
+            "type": "Row",
+            "attrs": {
+              "width": "100%",
+              "direction": "vertical",
+              "paddingTop": 0,
+              "paddingRight": 15,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "alignment": "",
+              "allowChildren": true
+            },
+            "content": [
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "1170px",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 30,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 15,
+                      "paddingBottom": 0,
+                      "paddingLeft": 15,
+                      "alignment": "",
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Text",
+                        "attrs": {
+                          "value": {
+                            "blocks": [
+                              {
+                                "text": "About ",
+                                "type": "unstyled",
+                                "depth": 0,
+                                "inlineStyleRanges": [
+                                  {
+                                    "offset": 0,
+                                    "length": 6,
+                                    "style": "BOLD"
+                                  }
+                                ],
+                                "entityRanges": [],
+                                "data": {
+                                  "text-align": "center"
+                                }
+                              },
+                              {
+                                "text": "We are full service agents and will assist our clients in buying or selling their home or help with a new construction project. In addition, we also offer property management and Home Watch services. We will help property owners in a tenant placement process for self - management or provide full property management services. This would include advertising the property, screening a prospective tenant, providing the lease and managing the property for the duration of the lease. Our Home Watch service will provide peace of mind to residential and second home owners in our area who spend extended time away from Florida. Our clients come first and we are always just a phone call away. We take great pride in our customer service and will do our very best to exceed your expectations. ",
+                                "type": "unstyled",
+                                "depth": 0,
+                                "inlineStyleRanges": [],
+                                "entityRanges": [],
+                                "data": {}
+                              }
+                            ],
+                            "entityMap": {}
+                          },
+                          "color": ""
+                        },
+                        "content": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "1170px",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 15,
+                  "paddingBottom": 0,
+                  "paddingLeft": 15,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "vertical",
+                      "paddingTop": 40,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "alignment": "",
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Row",
+                        "attrs": {
+                          "width": "",
+                          "direction": "horizontal",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false
+                        },
+                        "content": [
+                          {
+                            "type": "Row",
+                            "attrs": {
+                              "width": "48.68421052631579%",
+                              "direction": "vertical",
+                              "paddingTop": 0,
+                              "paddingRight": 0,
+                              "paddingBottom": 0,
+                              "paddingLeft": 0,
+                              "allowChildren": true
+                            },
+                            "content": [
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "585px",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "100%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 15,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 15,
+                                      "alignment": "",
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "width": "555px",
+                                          "direction": "horizontal",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Row",
+                                            "attrs": {
+                                              "width": "100%",
+                                              "direction": "vertical",
+                                              "paddingTop": 0,
+                                              "paddingRight": 0,
+                                              "paddingBottom": 0,
+                                              "paddingLeft": 0,
+                                              "alignment": "",
+                                              "allowChildren": true
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "Row",
+                                                "attrs": {
+                                                  "direction": "vertical",
+                                                  "paddingTop": 0,
+                                                  "paddingRight": 0,
+                                                  "paddingBottom": 0,
+                                                  "paddingLeft": 0,
+                                                  "allowChildren": false,
+                                                  "alignment": ""
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "Image",
+                                                    "attrs": {
+                                                      "src": "http://media.mlspropertyfinder.com/417101/karen.png",
+                                                      "url": "",
+                                                      "width": "300px"
+                                                    },
+                                                    "content": []
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "width": "555px",
+                                          "direction": "horizontal",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Row",
+                                            "attrs": {
+                                              "width": "100%",
+                                              "direction": "vertical",
+                                              "paddingTop": 0,
+                                              "paddingRight": 0,
+                                              "paddingBottom": 0,
+                                              "paddingLeft": 0,
+                                              "alignment": "",
+                                              "allowChildren": true
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "Text",
+                                                "attrs": {
+                                                  "value": {
+                                                    "blocks": [
+                                                      {
+                                                        "text": "Karen Postma",
+                                                        "type": "unstyled",
+                                                        "depth": 0,
+                                                        "inlineStyleRanges": [
+                                                          {
+                                                            "offset": 0,
+                                                            "length": 12,
+                                                            "style": "BOLD"
+                                                          }
+                                                        ],
+                                                        "entityRanges": [],
+                                                        "data": {}
+                                                      },
+                                                      {
+                                                        "text": "Cell: 941-615-7571",
+                                                        "type": "unstyled",
+                                                        "depth": 0,
+                                                        "inlineStyleRanges": [],
+                                                        "entityRanges": [],
+                                                        "data": {}
+                                                      },
+                                                      {
+                                                        "text": "kep1952@gmail.com",
+                                                        "type": "unstyled",
+                                                        "depth": 0,
+                                                        "inlineStyleRanges": [],
+                                                        "entityRanges": [
+                                                          {
+                                                            "offset": 0,
+                                                            "length": 17,
+                                                            "key": 0
+                                                          }
+                                                        ],
+                                                        "data": {}
+                                                      }
+                                                    ],
+                                                    "entityMap": {
+                                                      "0": {
+                                                        "type": "LINK",
+                                                        "mutability": "MUTABLE",
+                                                        "data": {
+                                                          "href": "mailto:kep1952@gmail.com",
+                                                          "url": "mailto:kep1952@gmail.com"
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "color": ""
+                                                },
+                                                "content": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "Row",
+                            "attrs": {
+                              "width": "48.68421052631579%",
+                              "direction": "vertical",
+                              "paddingTop": 0,
+                              "paddingRight": 0,
+                              "paddingBottom": 0,
+                              "paddingLeft": 0,
+                              "allowChildren": true
+                            },
+                            "content": [
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "585px",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "100%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 15,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 15,
+                                      "alignment": "",
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "width": "555px",
+                                          "direction": "horizontal",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Row",
+                                            "attrs": {
+                                              "width": "100%",
+                                              "direction": "vertical",
+                                              "paddingTop": 0,
+                                              "paddingRight": 0,
+                                              "paddingBottom": 0,
+                                              "paddingLeft": 0,
+                                              "alignment": "",
+                                              "allowChildren": true
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "Row",
+                                                "attrs": {
+                                                  "direction": "vertical",
+                                                  "paddingTop": 0,
+                                                  "paddingRight": 0,
+                                                  "paddingBottom": 0,
+                                                  "paddingLeft": 0,
+                                                  "allowChildren": false,
+                                                  "alignment": ""
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "Image",
+                                                    "attrs": {
+                                                      "src": "http://media.mlspropertyfinder.com/417101/tracey.jpeg",
+                                                      "url": "",
+                                                      "width": "300px"
+                                                    },
+                                                    "content": []
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "width": "555px",
+                                          "direction": "horizontal",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Row",
+                                            "attrs": {
+                                              "width": "100%",
+                                              "direction": "vertical",
+                                              "paddingTop": 0,
+                                              "paddingRight": 0,
+                                              "paddingBottom": 0,
+                                              "paddingLeft": 0,
+                                              "alignment": "",
+                                              "allowChildren": true
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "Text",
+                                                "attrs": {
+                                                  "value": {
+                                                    "blocks": [
+                                                      {
+                                                        "text": "Tracey Stripe",
+                                                        "type": "unstyled",
+                                                        "depth": 0,
+                                                        "inlineStyleRanges": [
+                                                          {
+                                                            "offset": 0,
+                                                            "length": 13,
+                                                            "style": "BOLD"
+                                                          }
+                                                        ],
+                                                        "entityRanges": [],
+                                                        "data": {}
+                                                      },
+                                                      {
+                                                        "text": "Cell: 941-237-9012",
+                                                        "type": "unstyled",
+                                                        "depth": 0,
+                                                        "inlineStyleRanges": [],
+                                                        "entityRanges": [],
+                                                        "data": {}
+                                                      },
+                                                      {
+                                                        "text": "trsipe@hotmail.com",
+                                                        "type": "unstyled",
+                                                        "depth": 0,
+                                                        "inlineStyleRanges": [],
+                                                        "entityRanges": [
+                                                          {
+                                                            "offset": 0,
+                                                            "length": 18,
+                                                            "key": 0
+                                                          }
+                                                        ],
+                                                        "data": {}
+                                                      }
+                                                    ],
+                                                    "entityMap": {
+                                                      "0": {
+                                                        "type": "LINK",
+                                                        "mutability": "MUTABLE",
+                                                        "data": {
+                                                          "href": "mailto:trsipe@hotmail.com",
+                                                          "url": "mailto:trsipe@hotmail.com"
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "color": ""
+                                                },
+                                                "content": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
