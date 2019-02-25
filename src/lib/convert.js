@@ -370,6 +370,9 @@ function getParentGrid(parent) {
   if (components.length < parent.children.length) {
     return false;
   }
+  if (_.some(components, node => ["TD"].includes(node.nodeName))) {
+    return false;
+  }
   const rows = _.values(_.groupBy(components, "boundingClientRect.top"));
   if (_.some(rows, row => row.length > 1)) {
     return rows;

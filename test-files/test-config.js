@@ -70,5 +70,11 @@ module.exports = [
     page: "about-us",
     target: ".rl-custompage",
     dir: "./test-files/test-012"
+  },
+  {
+    site: "416956.rlsplatform.com",
+    page: "Industry-Connections",
+    target: ".rl-custompage",
+    dir: "./test-files/test-013"
   }
 ];
