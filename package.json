@@ -1,6 +1,6 @@
 {
   "name": "html-to-elevate-editor",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "main": "src/index.js",
   "author": "Tim DeDecker <tdedecker@elmstreettechnology.com>",
   "license": "MIT",
