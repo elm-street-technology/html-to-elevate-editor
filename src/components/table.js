@@ -2,7 +2,7 @@ const _ = require("lodash");
 const { buildContainer } = require("./div");
 
 function calculateWidth(node, parent) {
-  const pWidth = parent.widths.inner;
+  const pWidth = parent.width || parent.widths.inner;
   const nWidth = node.widths.container;
   return `${(nWidth / pWidth) * 100}%`;
 }
