@@ -370,7 +370,7 @@ function getParentGrid(parent) {
   if (components.length < parent.children.length) {
     return false;
   }
-  if (!components.length <= 1) {
+  if (components.length <= 1) {
     return false;
   }
   if (_.some(components, node => ["TD", "TR"].includes(node.nodeName))) {
