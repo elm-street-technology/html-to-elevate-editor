@@ -62,67 +62,13 @@
                     },
                     "content": [
                       {
-                        "type": "Text",
-                        "attrs": {
-                          "value": {
-                            "blocks": [
-                              {
-                                "text": "Barbara Cleland, Associate Broker, GRI, MBA",
-                                "type": "unstyled",
-                                "depth": 0,
-                                "inlineStyleRanges": [
-                                  {
-                                    "offset": 0,
-                                    "length": 43,
-                                    "style": "BOLD"
-                                  }
-                                ],
-                                "entityRanges": [],
-                                "data": {}
-                              }
-                            ],
-                            "entityMap": {}
-                          },
-                          "color": ""
-                        },
-                        "content": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "Row",
-                "attrs": {
-                  "width": "",
-                  "direction": "horizontal",
-                  "paddingTop": 0,
-                  "paddingRight": 0,
-                  "paddingBottom": 0,
-                  "paddingLeft": 0,
-                  "allowChildren": false
-                },
-                "content": [
-                  {
-                    "type": "Row",
-                    "attrs": {
-                      "width": "11.403508771929824%",
-                      "direction": "vertical",
-                      "paddingTop": 0,
-                      "paddingRight": 0,
-                      "paddingBottom": 0,
-                      "paddingLeft": 0,
-                      "allowChildren": true
-                    },
-                    "content": [
-                      {
                         "type": "Row",
                         "attrs": {
                           "direction": "vertical",
-                          "paddingTop": 10,
-                          "paddingRight": 10,
-                          "paddingBottom": 10,
-                          "paddingLeft": 10,
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
                           "allowChildren": false,
                           "alignment": ""
                         },
@@ -130,63 +76,13 @@
                           {
                             "type": "Image",
                             "attrs": {
-                              "src": "http://media.mlspropertyfinder.com/416307/barbara.jpg",
+                              "src": "http://media.mlspropertyfinder.com/417936/sold%201.png",
                               "url": "",
-                              "width": "100%"
+                              "width": "900px"
                             },
                             "content": []
                           }
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "Row",
-                    "attrs": {
-                      "width": "88.59649122807018%",
-                      "direction": "vertical",
-                      "paddingTop": 0,
-                      "paddingRight": 0,
-                      "paddingBottom": 0,
-                      "paddingLeft": 0,
-                      "allowChildren": true
-                    },
-                    "content": [
-                      {
-                        "type": "Text",
-                        "attrs": {
-                          "value": {
-                            "blocks": [
-                              {
-                                "text": "Barbara Cleland is a top producing licensed real estate broker in Lower Fairfield County, proudly representing residential buyers and sellers for almost twenty years. In addition to curating an extensive real estate portfolio, Barbara’s successful business is generated from high-volume sales and referrals from satisfied clients. The team is highly skilled in marketing and backed by Keller Williams, the current industry leader in technology, market research and business strategies. ",
-                                "type": "unstyled",
-                                "depth": 0,
-                                "inlineStyleRanges": [],
-                                "entityRanges": [],
-                                "data": {}
-                              },
-                              {
-                                "text": "Prior to obtaining her real estate license, Barbara built a solid professional background in marketing strategy and sales promotions, working for luxury brands Estee Lauder Cosmetics and Calvin Klein, among others, in New York. Barbara earned her Master of Business Administration (MBA) from Western Michigan University, a Bachelor of Science in Communications from Michigan State University and a Graduate, REALTOR® Institute (GRI) designation.",
-                                "type": "unstyled",
-                                "depth": 0,
-                                "inlineStyleRanges": [],
-                                "entityRanges": [],
-                                "data": {}
-                              },
-                              {
-                                "text": "Barbara’s expertise lies in her ability to create a very customized and rewarding experience for her clients. She is passionate about art and architecture and has experience in rehabbing, restoring and re-selling various properties. A long-time resident of Norwalk, Barbara is also a relocation specialist and utilizes her insider knowledge of Fairfield County to pair clients with the perfect homes. Barbara has also completed three half Ironman competitions and is an avid hiker and yoga enthusiast. She brings this balance to her business and is known in the field as as an exceptional listener, marketer and negotiator. Barbara is dedicated to making sure her clients’ properties are sold for top dollar.",
-                                "type": "unstyled",
-                                "depth": 0,
-                                "inlineStyleRanges": [],
-                                "entityRanges": [],
-                                "data": {}
-                              }
-                            ],
-                            "entityMap": {}
-                          },
-                          "color": ""
-                        },
-                        "content": []
                       }
                     ]
                   }
@@ -222,21 +118,30 @@
                           "value": {
                             "blocks": [
                               {
-                                "text": " Anne Miranda, Marketing Manager",
+                                "text": "View Details: http://www.realestatewithtraceylizza.com/detail/F12A4E14-C710-44AE-9931-6F4A6293253D \n ",
                                 "type": "unstyled",
                                 "depth": 0,
-                                "inlineStyleRanges": [
+                                "inlineStyleRanges": [],
+                                "entityRanges": [
                                   {
-                                    "offset": 1,
-                                    "length": 31,
-                                    "style": "BOLD"
+                                    "offset": 13,
+                                    "length": 86,
+                                    "key": 0
                                   }
                                 ],
-                                "entityRanges": [],
                                 "data": {}
                               }
                             ],
-                            "entityMap": {}
+                            "entityMap": {
+                              "0": {
+                                "type": "LINK",
+                                "mutability": "MUTABLE",
+                                "data": {
+                                  "href": "http://www.realestatewithtraceylizza.com/detail/F12A4E14-C710-44AE-9931-6F4A6293253D",
+                                  "url": "http://www.realestatewithtraceylizza.com/detail/F12A4E14-C710-44AE-9931-6F4A6293253D"
+                                }
+                              }
+                            }
                           },
                           "color": ""
                         },
@@ -261,7 +166,7 @@
                   {
                     "type": "Row",
                     "attrs": {
-                      "width": "13.596491228070176%",
+                      "width": "100%",
                       "direction": "vertical",
                       "paddingTop": 0,
                       "paddingRight": 0,
@@ -274,10 +179,10 @@
                         "type": "Row",
                         "attrs": {
                           "direction": "vertical",
-                          "paddingTop": 5,
-                          "paddingRight": 5,
-                          "paddingBottom": 10,
-                          "paddingLeft": 10,
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
                           "allowChildren": false,
                           "alignment": ""
                         },
@@ -285,20 +190,34 @@
                           {
                             "type": "Image",
                             "attrs": {
-                              "src": "http://media.mlspropertyfinder.com/416307/barbara%20cleland%20admin%20pic.png",
+                              "src": "http://media.mlspropertyfinder.com/417936/sold%202.png",
                               "url": "",
-                              "width": "100%"
+                              "width": "900px"
                             },
                             "content": []
                           }
                         ]
                       }
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
                   {
                     "type": "Row",
                     "attrs": {
-                      "width": "86.40350877192982%",
+                      "width": "100%",
                       "direction": "vertical",
                       "paddingTop": 0,
                       "paddingRight": 0,
@@ -313,34 +232,258 @@
                           "value": {
                             "blocks": [
                               {
-                                "text": "Anne is the Executive Associate Marketing Manager for Barbara Cleland Realty Group KW. She brings more than 16 years of administrative and senior-level management experience to the group with an expertise in digital marketing and publications. Anne began her career at Sotheby’s Auction House in New York and has worked for prestigious organizations such as the Isabella Stewart Gardner Museum in Boston, The Montclair Art Museum, The Royal Oak Foundation and Louis Vuitton, Maison Fifth Avenue, New York. As the Marketing Communications Manager of the Visual Arts Center of New Jersey, she helped publicize and implement several successful fundraising events, a new website launch and advertising campaigns. Anne holds a Master of Arts from Trinity College in Hartford and a Bachelor of Arts from Sweet Briar College. She is a former competitive figure skater and resides in Stamford with her family. ",
+                                "text": "View Details: http://www.realestatewithtraceylizza.com/detail/7E84F036-86DE-4A2C-A748-D45E79080569",
                                 "type": "unstyled",
                                 "depth": 0,
                                 "inlineStyleRanges": [],
-                                "entityRanges": [],
-                                "data": {}
-                              },
-                              {
-                                "text": "Call 203.246. 4156 or email us at info@babaraclelandrealty.com today for a free market analysis.",
-                                "type": "unstyled",
-                                "depth": 0,
-                                "inlineStyleRanges": [
+                                "entityRanges": [
                                   {
-                                    "offset": 5,
-                                    "length": 14,
-                                    "style": "BOLD"
-                                  },
-                                  {
-                                    "offset": 34,
-                                    "length": 28,
-                                    "style": "BOLD"
+                                    "offset": 14,
+                                    "length": 84,
+                                    "key": 0
                                   }
                                 ],
-                                "entityRanges": [],
                                 "data": {}
                               }
                             ],
-                            "entityMap": {}
+                            "entityMap": {
+                              "0": {
+                                "type": "LINK",
+                                "mutability": "MUTABLE",
+                                "data": {
+                                  "href": "http://www.realestatewithtraceylizza.com/detail/7E84F036-86DE-4A2C-A748-D45E79080569",
+                                  "url": "http://www.realestatewithtraceylizza.com/detail/7E84F036-86DE-4A2C-A748-D45E79080569"
+                                }
+                              }
+                            }
+                          },
+                          "color": ""
+                        },
+                        "content": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Row",
+                        "attrs": {
+                          "direction": "vertical",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false,
+                          "alignment": ""
+                        },
+                        "content": [
+                          {
+                            "type": "Image",
+                            "attrs": {
+                              "src": "http://media.mlspropertyfinder.com/417936/sold%203.png",
+                              "url": "",
+                              "width": "800px"
+                            },
+                            "content": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Text",
+                        "attrs": {
+                          "value": {
+                            "blocks": [
+                              {
+                                "text": "View Details: http://www.realestatewithtraceylizza.com/detail/29DE9780-9328-42BF-B95A-32562DE2C987\n ",
+                                "type": "unstyled",
+                                "depth": 0,
+                                "inlineStyleRanges": [],
+                                "entityRanges": [
+                                  {
+                                    "offset": 14,
+                                    "length": 84,
+                                    "key": 0
+                                  }
+                                ],
+                                "data": {}
+                              }
+                            ],
+                            "entityMap": {
+                              "0": {
+                                "type": "LINK",
+                                "mutability": "MUTABLE",
+                                "data": {
+                                  "href": "http://www.realestatewithtraceylizza.com/detail/29DE9780-9328-42BF-B95A-32562DE2C987",
+                                  "url": "http://www.realestatewithtraceylizza.com/detail/29DE9780-9328-42BF-B95A-32562DE2C987"
+                                }
+                              }
+                            }
+                          },
+                          "color": ""
+                        },
+                        "content": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Row",
+                        "attrs": {
+                          "direction": "vertical",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false,
+                          "alignment": ""
+                        },
+                        "content": [
+                          {
+                            "type": "Image",
+                            "attrs": {
+                              "src": "http://media.mlspropertyfinder.com/417936/sold%204.png",
+                              "url": "",
+                              "width": "800px"
+                            },
+                            "content": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Text",
+                        "attrs": {
+                          "value": {
+                            "blocks": [
+                              {
+                                "text": "\t \tView Details: http://www.realestatewithtraceylizza.com/detail/94A0D3A7-0F0E-4FEF-B293-C3111D81DCAA",
+                                "type": "unstyled",
+                                "depth": 0,
+                                "inlineStyleRanges": [],
+                                "entityRanges": [
+                                  {
+                                    "offset": 17,
+                                    "length": 84,
+                                    "key": 0
+                                  }
+                                ],
+                                "data": {}
+                              }
+                            ],
+                            "entityMap": {
+                              "0": {
+                                "type": "LINK",
+                                "mutability": "MUTABLE",
+                                "data": {
+                                  "href": "http://www.realestatewithtraceylizza.com/detail/94A0D3A7-0F0E-4FEF-B293-C3111D81DCAA",
+                                  "url": "http://www.realestatewithtraceylizza.com/detail/94A0D3A7-0F0E-4FEF-B293-C3111D81DCAA"
+                                }
+                              }
+                            }
                           },
                           "color": ""
                         },

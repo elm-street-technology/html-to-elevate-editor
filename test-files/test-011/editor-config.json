@@ -214,23 +214,51 @@
                                                                       {
                                                                         "type": "Row",
                                                                         "attrs": {
-                                                                          "direction": "vertical",
+                                                                          "width": "",
+                                                                          "direction": "horizontal",
                                                                           "paddingTop": 0,
                                                                           "paddingRight": 0,
                                                                           "paddingBottom": 0,
                                                                           "paddingLeft": 0,
-                                                                          "allowChildren": false,
-                                                                          "alignment": "center"
+                                                                          "allowChildren": false
                                                                         },
                                                                         "content": [
                                                                           {
-                                                                            "type": "Image",
+                                                                            "type": "Row",
                                                                             "attrs": {
-                                                                              "src": "http://d027www.lbcurimg.com/default.aspx?BinaryObjectGUID=D02734AA-EB67-4720-B278-5565B978354B&PixelHeight=320&PixelWidth=240&BinaryObjectType=Login",
-                                                                              "url": "/about/7418637",
-                                                                              "width": "93.328125px"
+                                                                              "width": "100%",
+                                                                              "direction": "vertical",
+                                                                              "paddingTop": 0,
+                                                                              "paddingRight": 0,
+                                                                              "paddingBottom": 0,
+                                                                              "paddingLeft": 0,
+                                                                              "allowChildren": true
                                                                             },
-                                                                            "content": []
+                                                                            "content": [
+                                                                              {
+                                                                                "type": "Row",
+                                                                                "attrs": {
+                                                                                  "direction": "vertical",
+                                                                                  "paddingTop": 0,
+                                                                                  "paddingRight": 0,
+                                                                                  "paddingBottom": 0,
+                                                                                  "paddingLeft": 0,
+                                                                                  "allowChildren": false,
+                                                                                  "alignment": "center"
+                                                                                },
+                                                                                "content": [
+                                                                                  {
+                                                                                    "type": "Image",
+                                                                                    "attrs": {
+                                                                                      "src": "http://d027www.lbcurimg.com/default.aspx?BinaryObjectGUID=D02734AA-EB67-4720-B278-5565B978354B&PixelHeight=320&PixelWidth=240&BinaryObjectType=Login",
+                                                                                      "url": "/about/7418637",
+                                                                                      "width": "93.328125px"
+                                                                                    },
+                                                                                    "content": []
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
                                                                           }
                                                                         ]
                                                                       }
@@ -264,63 +292,131 @@
                                                                     },
                                                                     "content": [
                                                                       {
-                                                                        "type": "Text",
+                                                                        "type": "Row",
                                                                         "attrs": {
-                                                                          "value": {
-                                                                            "blocks": [
-                                                                              {
-                                                                                "text": "Terry Varrone - Team Leader ",
-                                                                                "type": "unstyled",
-                                                                                "depth": 0,
-                                                                                "inlineStyleRanges": [
-                                                                                  {
-                                                                                    "offset": 0,
-                                                                                    "length": 27,
-                                                                                    "style": "BOLD"
-                                                                                  }
-                                                                                ],
-                                                                                "entityRanges": [],
-                                                                                "data": {
-                                                                                  "text-align": "center"
-                                                                                }
-                                                                              },
-                                                                              {
-                                                                                "text": "E-MAIL ",
-                                                                                "type": "unstyled",
-                                                                                "depth": 0,
-                                                                                "inlineStyleRanges": [
-                                                                                  {
-                                                                                    "offset": 0,
-                                                                                    "length": 7,
-                                                                                    "style": "BOLD"
-                                                                                  }
-                                                                                ],
-                                                                                "entityRanges": [
-                                                                                  {
-                                                                                    "offset": 0,
-                                                                                    "length": 7,
-                                                                                    "key": 0
-                                                                                  }
-                                                                                ],
-                                                                                "data": {
-                                                                                  "text-align": "center"
-                                                                                }
-                                                                              }
-                                                                            ],
-                                                                            "entityMap": {
-                                                                              "0": {
-                                                                                "type": "LINK",
-                                                                                "mutability": "MUTABLE",
-                                                                                "data": {
-                                                                                  "href": "mailto:terry.varrone@gmail.com",
-                                                                                  "url": "mailto:terry.varrone@gmail.com"
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          },
-                                                                          "color": ""
+                                                                          "width": "",
+                                                                          "direction": "horizontal",
+                                                                          "paddingTop": 0,
+                                                                          "paddingRight": 0,
+                                                                          "paddingBottom": 0,
+                                                                          "paddingLeft": 0,
+                                                                          "allowChildren": false
                                                                         },
-                                                                        "content": []
+                                                                        "content": [
+                                                                          {
+                                                                            "type": "Row",
+                                                                            "attrs": {
+                                                                              "width": "100%",
+                                                                              "direction": "vertical",
+                                                                              "paddingTop": 0,
+                                                                              "paddingRight": 0,
+                                                                              "paddingBottom": 0,
+                                                                              "paddingLeft": 0,
+                                                                              "allowChildren": true
+                                                                            },
+                                                                            "content": [
+                                                                              {
+                                                                                "type": "Text",
+                                                                                "attrs": {
+                                                                                  "value": {
+                                                                                    "blocks": [
+                                                                                      {
+                                                                                        "text": "Terry Varrone - Team Leader",
+                                                                                        "type": "unstyled",
+                                                                                        "depth": 0,
+                                                                                        "inlineStyleRanges": [
+                                                                                          {
+                                                                                            "offset": 0,
+                                                                                            "length": 27,
+                                                                                            "style": "BOLD"
+                                                                                          }
+                                                                                        ],
+                                                                                        "entityRanges": [],
+                                                                                        "data": {
+                                                                                          "text-align": "center"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "entityMap": {}
+                                                                                  },
+                                                                                  "color": ""
+                                                                                },
+                                                                                "content": []
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "type": "Row",
+                                                                        "attrs": {
+                                                                          "width": "",
+                                                                          "direction": "horizontal",
+                                                                          "paddingTop": 0,
+                                                                          "paddingRight": 0,
+                                                                          "paddingBottom": 0,
+                                                                          "paddingLeft": 0,
+                                                                          "allowChildren": false
+                                                                        },
+                                                                        "content": [
+                                                                          {
+                                                                            "type": "Row",
+                                                                            "attrs": {
+                                                                              "width": "100%",
+                                                                              "direction": "vertical",
+                                                                              "paddingTop": 0,
+                                                                              "paddingRight": 0,
+                                                                              "paddingBottom": 0,
+                                                                              "paddingLeft": 0,
+                                                                              "allowChildren": true
+                                                                            },
+                                                                            "content": [
+                                                                              {
+                                                                                "type": "Text",
+                                                                                "attrs": {
+                                                                                  "value": {
+                                                                                    "blocks": [
+                                                                                      {
+                                                                                        "text": "E-MAIL ",
+                                                                                        "type": "unstyled",
+                                                                                        "depth": 0,
+                                                                                        "inlineStyleRanges": [
+                                                                                          {
+                                                                                            "offset": 0,
+                                                                                            "length": 7,
+                                                                                            "style": "BOLD"
+                                                                                          }
+                                                                                        ],
+                                                                                        "entityRanges": [
+                                                                                          {
+                                                                                            "offset": 0,
+                                                                                            "length": 7,
+                                                                                            "key": 0
+                                                                                          }
+                                                                                        ],
+                                                                                        "data": {
+                                                                                          "text-align": "center"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "entityMap": {
+                                                                                      "0": {
+                                                                                        "type": "LINK",
+                                                                                        "mutability": "MUTABLE",
+                                                                                        "data": {
+                                                                                          "href": "mailto:terry.varrone@gmail.com",
+                                                                                          "url": "mailto:terry.varrone@gmail.com"
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  "color": ""
+                                                                                },
+                                                                                "content": []
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
                                                                       }
                                                                     ]
                                                                   }
@@ -397,23 +493,51 @@
                                                                       {
                                                                         "type": "Row",
                                                                         "attrs": {
-                                                                          "direction": "vertical",
+                                                                          "width": "",
+                                                                          "direction": "horizontal",
                                                                           "paddingTop": 0,
                                                                           "paddingRight": 0,
                                                                           "paddingBottom": 0,
                                                                           "paddingLeft": 0,
-                                                                          "allowChildren": false,
-                                                                          "alignment": "center"
+                                                                          "allowChildren": false
                                                                         },
                                                                         "content": [
                                                                           {
-                                                                            "type": "Image",
+                                                                            "type": "Row",
                                                                             "attrs": {
-                                                                              "src": "http://media.mlspropertyfinder.com/416452/john%20varrone%20jr.jpg",
-                                                                              "url": "/newteam/",
-                                                                              "width": "116.65625px"
+                                                                              "width": "100%",
+                                                                              "direction": "vertical",
+                                                                              "paddingTop": 0,
+                                                                              "paddingRight": 0,
+                                                                              "paddingBottom": 0,
+                                                                              "paddingLeft": 0,
+                                                                              "allowChildren": true
                                                                             },
-                                                                            "content": []
+                                                                            "content": [
+                                                                              {
+                                                                                "type": "Row",
+                                                                                "attrs": {
+                                                                                  "direction": "vertical",
+                                                                                  "paddingTop": 0,
+                                                                                  "paddingRight": 0,
+                                                                                  "paddingBottom": 0,
+                                                                                  "paddingLeft": 0,
+                                                                                  "allowChildren": false,
+                                                                                  "alignment": "center"
+                                                                                },
+                                                                                "content": [
+                                                                                  {
+                                                                                    "type": "Image",
+                                                                                    "attrs": {
+                                                                                      "src": "http://media.mlspropertyfinder.com/416452/john%20varrone%20jr.jpg",
+                                                                                      "url": "/newteam/",
+                                                                                      "width": "116.65625px"
+                                                                                    },
+                                                                                    "content": []
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
                                                                           }
                                                                         ]
                                                                       }
@@ -447,63 +571,131 @@
                                                                     },
                                                                     "content": [
                                                                       {
-                                                                        "type": "Text",
+                                                                        "type": "Row",
                                                                         "attrs": {
-                                                                          "value": {
-                                                                            "blocks": [
-                                                                              {
-                                                                                "text": "John Varrone Jr. - Operations Manager ",
-                                                                                "type": "unstyled",
-                                                                                "depth": 0,
-                                                                                "inlineStyleRanges": [
-                                                                                  {
-                                                                                    "offset": 0,
-                                                                                    "length": 37,
-                                                                                    "style": "BOLD"
-                                                                                  }
-                                                                                ],
-                                                                                "entityRanges": [],
-                                                                                "data": {
-                                                                                  "text-align": "center"
-                                                                                }
-                                                                              },
-                                                                              {
-                                                                                "text": "E-MAIL ",
-                                                                                "type": "unstyled",
-                                                                                "depth": 0,
-                                                                                "inlineStyleRanges": [
-                                                                                  {
-                                                                                    "offset": 0,
-                                                                                    "length": 7,
-                                                                                    "style": "BOLD"
-                                                                                  }
-                                                                                ],
-                                                                                "entityRanges": [
-                                                                                  {
-                                                                                    "offset": 0,
-                                                                                    "length": 7,
-                                                                                    "key": 0
-                                                                                  }
-                                                                                ],
-                                                                                "data": {
-                                                                                  "text-align": "center"
-                                                                                }
-                                                                              }
-                                                                            ],
-                                                                            "entityMap": {
-                                                                              "0": {
-                                                                                "type": "LINK",
-                                                                                "mutability": "MUTABLE",
-                                                                                "data": {
-                                                                                  "href": "mailto:jvvarrone@gmail.com",
-                                                                                  "url": "mailto:jvvarrone@gmail.com"
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          },
-                                                                          "color": ""
+                                                                          "width": "",
+                                                                          "direction": "horizontal",
+                                                                          "paddingTop": 0,
+                                                                          "paddingRight": 0,
+                                                                          "paddingBottom": 0,
+                                                                          "paddingLeft": 0,
+                                                                          "allowChildren": false
                                                                         },
-                                                                        "content": []
+                                                                        "content": [
+                                                                          {
+                                                                            "type": "Row",
+                                                                            "attrs": {
+                                                                              "width": "100%",
+                                                                              "direction": "vertical",
+                                                                              "paddingTop": 0,
+                                                                              "paddingRight": 0,
+                                                                              "paddingBottom": 0,
+                                                                              "paddingLeft": 0,
+                                                                              "allowChildren": true
+                                                                            },
+                                                                            "content": [
+                                                                              {
+                                                                                "type": "Text",
+                                                                                "attrs": {
+                                                                                  "value": {
+                                                                                    "blocks": [
+                                                                                      {
+                                                                                        "text": "John Varrone Jr. - Operations Manager",
+                                                                                        "type": "unstyled",
+                                                                                        "depth": 0,
+                                                                                        "inlineStyleRanges": [
+                                                                                          {
+                                                                                            "offset": 0,
+                                                                                            "length": 37,
+                                                                                            "style": "BOLD"
+                                                                                          }
+                                                                                        ],
+                                                                                        "entityRanges": [],
+                                                                                        "data": {
+                                                                                          "text-align": "center"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "entityMap": {}
+                                                                                  },
+                                                                                  "color": ""
+                                                                                },
+                                                                                "content": []
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "type": "Row",
+                                                                        "attrs": {
+                                                                          "width": "",
+                                                                          "direction": "horizontal",
+                                                                          "paddingTop": 0,
+                                                                          "paddingRight": 0,
+                                                                          "paddingBottom": 0,
+                                                                          "paddingLeft": 0,
+                                                                          "allowChildren": false
+                                                                        },
+                                                                        "content": [
+                                                                          {
+                                                                            "type": "Row",
+                                                                            "attrs": {
+                                                                              "width": "100%",
+                                                                              "direction": "vertical",
+                                                                              "paddingTop": 0,
+                                                                              "paddingRight": 0,
+                                                                              "paddingBottom": 0,
+                                                                              "paddingLeft": 0,
+                                                                              "allowChildren": true
+                                                                            },
+                                                                            "content": [
+                                                                              {
+                                                                                "type": "Text",
+                                                                                "attrs": {
+                                                                                  "value": {
+                                                                                    "blocks": [
+                                                                                      {
+                                                                                        "text": "E-MAIL ",
+                                                                                        "type": "unstyled",
+                                                                                        "depth": 0,
+                                                                                        "inlineStyleRanges": [
+                                                                                          {
+                                                                                            "offset": 0,
+                                                                                            "length": 7,
+                                                                                            "style": "BOLD"
+                                                                                          }
+                                                                                        ],
+                                                                                        "entityRanges": [
+                                                                                          {
+                                                                                            "offset": 0,
+                                                                                            "length": 7,
+                                                                                            "key": 0
+                                                                                          }
+                                                                                        ],
+                                                                                        "data": {
+                                                                                          "text-align": "center"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "entityMap": {
+                                                                                      "0": {
+                                                                                        "type": "LINK",
+                                                                                        "mutability": "MUTABLE",
+                                                                                        "data": {
+                                                                                          "href": "mailto:jvvarrone@gmail.com",
+                                                                                          "url": "mailto:jvvarrone@gmail.com"
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  "color": ""
+                                                                                },
+                                                                                "content": []
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
                                                                       }
                                                                     ]
                                                                   }
@@ -580,23 +772,51 @@
                                                                       {
                                                                         "type": "Row",
                                                                         "attrs": {
-                                                                          "direction": "vertical",
+                                                                          "width": "",
+                                                                          "direction": "horizontal",
                                                                           "paddingTop": 0,
                                                                           "paddingRight": 0,
                                                                           "paddingBottom": 0,
                                                                           "paddingLeft": 0,
-                                                                          "allowChildren": false,
-                                                                          "alignment": "center"
+                                                                          "allowChildren": false
                                                                         },
                                                                         "content": [
                                                                           {
-                                                                            "type": "Image",
+                                                                            "type": "Row",
                                                                             "attrs": {
-                                                                              "src": "http://media.mlspropertyfinder.com/416452/newjvmheadshot.jpg",
-                                                                              "url": "/about/8107794",
-                                                                              "width": "150px"
+                                                                              "width": "100%",
+                                                                              "direction": "vertical",
+                                                                              "paddingTop": 0,
+                                                                              "paddingRight": 0,
+                                                                              "paddingBottom": 0,
+                                                                              "paddingLeft": 0,
+                                                                              "allowChildren": true
                                                                             },
-                                                                            "content": []
+                                                                            "content": [
+                                                                              {
+                                                                                "type": "Row",
+                                                                                "attrs": {
+                                                                                  "direction": "vertical",
+                                                                                  "paddingTop": 0,
+                                                                                  "paddingRight": 0,
+                                                                                  "paddingBottom": 0,
+                                                                                  "paddingLeft": 0,
+                                                                                  "allowChildren": false,
+                                                                                  "alignment": "center"
+                                                                                },
+                                                                                "content": [
+                                                                                  {
+                                                                                    "type": "Image",
+                                                                                    "attrs": {
+                                                                                      "src": "http://media.mlspropertyfinder.com/416452/newjvmheadshot.jpg",
+                                                                                      "url": "/about/8107794",
+                                                                                      "width": "150px"
+                                                                                    },
+                                                                                    "content": []
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
                                                                           }
                                                                         ]
                                                                       }
@@ -630,63 +850,131 @@
                                                                     },
                                                                     "content": [
                                                                       {
-                                                                        "type": "Text",
+                                                                        "type": "Row",
                                                                         "attrs": {
-                                                                          "value": {
-                                                                            "blocks": [
-                                                                              {
-                                                                                "text": "John M Varrone - Listing & Buyer Specialist ",
-                                                                                "type": "unstyled",
-                                                                                "depth": 0,
-                                                                                "inlineStyleRanges": [
-                                                                                  {
-                                                                                    "offset": 0,
-                                                                                    "length": 43,
-                                                                                    "style": "BOLD"
-                                                                                  }
-                                                                                ],
-                                                                                "entityRanges": [],
-                                                                                "data": {
-                                                                                  "text-align": "center"
-                                                                                }
-                                                                              },
-                                                                              {
-                                                                                "text": "E-MAIL ",
-                                                                                "type": "unstyled",
-                                                                                "depth": 0,
-                                                                                "inlineStyleRanges": [
-                                                                                  {
-                                                                                    "offset": 0,
-                                                                                    "length": 7,
-                                                                                    "style": "BOLD"
-                                                                                  }
-                                                                                ],
-                                                                                "entityRanges": [
-                                                                                  {
-                                                                                    "offset": 0,
-                                                                                    "length": 7,
-                                                                                    "key": 0
-                                                                                  }
-                                                                                ],
-                                                                                "data": {
-                                                                                  "text-align": "center"
-                                                                                }
-                                                                              }
-                                                                            ],
-                                                                            "entityMap": {
-                                                                              "0": {
-                                                                                "type": "LINK",
-                                                                                "mutability": "MUTABLE",
-                                                                                "data": {
-                                                                                  "href": "mailto:jmvarrone@gmail.com",
-                                                                                  "url": "mailto:jmvarrone@gmail.com"
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          },
-                                                                          "color": ""
+                                                                          "width": "",
+                                                                          "direction": "horizontal",
+                                                                          "paddingTop": 0,
+                                                                          "paddingRight": 0,
+                                                                          "paddingBottom": 0,
+                                                                          "paddingLeft": 0,
+                                                                          "allowChildren": false
                                                                         },
-                                                                        "content": []
+                                                                        "content": [
+                                                                          {
+                                                                            "type": "Row",
+                                                                            "attrs": {
+                                                                              "width": "100%",
+                                                                              "direction": "vertical",
+                                                                              "paddingTop": 0,
+                                                                              "paddingRight": 0,
+                                                                              "paddingBottom": 0,
+                                                                              "paddingLeft": 0,
+                                                                              "allowChildren": true
+                                                                            },
+                                                                            "content": [
+                                                                              {
+                                                                                "type": "Text",
+                                                                                "attrs": {
+                                                                                  "value": {
+                                                                                    "blocks": [
+                                                                                      {
+                                                                                        "text": "John M Varrone - Listing & Buyer Specialist",
+                                                                                        "type": "unstyled",
+                                                                                        "depth": 0,
+                                                                                        "inlineStyleRanges": [
+                                                                                          {
+                                                                                            "offset": 0,
+                                                                                            "length": 43,
+                                                                                            "style": "BOLD"
+                                                                                          }
+                                                                                        ],
+                                                                                        "entityRanges": [],
+                                                                                        "data": {
+                                                                                          "text-align": "center"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "entityMap": {}
+                                                                                  },
+                                                                                  "color": ""
+                                                                                },
+                                                                                "content": []
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "type": "Row",
+                                                                        "attrs": {
+                                                                          "width": "",
+                                                                          "direction": "horizontal",
+                                                                          "paddingTop": 0,
+                                                                          "paddingRight": 0,
+                                                                          "paddingBottom": 0,
+                                                                          "paddingLeft": 0,
+                                                                          "allowChildren": false
+                                                                        },
+                                                                        "content": [
+                                                                          {
+                                                                            "type": "Row",
+                                                                            "attrs": {
+                                                                              "width": "100%",
+                                                                              "direction": "vertical",
+                                                                              "paddingTop": 0,
+                                                                              "paddingRight": 0,
+                                                                              "paddingBottom": 0,
+                                                                              "paddingLeft": 0,
+                                                                              "allowChildren": true
+                                                                            },
+                                                                            "content": [
+                                                                              {
+                                                                                "type": "Text",
+                                                                                "attrs": {
+                                                                                  "value": {
+                                                                                    "blocks": [
+                                                                                      {
+                                                                                        "text": "E-MAIL ",
+                                                                                        "type": "unstyled",
+                                                                                        "depth": 0,
+                                                                                        "inlineStyleRanges": [
+                                                                                          {
+                                                                                            "offset": 0,
+                                                                                            "length": 7,
+                                                                                            "style": "BOLD"
+                                                                                          }
+                                                                                        ],
+                                                                                        "entityRanges": [
+                                                                                          {
+                                                                                            "offset": 0,
+                                                                                            "length": 7,
+                                                                                            "key": 0
+                                                                                          }
+                                                                                        ],
+                                                                                        "data": {
+                                                                                          "text-align": "center"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "entityMap": {
+                                                                                      "0": {
+                                                                                        "type": "LINK",
+                                                                                        "mutability": "MUTABLE",
+                                                                                        "data": {
+                                                                                          "href": "mailto:jmvarrone@gmail.com",
+                                                                                          "url": "mailto:jmvarrone@gmail.com"
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  "color": ""
+                                                                                },
+                                                                                "content": []
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
                                                                       }
                                                                     ]
                                                                   }
@@ -763,23 +1051,51 @@
                                                                       {
                                                                         "type": "Row",
                                                                         "attrs": {
-                                                                          "direction": "vertical",
+                                                                          "width": "",
+                                                                          "direction": "horizontal",
                                                                           "paddingTop": 0,
                                                                           "paddingRight": 0,
                                                                           "paddingBottom": 0,
                                                                           "paddingLeft": 0,
-                                                                          "allowChildren": false,
-                                                                          "alignment": "center"
+                                                                          "allowChildren": false
                                                                         },
                                                                         "content": [
                                                                           {
-                                                                            "type": "Image",
+                                                                            "type": "Row",
                                                                             "attrs": {
-                                                                              "src": "http://media.mlspropertyfinder.com/416452/steven%20monteiro2.jpg",
-                                                                              "url": "/about/8673239",
-                                                                              "width": "173.828125px"
+                                                                              "width": "100%",
+                                                                              "direction": "vertical",
+                                                                              "paddingTop": 0,
+                                                                              "paddingRight": 0,
+                                                                              "paddingBottom": 0,
+                                                                              "paddingLeft": 0,
+                                                                              "allowChildren": true
                                                                             },
-                                                                            "content": []
+                                                                            "content": [
+                                                                              {
+                                                                                "type": "Row",
+                                                                                "attrs": {
+                                                                                  "direction": "vertical",
+                                                                                  "paddingTop": 0,
+                                                                                  "paddingRight": 0,
+                                                                                  "paddingBottom": 0,
+                                                                                  "paddingLeft": 0,
+                                                                                  "allowChildren": false,
+                                                                                  "alignment": "center"
+                                                                                },
+                                                                                "content": [
+                                                                                  {
+                                                                                    "type": "Image",
+                                                                                    "attrs": {
+                                                                                      "src": "http://media.mlspropertyfinder.com/416452/steven%20monteiro2.jpg",
+                                                                                      "url": "/about/8673239",
+                                                                                      "width": "173.828125px"
+                                                                                    },
+                                                                                    "content": []
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
                                                                           }
                                                                         ]
                                                                       }
@@ -813,63 +1129,131 @@
                                                                     },
                                                                     "content": [
                                                                       {
-                                                                        "type": "Text",
+                                                                        "type": "Row",
                                                                         "attrs": {
-                                                                          "value": {
-                                                                            "blocks": [
-                                                                              {
-                                                                                "text": "Steven Monteiro - Buyer Specialist ",
-                                                                                "type": "unstyled",
-                                                                                "depth": 0,
-                                                                                "inlineStyleRanges": [
-                                                                                  {
-                                                                                    "offset": 0,
-                                                                                    "length": 34,
-                                                                                    "style": "BOLD"
-                                                                                  }
-                                                                                ],
-                                                                                "entityRanges": [],
-                                                                                "data": {
-                                                                                  "text-align": "center"
-                                                                                }
-                                                                              },
-                                                                              {
-                                                                                "text": "E-MAIL ",
-                                                                                "type": "unstyled",
-                                                                                "depth": 0,
-                                                                                "inlineStyleRanges": [
-                                                                                  {
-                                                                                    "offset": 0,
-                                                                                    "length": 7,
-                                                                                    "style": "BOLD"
-                                                                                  }
-                                                                                ],
-                                                                                "entityRanges": [
-                                                                                  {
-                                                                                    "offset": 0,
-                                                                                    "length": 7,
-                                                                                    "key": 0
-                                                                                  }
-                                                                                ],
-                                                                                "data": {
-                                                                                  "text-align": "center"
-                                                                                }
-                                                                              }
-                                                                            ],
-                                                                            "entityMap": {
-                                                                              "0": {
-                                                                                "type": "LINK",
-                                                                                "mutability": "MUTABLE",
-                                                                                "data": {
-                                                                                  "href": "mailto:stvnmonteiro88@gmail.com",
-                                                                                  "url": "mailto:stvnmonteiro88@gmail.com"
-                                                                                }
-                                                                              }
-                                                                            }
-                                                                          },
-                                                                          "color": ""
+                                                                          "width": "",
+                                                                          "direction": "horizontal",
+                                                                          "paddingTop": 0,
+                                                                          "paddingRight": 0,
+                                                                          "paddingBottom": 0,
+                                                                          "paddingLeft": 0,
+                                                                          "allowChildren": false
                                                                         },
-                                                                        "content": []
+                                                                        "content": [
+                                                                          {
+                                                                            "type": "Row",
+                                                                            "attrs": {
+                                                                              "width": "100%",
+                                                                              "direction": "vertical",
+                                                                              "paddingTop": 0,
+                                                                              "paddingRight": 0,
+                                                                              "paddingBottom": 0,
+                                                                              "paddingLeft": 0,
+                                                                              "allowChildren": true
+                                                                            },
+                                                                            "content": [
+                                                                              {
+                                                                                "type": "Text",
+                                                                                "attrs": {
+                                                                                  "value": {
+                                                                                    "blocks": [
+                                                                                      {
+                                                                                        "text": "Steven Monteiro - Buyer Specialist",
+                                                                                        "type": "unstyled",
+                                                                                        "depth": 0,
+                                                                                        "inlineStyleRanges": [
+                                                                                          {
+                                                                                            "offset": 0,
+                                                                                            "length": 34,
+                                                                                            "style": "BOLD"
+                                                                                          }
+                                                                                        ],
+                                                                                        "entityRanges": [],
+                                                                                        "data": {
+                                                                                          "text-align": "center"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "entityMap": {}
+                                                                                  },
+                                                                                  "color": ""
+                                                                                },
+                                                                                "content": []
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "type": "Row",
+                                                                        "attrs": {
+                                                                          "width": "",
+                                                                          "direction": "horizontal",
+                                                                          "paddingTop": 0,
+                                                                          "paddingRight": 0,
+                                                                          "paddingBottom": 0,
+                                                                          "paddingLeft": 0,
+                                                                          "allowChildren": false
+                                                                        },
+                                                                        "content": [
+                                                                          {
+                                                                            "type": "Row",
+                                                                            "attrs": {
+                                                                              "width": "100%",
+                                                                              "direction": "vertical",
+                                                                              "paddingTop": 0,
+                                                                              "paddingRight": 0,
+                                                                              "paddingBottom": 0,
+                                                                              "paddingLeft": 0,
+                                                                              "allowChildren": true
+                                                                            },
+                                                                            "content": [
+                                                                              {
+                                                                                "type": "Text",
+                                                                                "attrs": {
+                                                                                  "value": {
+                                                                                    "blocks": [
+                                                                                      {
+                                                                                        "text": "E-MAIL ",
+                                                                                        "type": "unstyled",
+                                                                                        "depth": 0,
+                                                                                        "inlineStyleRanges": [
+                                                                                          {
+                                                                                            "offset": 0,
+                                                                                            "length": 7,
+                                                                                            "style": "BOLD"
+                                                                                          }
+                                                                                        ],
+                                                                                        "entityRanges": [
+                                                                                          {
+                                                                                            "offset": 0,
+                                                                                            "length": 7,
+                                                                                            "key": 0
+                                                                                          }
+                                                                                        ],
+                                                                                        "data": {
+                                                                                          "text-align": "center"
+                                                                                        }
+                                                                                      }
+                                                                                    ],
+                                                                                    "entityMap": {
+                                                                                      "0": {
+                                                                                        "type": "LINK",
+                                                                                        "mutability": "MUTABLE",
+                                                                                        "data": {
+                                                                                          "href": "mailto:stvnmonteiro88@gmail.com",
+                                                                                          "url": "mailto:stvnmonteiro88@gmail.com"
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  "color": ""
+                                                                                },
+                                                                                "content": []
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
                                                                       }
                                                                     ]
                                                                   }

@@ -54,6 +54,10 @@ function updatePath(nodes, path, update = {}) {
   return nodes;
 }
 
+function isBetween(n, a, b, test = false) {
+  return (test ? n > a : n >= a) && (test ? n <= b : n < b);
+}
+
 function updateTree(structure, node, search, replace) {
   const path = findPath(structure, node.id);
   const parentPath = path.split(".");
@@ -166,5 +170,6 @@ module.exports = {
   getTreeNodes,
   hasText,
   nodeHasText,
-  hasComponents
+  hasComponents,
+  isBetween
 };

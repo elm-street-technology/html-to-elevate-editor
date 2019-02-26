@@ -63,30 +63,111 @@
                     },
                     "content": [
                       {
-                        "type": "Text",
+                        "type": "Row",
                         "attrs": {
-                          "value": {
-                            "blocks": [
+                          "width": "",
+                          "direction": "horizontal",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false
+                        },
+                        "content": [
+                          {
+                            "type": "Row",
+                            "attrs": {
+                              "width": "100%",
+                              "direction": "vertical",
+                              "paddingTop": 0,
+                              "paddingRight": 0,
+                              "paddingBottom": 0,
+                              "paddingLeft": 0,
+                              "allowChildren": true
+                            },
+                            "content": [
                               {
-                                "text": "Pat Bishop",
-                                "type": "header-three",
-                                "depth": 0,
-                                "inlineStyleRanges": [],
-                                "entityRanges": [],
-                                "data": {}
-                              },
-                              {
-                                "text": "Real Estate Agent",
-                                "type": "header-four",
-                                "depth": 0,
-                                "inlineStyleRanges": [],
-                                "entityRanges": [],
-                                "data": {}
+                                "type": "Text",
+                                "attrs": {
+                                  "value": {
+                                    "blocks": [
+                                      {
+                                        "text": "Pat Bishop",
+                                        "type": "header-three",
+                                        "depth": 0,
+                                        "inlineStyleRanges": [],
+                                        "entityRanges": [],
+                                        "data": {}
+                                      }
+                                    ],
+                                    "entityMap": {}
+                                  },
+                                  "color": ""
+                                },
+                                "content": []
                               }
-                            ],
-                            "entityMap": {}
-                          },
-                          "color": ""
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "attrs": {
+                          "width": "",
+                          "direction": "horizontal",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false
+                        },
+                        "content": [
+                          {
+                            "type": "Row",
+                            "attrs": {
+                              "width": "100%",
+                              "direction": "vertical",
+                              "paddingTop": 0,
+                              "paddingRight": 0,
+                              "paddingBottom": 0,
+                              "paddingLeft": 0,
+                              "allowChildren": true
+                            },
+                            "content": [
+                              {
+                                "type": "Text",
+                                "attrs": {
+                                  "value": {
+                                    "blocks": [
+                                      {
+                                        "text": "Real Estate Agent",
+                                        "type": "header-four",
+                                        "depth": 0,
+                                        "inlineStyleRanges": [],
+                                        "entityRanges": [],
+                                        "data": {}
+                                      }
+                                    ],
+                                    "entityMap": {}
+                                  },
+                                  "color": ""
+                                },
+                                "content": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "attrs": {
+                          "width": "",
+                          "direction": "horizontal",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false
                         },
                         "content": []
                       },
@@ -142,32 +223,9 @@
                                         "inlineStyleRanges": [],
                                         "entityRanges": [],
                                         "data": {}
-                                      },
-                                      {
-                                        "text": "Email: patriciabishop@cox.net\n",
-                                        "type": "unstyled",
-                                        "depth": 0,
-                                        "inlineStyleRanges": [],
-                                        "entityRanges": [
-                                          {
-                                            "offset": 7,
-                                            "length": 22,
-                                            "key": 0
-                                          }
-                                        ],
-                                        "data": {}
                                       }
                                     ],
-                                    "entityMap": {
-                                      "0": {
-                                        "type": "LINK",
-                                        "mutability": "MUTABLE",
-                                        "data": {
-                                          "href": "mailto:patriciabishop@cox.net",
-                                          "url": "mailto:patriciabishop@cox.net"
-                                        }
-                                      }
-                                    }
+                                    "entityMap": {}
                                   },
                                   "color": ""
                                 },
@@ -209,6 +267,69 @@
                                     "content": []
                                   }
                                 ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Row",
+                        "attrs": {
+                          "width": "",
+                          "direction": "horizontal",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false
+                        },
+                        "content": [
+                          {
+                            "type": "Row",
+                            "attrs": {
+                              "width": "100%",
+                              "direction": "vertical",
+                              "paddingTop": 0,
+                              "paddingRight": 0,
+                              "paddingBottom": 0,
+                              "paddingLeft": 0,
+                              "allowChildren": true
+                            },
+                            "content": [
+                              {
+                                "type": "Text",
+                                "attrs": {
+                                  "value": {
+                                    "blocks": [
+                                      {
+                                        "text": "Email: patriciabishop@cox.net\n",
+                                        "type": "unstyled",
+                                        "depth": 0,
+                                        "inlineStyleRanges": [],
+                                        "entityRanges": [
+                                          {
+                                            "offset": 7,
+                                            "length": 22,
+                                            "key": 0
+                                          }
+                                        ],
+                                        "data": {}
+                                      }
+                                    ],
+                                    "entityMap": {
+                                      "0": {
+                                        "type": "LINK",
+                                        "mutability": "MUTABLE",
+                                        "data": {
+                                          "href": "mailto:patriciabishop@cox.net",
+                                          "url": "mailto:patriciabishop@cox.net"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "color": ""
+                                },
+                                "content": []
                               }
                             ]
                           }

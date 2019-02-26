@@ -95,23 +95,51 @@
                       {
                         "type": "Row",
                         "attrs": {
-                          "direction": "vertical",
+                          "width": "",
+                          "direction": "horizontal",
                           "paddingTop": 0,
                           "paddingRight": 0,
                           "paddingBottom": 0,
                           "paddingLeft": 0,
-                          "allowChildren": false,
-                          "alignment": "center"
+                          "allowChildren": false
                         },
                         "content": [
                           {
-                            "type": "Image",
+                            "type": "Row",
                             "attrs": {
-                              "src": "http://media.mlspropertyfinder.com/413201/button.png",
-                              "url": "http://www.envisionrealestatellc.com/results/type-100303/type-100304/type-100307/status-Active/price400,000-/ByInput/word-investment/town-1757947/town-30138/town-1757984/town-1757952/town-1757929/town-321526/",
-                              "width": "302px"
+                              "width": "100%",
+                              "direction": "vertical",
+                              "paddingTop": 0,
+                              "paddingRight": 0,
+                              "paddingBottom": 0,
+                              "paddingLeft": 0,
+                              "allowChildren": true
                             },
-                            "content": []
+                            "content": [
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "direction": "vertical",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false,
+                                  "alignment": "center"
+                                },
+                                "content": [
+                                  {
+                                    "type": "Image",
+                                    "attrs": {
+                                      "src": "http://media.mlspropertyfinder.com/413201/button.png",
+                                      "url": "http://www.envisionrealestatellc.com/results/type-100303/type-100304/type-100307/status-Active/price400,000-/ByInput/word-investment/town-1757947/town-30138/town-1757984/town-1757952/town-1757929/town-321526/",
+                                      "width": "302px"
+                                    },
+                                    "content": []
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
                       }

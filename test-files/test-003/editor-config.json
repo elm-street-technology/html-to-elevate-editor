@@ -316,23 +316,51 @@
                       {
                         "type": "Row",
                         "attrs": {
-                          "direction": "vertical",
+                          "width": "",
+                          "direction": "horizontal",
                           "paddingTop": 0,
                           "paddingRight": 0,
                           "paddingBottom": 0,
                           "paddingLeft": 0,
-                          "allowChildren": false,
-                          "alignment": ""
+                          "allowChildren": false
                         },
                         "content": [
                           {
-                            "type": "Image",
+                            "type": "Row",
                             "attrs": {
-                              "src": "http://media.mlspropertyfinder.com/415554/kwee%20award%20018.jpg",
-                              "url": "",
-                              "width": "600px"
+                              "width": "100%",
+                              "direction": "vertical",
+                              "paddingTop": 0,
+                              "paddingRight": 0,
+                              "paddingBottom": 0,
+                              "paddingLeft": 0,
+                              "allowChildren": true
                             },
-                            "content": []
+                            "content": [
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "direction": "vertical",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false,
+                                  "alignment": ""
+                                },
+                                "content": [
+                                  {
+                                    "type": "Image",
+                                    "attrs": {
+                                      "src": "http://media.mlspropertyfinder.com/415554/kwee%20award%20018.jpg",
+                                      "url": "",
+                                      "width": "600px"
+                                    },
+                                    "content": []
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
                       }

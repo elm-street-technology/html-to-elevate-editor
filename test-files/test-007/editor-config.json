@@ -95,23 +95,51 @@
                       {
                         "type": "Row",
                         "attrs": {
-                          "direction": "vertical",
+                          "width": "",
+                          "direction": "horizontal",
                           "paddingTop": 0,
                           "paddingRight": 0,
                           "paddingBottom": 0,
                           "paddingLeft": 0,
-                          "allowChildren": false,
-                          "alignment": "center"
+                          "allowChildren": false
                         },
                         "content": [
                           {
-                            "type": "Image",
+                            "type": "Row",
                             "attrs": {
-                              "src": "http://media.mlspropertyfinder.com/416427/fair%20housing%20logo_equal%20housing%20opportunity_small.jpg",
-                              "url": "",
-                              "width": "71px"
+                              "width": "100%",
+                              "direction": "vertical",
+                              "paddingTop": 0,
+                              "paddingRight": 0,
+                              "paddingBottom": 0,
+                              "paddingLeft": 0,
+                              "allowChildren": true
                             },
-                            "content": []
+                            "content": [
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "direction": "vertical",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false,
+                                  "alignment": "center"
+                                },
+                                "content": [
+                                  {
+                                    "type": "Image",
+                                    "attrs": {
+                                      "src": "http://media.mlspropertyfinder.com/416427/fair%20housing%20logo_equal%20housing%20opportunity_small.jpg",
+                                      "url": "",
+                                      "width": "71px"
+                                    },
+                                    "content": []
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
                       }
