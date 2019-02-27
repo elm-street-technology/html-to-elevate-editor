@@ -65,20 +65,27 @@ function shiftComponent(structure, node, components, index, search, replace) {
   const parent = utils.getParentNode(structure, node);
   const ids = _.map(components, "id");
   let children = parent.children;
-  children.splice(index, 1, components);
+  children.splice(
+    index,
+    1,
+    _.map(components, child =>
+      _.assign({}, child, {
+        needsToShift: !parent.isComponent && child.isComponent
+      })
+    )
+  );
   children = _.flatten(_.compact(children));
   const newParent = _.assign({}, parent, {
     children,
     innerHTML: parent.innerHTML.replace(search, replace),
     outerHTML: parent.outerHTML.replace(search, replace)
   });
-  structure = utils.updateTree(
+  return utils.updateTree(
     structure,
     newParent,
     parent.outerHTML,
     newParent.outerHTML
   );
-  return structure;
 }
 
 function shiftNodeInTree(nodes, node) {
@@ -93,6 +100,7 @@ function shiftNodeInTree(nodes, node) {
   const first = split.shift();
   const last = split.join(node.outerHTML);
   const isFloated = ["right", "left"].includes(getFloat(node));
+
   if (_.isEmpty(first.trim())) {
     // move up
     const newParent = _.assign({}, parent, {
@@ -156,9 +164,9 @@ function shiftNodeInTree(nodes, node) {
   // move & restructure parent node
   nodes = shiftComponent(nodes, parent, components, index, search, replace);
 
-  if (!parent.isComponent) {
-    return shiftNodeInTree(nodes, utils.getNodeById(nodes, node.id));
-  }
+  // if (!parent.isComponent) {
+  //   return shiftNodeInTree(nodes, utils.getNodeById(nodes, node.id));
+  // }
   return nodes;
 }
 
@@ -216,20 +224,34 @@ function shiftAndFilterContent(structure) {
     }
   }
 
-  // rebuild tree for next pass
-  tree = utils.getTreeNodes(structure);
+  return shiftUntilDone(structure);
+}
 
-  // shift nodes up the tree
-  const nodesToShift = _.filter(Object.values(tree), "needsToShift");
-  if (nodesToShift.length) {
+function shiftUntilDone(structure) {
+  // rebuild tree for next pass
+  let hasWork = true;
+  let nodesToShift = _.filter(
+    Object.values(utils.getTreeNodes(structure)),
+    "needsToShift"
+  );
+  while (nodesToShift.length) {
+    // shift nodes up the tree
     while ((node = nodesToShift.shift())) {
       structure = shiftNodeInTree(structure, node);
     }
+    nodesToShift = _.filter(
+      Object.values(utils.getTreeNodes(structure)),
+      "needsToShift"
+    );
   }
+
   return structure;
 }
 
 function processNodeText(node, components) {
+  if (node.childrenProcessed) {
+    return node.children;
+  }
   const children = [];
   let baseContent = node.innerHTML || "";
   _.each(components, (child, index) => {
@@ -262,28 +284,6 @@ function getAlignment(node, lastAlignment = null) {
   }
 
   return lastAlignment;
-}
-
-function getOverlappingElements(node, parent) {
-  const p1 = node.boundingClientRect;
-  return _.filter(parent.children, child => {
-    if (child.id === node.id) {
-      return false;
-    }
-    const p2 = child.boundingClientRect;
-    if (!p2) {
-      return false;
-    }
-    if (
-      utils.isBetween(p2.top, p1.top, p1.bottom, false) ||
-      utils.isBetween(p1.top, p2.top, p2.bottom, false) ||
-      utils.isBetween(p2.bottom, p1.top, p1.bottom, true) ||
-      utils.isBetween(p1.bottom, p2.top, p2.bottom, true)
-    ) {
-      return true;
-    }
-    return false;
-  });
 }
 
 function getFloat(node) {
@@ -331,6 +331,7 @@ function gridColumns(rows, parentInner) {
         const outer = node.outerHTML;
         const split = html.split(outer);
         const first = split.shift();
+
         html = split.join(outer);
 
         // text add to current Column
@@ -353,6 +354,7 @@ function gridColumns(rows, parentInner) {
         first = html;
         html = "";
       }
+
       if (utils.hasText(first)) {
         const columnIndex = newRow[index].length;
         if (!Array.isArray(newRow[index][columnIndex])) {
@@ -411,10 +413,10 @@ function buildStructure(node) {
   let parentGrid;
   if ((parentGrid = getParentGrid(node.children))) {
     const grid = gridColumns(parentGrid, node.innerHTML);
-    const rows = _.transform(
+    const rows = _.map(
       grid,
-      (_rows, row) => {
-        _rows.push({
+      row => {
+        return {
           id: uuidV4(),
           nodeName: "ROW",
           width: node.widths.inner,
@@ -426,91 +428,16 @@ function buildStructure(node) {
               children: buildStructure(column)
             };
           })
-        });
+        };
       },
       []
     );
     return _.assign({}, node, {
+      childrenProcessed: true,
       children: rows
     });
   }
   let children = processNodeText(node, buildStructure(node.children));
-  // const floatItems = _.filter(
-  //   children,
-  //   n => n.isComponent && ["left", "right"].includes(getFloat(n))
-  // );
-
-  // if (floatItems.length) {
-  //   const items = _.clone(children);
-  //   const newChildren = [];
-  //   while ((childNode = items.shift())) {
-  //     const float = getFloat(childNode);
-  //     const isFloated = ["left", "right"].includes(float);
-  //     if (isFloated) {
-  //       const elements = _.transform(
-  //         items,
-  //         (o, el) => {
-  //           if (o.isComponent) {
-  //             return false;
-  //           }
-  //           o.push(el);
-  //         },
-  //         []
-  //       );
-  //       let elIndex = _.findIndex(elements, el => {
-  //         return ["left", "right"].includes(getFloat(el));
-  //       });
-  //       elIndex = elIndex >= 0 ? elIndex : elements.length;
-  //       const column = items.splice(0, elIndex);
-
-  //       if (float === "left") {
-  //         newChildren.push({
-  //           id: uuidV4(),
-  //           nodeName: "ROW",
-  //           width: node.widths.inner,
-  //           children: [
-  //             {
-  //               id: uuidV4(),
-  //               nodeName: "COLUMN",
-  //               width: childNode.widths.outer,
-  //               children: [childNode]
-  //             },
-  //             {
-  //               id: uuidV4(),
-  //               nodeName: "COLUMN",
-  //               width: node.widths.inner - childNode.widths.outer,
-  //               children: column
-  //             }
-  //           ]
-  //         });
-  //       }
-  //       if (float === "right") {
-  //         newChildren.push({
-  //           id: uuidV4(),
-  //           nodeName: "ROW",
-  //           width: node.widths.inner,
-  //           children: [
-  //             {
-  //               id: uuidV4(),
-  //               nodeName: "COLUMN",
-  //               width: node.widths.inner - childNode.widths.outer,
-  //               children: column
-  //             },
-  //             {
-  //               id: uuidV4(),
-  //               nodeName: "COLUMN",
-  //               width: childNode.widths.outer,
-  //               children: [childNode]
-  //             }
-  //           ]
-  //         });
-  //       }
-  //     } else {
-  //       newChildren.push(childNode);
-  //     }
-  //   }
-  //   children = newChildren;
-  // }
 
   return _.assign({}, node, {
     children
@@ -553,19 +480,18 @@ function isNodeBetweenGroup(p1, group) {
 function groupNearNodes(nodes) {
   return _.transform(
     nodes,
-    (rows, node) => {
+    (rows, node, nodeIndex) => {
       if (!rows.length) {
         rows.push([node]);
         return;
       }
       let isPushed = false;
-      _.each(rows, (row, i) => {
-        if (isNodeBetweenGroup(node, row)) {
-          rows[i].push(node);
-          isPushed = true;
-          return false;
-        }
-      });
+      let lastIndex = rows.length - 1;
+      if (isNodeBetweenGroup(node, rows[lastIndex])) {
+        rows[lastIndex].push(node);
+        isPushed = true;
+        return;
+      }
       if (!isPushed) {
         rows.push([node]);
       }

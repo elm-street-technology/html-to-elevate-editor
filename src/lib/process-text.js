@@ -12,32 +12,6 @@ function cleanTextNodes(nodes) {
       const hasComponents = utils.hasComponents(node);
       const isContainer = ["DIV"].includes(node.nodeName);
       const parent = utils.getParentNode(nodes, node);
-      // remove uneeded nodes
-      // commented out for now remove in a later release
-      // if (
-      //   /h\d|blockquote/i.test(node.nodeName) &&
-      //   /<(\/)?(p)[^>]*>/gi.test(node.innerHTML)
-      // ) {
-      //   let innerHTML = node.innerHTML.replace(/<(\/)?(p)[^>]*>/gi, "");
-      //   let outerHTML = node.outerHTML.replace(node.innerHTML, innerHTML);
-      //   const newNode = _.assign({}, node, {
-      //     innerHTML,
-      //     outerHTML,
-      //     children: _.compact(
-      //       _.flatten(
-      //         node.children.map(child =>
-      //           ["P"].includes(child.nodeName) ? child.children : child
-      //         )
-      //       )
-      //     )
-      //   });
-      //   nodes = utils.updateTree(
-      //     nodes,
-      //     newNode,
-      //     node.outerHTML,
-      //     newNode.outerHTML
-      //   );
-      // }
 
       // Convert Components To Text
       if (parent && node.isComponent && !hasComponents && isContainer) {
@@ -63,7 +37,8 @@ function cleanTextNodes(nodes) {
             isComponent: false,
             innerHTML: "",
             outerHTML: "<br />",
-            nodeName: "BR"
+            nodeName: "BR",
+            children: []
           });
           nodes = utils.updateTree(
             nodes,

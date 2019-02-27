@@ -1,0 +1,1473 @@
+[
+  {
+    "type": "Row",
+    "attrs": {
+      "width": "100%",
+      "direction": "horizontal",
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "alignment": "center",
+      "allowChildren": false
+    },
+    "content": [
+      {
+        "type": "Row",
+        "attrs": {
+          "width": "1170px",
+          "direction": "horizontal",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "allowChildren": false
+        },
+        "content": [
+          {
+            "type": "Row",
+            "attrs": {
+              "width": "100%",
+              "direction": "vertical",
+              "paddingTop": 0,
+              "paddingRight": 15,
+              "paddingBottom": 0,
+              "paddingLeft": 15,
+              "alignment": "",
+              "allowChildren": true
+            },
+            "content": [
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Text",
+                        "attrs": {
+                          "value": {
+                            "blocks": [
+                              {
+                                "text": "Properties We Recently Sold in Miami & Vicinity",
+                                "type": "unstyled",
+                                "depth": 0,
+                                "inlineStyleRanges": [],
+                                "entityRanges": [],
+                                "data": {
+                                  "text-align": "left"
+                                }
+                              }
+                            ],
+                            "entityMap": {}
+                          },
+                          "color": ""
+                        },
+                        "content": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": []
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Text",
+                        "attrs": {
+                          "value": {
+                            "blocks": [
+                              {
+                                "text": "Key Biscayne",
+                                "type": "unstyled",
+                                "depth": 0,
+                                "inlineStyleRanges": [],
+                                "entityRanges": [],
+                                "data": {}
+                              }
+                            ],
+                            "entityMap": {}
+                          },
+                          "color": ""
+                        },
+                        "content": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "20.175438596491226%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Row",
+                        "attrs": {
+                          "direction": "vertical",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false,
+                          "alignment": ""
+                        },
+                        "content": [
+                          {
+                            "type": "Image",
+                            "attrs": {
+                              "src": "http://media.mlspropertyfinder.com/416733/screen%20shot%202018-03-26%20at%205.20.52%20pm.png",
+                              "url": "",
+                              "width": "100%"
+                            },
+                            "content": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "20.175438596491226%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Row",
+                        "attrs": {
+                          "direction": "vertical",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false,
+                          "alignment": ""
+                        },
+                        "content": [
+                          {
+                            "type": "Image",
+                            "attrs": {
+                              "src": "http://media.mlspropertyfinder.com/416733/img_2364.jpg",
+                              "url": "",
+                              "width": "100%"
+                            },
+                            "content": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "20.175438596491226%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Row",
+                        "attrs": {
+                          "direction": "vertical",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false,
+                          "alignment": ""
+                        },
+                        "content": [
+                          {
+                            "type": "Image",
+                            "attrs": {
+                              "src": "http://media.mlspropertyfinder.com/416733/005.jpg",
+                              "url": "",
+                              "width": "100%"
+                            },
+                            "content": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Text",
+                        "attrs": {
+                          "value": {
+                            "blocks": [
+                              {
+                                "text": "  452 Hampton Lane $1,800,000        181 Crandon Blvd #205 $615,000    121 Crandon Blvd #250  $990,000",
+                                "type": "unstyled",
+                                "depth": 0,
+                                "inlineStyleRanges": [],
+                                "entityRanges": [],
+                                "data": {}
+                              }
+                            ],
+                            "entityMap": {}
+                          },
+                          "color": ""
+                        },
+                        "content": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": []
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Text",
+                        "attrs": {
+                          "value": {
+                            "blocks": [
+                              {
+                                "text": "Sunny Isles Beach & Aventura",
+                                "type": "unstyled",
+                                "depth": 0,
+                                "inlineStyleRanges": [],
+                                "entityRanges": [],
+                                "data": {}
+                              }
+                            ],
+                            "entityMap": {}
+                          },
+                          "color": ""
+                        },
+                        "content": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": []
+              },
+              {
+                "type": "Row",
+                "attrs": {
+                  "width": "",
+                  "direction": "horizontal",
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "allowChildren": false
+                },
+                "content": [
+                  {
+                    "type": "Row",
+                    "attrs": {
+                      "width": "100%",
+                      "direction": "vertical",
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "allowChildren": true
+                    },
+                    "content": [
+                      {
+                        "type": "Row",
+                        "attrs": {
+                          "width": "1140px",
+                          "direction": "horizontal",
+                          "paddingTop": 0,
+                          "paddingRight": 0,
+                          "paddingBottom": 0,
+                          "paddingLeft": 0,
+                          "allowChildren": false
+                        },
+                        "content": [
+                          {
+                            "type": "Row",
+                            "attrs": {
+                              "width": "100%",
+                              "direction": "vertical",
+                              "paddingTop": 0,
+                              "paddingRight": 0,
+                              "paddingBottom": 0,
+                              "paddingLeft": 0,
+                              "alignment": "",
+                              "allowChildren": true
+                            },
+                            "content": [
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/img_4110.jpg",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/screen%20shot%202018-03-26%20at%205.24.10%20pm.png",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/038.jpg",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/reserve.jpg",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "100%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Text",
+                                        "attrs": {
+                                          "value": {
+                                            "blocks": [
+                                              {
+                                                "text": "15901 Collins Ave #4104 $1,600,000 2750 NE 183rd St #2411 $248,000 3625 Country Club Dr #2605 $165,000  17111 Biscayne Blvd #2307 $850,000",
+                                                "type": "unstyled",
+                                                "depth": 0,
+                                                "inlineStyleRanges": [],
+                                                "entityRanges": [],
+                                                "data": {}
+                                              }
+                                            ],
+                                            "entityMap": {}
+                                          },
+                                          "color": ""
+                                        },
+                                        "content": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": []
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "100%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Text",
+                                        "attrs": {
+                                          "value": {
+                                            "blocks": [
+                                              {
+                                                "text": "Edgewater,  Midtown  & Mimo Miami",
+                                                "type": "unstyled",
+                                                "depth": 0,
+                                                "inlineStyleRanges": [],
+                                                "entityRanges": [],
+                                                "data": {}
+                                              }
+                                            ],
+                                            "entityMap": {}
+                                          },
+                                          "color": ""
+                                        },
+                                        "content": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/icon%20bay.jpg",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/blue%201812.jpg",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/img_6305.jpg",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/quantum.jpg",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "100%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Text",
+                                        "attrs": {
+                                          "value": {
+                                            "blocks": [
+                                              {
+                                                "text": " 460 NE 28th St #1606 $500,000          601 NE 36th St #1812 $817,500     650 NE 64th St #401 $ 158,000     1900 N. Bayshore Dr #2906 $328,000",
+                                                "type": "unstyled",
+                                                "depth": 0,
+                                                "inlineStyleRanges": [],
+                                                "entityRanges": [],
+                                                "data": {}
+                                              }
+                                            ],
+                                            "entityMap": {}
+                                          },
+                                          "color": ""
+                                        },
+                                        "content": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": []
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "100%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Text",
+                                        "attrs": {
+                                          "value": {
+                                            "blocks": [
+                                              {
+                                                "text": "Miami Beach, Treasure Island, North Bay Village, Miami Gardens",
+                                                "type": "unstyled",
+                                                "depth": 0,
+                                                "inlineStyleRanges": [],
+                                                "entityRanges": [],
+                                                "data": {}
+                                              }
+                                            ],
+                                            "entityMap": {}
+                                          },
+                                          "color": ""
+                                        },
+                                        "content": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/galleon.jpeg",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/img_2650.jpg",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/screen%20shot%202018-04-12%20at%2011.11.36%20pm.png",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "100%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Text",
+                                        "attrs": {
+                                          "value": {
+                                            "blocks": [
+                                              {
+                                                "text": "    1884 Galleon Dr. $320,000             7734 Abbott Ave #205 $120,000    15720 E. Bunche Park Dr. $220,000",
+                                                "type": "unstyled",
+                                                "depth": 0,
+                                                "inlineStyleRanges": [],
+                                                "entityRanges": [],
+                                                "data": {}
+                                              }
+                                            ],
+                                            "entityMap": {}
+                                          },
+                                          "color": ""
+                                        },
+                                        "content": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": []
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "100%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Text",
+                                        "attrs": {
+                                          "value": {
+                                            "blocks": [
+                                              {
+                                                "text": "Ft. Lauderdale, Pompano Beach & Margate",
+                                                "type": "unstyled",
+                                                "depth": 0,
+                                                "inlineStyleRanges": [],
+                                                "entityRanges": [],
+                                                "data": {}
+                                              }
+                                            ],
+                                            "entityMap": {}
+                                          },
+                                          "color": ""
+                                        },
+                                        "content": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/screen%20shot%202018-03-26%20at%205.26.22%20pm.png",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/img_8848.jpg",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/pinewalk.jpg",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "20.175438596491226%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Row",
+                                        "attrs": {
+                                          "direction": "vertical",
+                                          "paddingTop": 0,
+                                          "paddingRight": 0,
+                                          "paddingBottom": 0,
+                                          "paddingLeft": 0,
+                                          "allowChildren": false,
+                                          "alignment": ""
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "Image",
+                                            "attrs": {
+                                              "src": "http://media.mlspropertyfinder.com/416733/summer%20lake.jpg",
+                                              "url": "",
+                                              "width": "100%"
+                                            },
+                                            "content": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": [
+                                  {
+                                    "type": "Row",
+                                    "attrs": {
+                                      "width": "100%",
+                                      "direction": "vertical",
+                                      "paddingTop": 0,
+                                      "paddingRight": 0,
+                                      "paddingBottom": 0,
+                                      "paddingLeft": 0,
+                                      "allowChildren": true
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "Text",
+                                        "attrs": {
+                                          "value": {
+                                            "blocks": [
+                                              {
+                                                "text": "       2740 NE 24th St $412,000          740 S Federal Hwy #510 $205,000     3410 N.Pinewalk Dr #824 $100,000   3457 NW 44th St #104 $130,000",
+                                                "type": "unstyled",
+                                                "depth": 0,
+                                                "inlineStyleRanges": [],
+                                                "entityRanges": [],
+                                                "data": {}
+                                              }
+                                            ],
+                                            "entityMap": {}
+                                          },
+                                          "color": ""
+                                        },
+                                        "content": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": []
+                              },
+                              {
+                                "type": "Row",
+                                "attrs": {
+                                  "width": "",
+                                  "direction": "horizontal",
+                                  "paddingTop": 0,
+                                  "paddingRight": 0,
+                                  "paddingBottom": 0,
+                                  "paddingLeft": 0,
+                                  "allowChildren": false
+                                },
+                                "content": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
