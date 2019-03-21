@@ -117,7 +117,11 @@ module.exports = async function getPageStructure(config) {
       return JSON.parse(fs.readFileSync(cache, { encoding: "utf-8" }));
     }
   }
-  const browser = await Puppeteer.launch({ headless, devtools: true });
+  const browser = await Puppeteer.launch({
+    headless,
+    devtools: true,
+    args: ["--no-sandbox"]
+  });
   const page = await browser.newPage();
 
   await page.setViewport({ width: 1500, height: 1056, isMobile: true });
